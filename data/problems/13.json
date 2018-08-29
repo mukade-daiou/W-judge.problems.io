@@ -1,0 +1,33 @@
+{
+    "contest_id": "none",
+    "title": "\u54c1\u6027\u306e\u306a\u3044FizzBuzz",
+    "tle": 2000,
+    "mle": 256,
+    "sample_io": [
+        {
+            "input": "9\r\n",
+            "output": "Fizz\r\n",
+            "description": ""
+        },
+        {
+            "input": "10\r\n",
+            "output": "Buzz\r\n",
+            "description": ""
+        },
+        {
+            "input": "30\r\n",
+            "output": "FizzBuzz\r\n",
+            "description": ""
+        },
+        {
+            "input": "59\r\n",
+            "output": "59\r\n",
+            "description": ""
+        }
+    ],
+    "restriction": "\\({\\style{color:red}{1 \\leq {N\u306e\u6841\u6570} \\leq 2 \\times 10^6}}\\)\r\n\\(1 \\leq N\\)",
+    "output_format": "FizzBuzz\u3057\u305f\u3042\u3068\u306e\u7d50\u679c",
+    "description": "\u6b63\u306e\u6574\u6570N\u304c\u5165\u529b\u3055\u308c\u308b\u306e\u3067\u3001FizzBuzz\u3092\u3057\u3066\u304f\u3060\u3055\u3044\u3002\r\n\r\n\\(FizzBuzz\\)\u3068\u306f3\u3067\u5272\u308a\u5207\u308c\u308b\u5834\u5408\u306f\u300cFizz\u300d\u30015\u3067\u5272\u308a\u5207\u308c\u308b\u5834\u5408\u306f\u300cBuzz\u300d\u3001\u4e21\u8005\u3067\u5272\u308a\u5207\u308c\u308b\u5834\u5408\uff08\u3059\u306a\u308f\u306115\u3067\u5272\u308a\u5207\u308c\u308b\u5834\u5408\uff09\u306f\u300cFizzBuzz\u300d\u3092\u51fa\u529b\u3092\u3059\u308b\u3002\u305d\u306e\u3069\u308c\u3067\u3082\u306a\u3044\u5834\u5408\u306f\u3001\u305d\u306e\u6570\u5b57\u3092\u51fa\u529b\u3059\u308b\u3002",
+    "input_format": "N",
+    "score": 100
+}

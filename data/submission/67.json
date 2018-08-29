@@ -1,0 +1,1 @@
+{"submission_id": "67", "problem_id": "5", "problem_title": "hello", "datetime": "2018-07-14 17:57:21", "result": "WaitingJudge", "source": "#include <iostream>\r\n\r\nint main(){\r\nwhile(true){\r\nstd::cout << \"Hello, World\" << std::endl;\r\n}\r\nreturn 0;\r\n}", "user": "taiki_okano", "lang": "C++"}

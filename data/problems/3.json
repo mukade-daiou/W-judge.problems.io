@@ -1,0 +1,23 @@
+{
+    "contest_id": "none",
+    "title": "\u30ab\u30bf\u30e9\u30f3\u6570",
+    "tle": 1000,
+    "mle": 256,
+    "sample_io": [
+        {
+            "input": "3\r\n",
+            "output": "5\r\n",
+            "description": "\u3042\u308a\u3048\u308b\u306e\u306f()()()\u3001(()())\u3001(())()\u3001()(())\u3001((())) \u306e5\u901a\u308a\u3067\u3059"
+        },
+        {
+            "input": "1000\r\n",
+            "output": "110961515\r\n",
+            "description": ""
+        }
+    ],
+    "restriction": "\\(0 \\leq N \\leq 100000\\)\r\n",
+    "output_format": "\u9577\u30552N\u306e\u5bfe\u5fdc\u306e\u53d6\u308c\u305f\u62ec\u5f27\u5217\u306e\u500b\u6570",
+    "description": "\u6574\u6570N\u304c\u4e0e\u3048\u3089\u308c\u308b\u306e\u3067\u3001\u30ab\u30bf\u30e9\u30f3\u6570\\(cN\\)\u3092 \\(10^9+7\\) \u3067\u5272\u3063\u305f\u4f59\u308a\u3092\u8a08\u7b97\u3057\u3066\u304f\u3060\u3055\u3044\u3002\\(cN\\)\u306f\u3001\u9577\u3055\\(2N\\)\u306e\u5bfe\u5fdc\u306e\u53d6\u308c\u305f\u62ec\u5f27\u5217\u306e\u500b\u6570\u3067\u3059\u3002",
+    "input_format": "N",
+    "score": 100
+}

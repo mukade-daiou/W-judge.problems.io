@@ -1,0 +1,23 @@
+{
+    "contest_id": "none",
+    "title": "\u6700\u5927\u516c\u7d04\u6570\u3068\u6700\u5c0f\u516c\u500d\u6570",
+    "tle": 2000,
+    "mle": 128,
+    "sample_io": [
+        {
+            "input": "6 9\r\n",
+            "output": "3 18\r\n",
+            "description": "6\u30689\u306e\u6700\u5927\u516c\u7d04\u6570\u306f3\u3001\u6700\u5c0f\u516c\u500d\u6570\u306f18\u3067\u3059\u3002"
+        },
+        {
+            "input": "111 37\r\n",
+            "output": "37 111\r\n",
+            "description": ""
+        }
+    ],
+    "restriction": "\\(0 \\lt a, b \\lt 100000000\\)",
+    "output_format": "\u6700\u5927\u516c\u7d04\u6570\u3092GCD\u3001\u6700\u5c0f\u516c\u500d\u6570\u3092LCM\u3068\u3059\u308b\u3068\u3001\r\n\\(GCD\\) \\(LCM\\)\r\n\u306e\u3088\u3046\u306b\u4e00\u884c\u3067\u51fa\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002\u305f\u3060\u3057\u3001\u6539\u884c\u304c\u5fc5\u8981\u3067\u3059\u3002",
+    "description": "\u6b63\u306e\u6574\u6570\\(a\\), \\(b\\)\u304c\u5165\u529b\u3055\u308c\u307e\u3059\u3002\u305d\u308c\u3089\u306e\u6700\u5927\u516c\u7d04\u6570\u3068\u6700\u5c0f\u516c\u500d\u6570\u3092\u51fa\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002\r\n",
+    "input_format": "\\(a\\) \\(b\\)\r\n\u306e\u3088\u3046\u306b\u4e00\u884c\u3067\u4e0e\u3048\u3089\u308c\u307e\u3059\u3002",
+    "score": 100
+}

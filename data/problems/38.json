@@ -1,0 +1,18 @@
+{
+    "contest_id": "5",
+    "title": "\u5947\u6570\u30d5\u30a1\u30fc\u30b9\u30c8",
+    "tle": 2000,
+    "mle": 256,
+    "sample_io": [
+        {
+            "input": "5\r\n3 4 2 6 1\r\n\r\n",
+            "output": "1 3 2 4 6\r\n",
+            "description": ""
+        }
+    ],
+    "restriction": "\\(N \\leqq 100 \\ , \\ 1 \\leqq a \\leqq 10^8 \\)\r\n",
+    "output_format": "\u6761\u4ef6\u306b\u6cbf\u3063\u3066\u4e26\u3073\u66ff\u3048\u305f\u7d50\u679c\u3092\u51fa\u529b\u305b\u3088\u3002",
+    "description": "\\(N\\)\u500b\u306e\u6570\u304c\u5165\u529b\u3055\u308c\u308b\u306e\u3067\u3001\u5947\u6570\u304c\u3059\u3079\u3066\u306e\u5076\u6570\u3088\u308a\u3082\u5148\u306b\u51fa\u308b\u3088\u3046\u306b\u3057\u3066\u3001\\(N\\)\u500b\u306e\u6570\u3092\u6607\u9806(\u5c0f\u3055\u3044\u9806)\u306b\u4e26\u3073\u66ff\u3048\u306a\u3055\u3044\u3002",
+    "input_format": "\u6b21\u306e\u5f62\u3067\u4e0e\u3048\u3089\u308c\u308b\u3002  \r\n\\(N\\)\r\n\\(a_1 \\ a_2 \\ \\ldots \\ a_N \\)   ",
+    "score": 100
+}

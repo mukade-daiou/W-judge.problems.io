@@ -1,0 +1,1 @@
+{"submission_id": "28", "problem_id": "1", "problem_title": "Hello, World", "datetime": "2018-07-14 11:52:12", "result": "WaitingJudge", "source": "#include<iostram>\r\nint main(){\r\nfor(;;){\r\nstd::cout<<\"haha\\n\";\r\n}\r\n}", "user": "not_itahara", "lang": "C++"}

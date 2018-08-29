@@ -1,0 +1,23 @@
+{
+    "contest_id": "none",
+    "title": "+INTERSECT+",
+    "tle": 2000,
+    "mle": 256,
+    "sample_io": [
+        {
+            "input": "0 0\r\n2 7\r\n1 0\r\n2 0\r\n",
+            "output": "Intersect\r\n",
+            "description": "A(0,0)\u3068B(2,7)\u3092\u901a\u308b\u76f4\u7ddaAB\u306f\uff0cC(1,0)\u3068D(2,0)\u3092\u901a\u308b\u76f4\u7ddaCD\u3068\u4ea4\u308f\u308b\u306e\u3067 \"Intersect\" \u3092\u51fa\u529b\u3057\u307e\u3059\uff0e"
+        },
+        {
+            "input": "0 0\r\n1 1\r\n1 0\r\n2 1\r\n\r\n",
+            "output": "Parallel\r\n",
+            "description": ""
+        }
+    ],
+    "restriction": "\\(-100 \\leq A_x,A_y,B_x,B_y,C_x,C_y,D_x,D_y  \\leq 100\\)\r\n\u4e0e\u3048\u3089\u308c\u308b\u70b9\u306e\u3046\u3061x\u5ea7\u6a19\u3068y\u5ea7\u6a19\u304c\u3068\u3082\u306b\u4e00\u81f4\u3059\u308b\u70b9\u306e\u7d44\u306f\u5b58\u5728\u3057\u306a\u3044\uff0e\r\n\u76f4\u7dda \\(AB\\) \u3068\u76f4\u7dda \\(CD\\) \u304c\u91cd\u306a\u308b\u3053\u3068\u306f\u306a\u3044\uff0e\r\n",
+    "output_format": "\u4e8c\u76f4\u7dda\u304c\u4ea4\u308f\u308b\u306a\u3089 \"Intersect\" \u3092\uff0c\u5e73\u884c\u306a\u3089 \"Parallel\" \u3092\u51fa\u529b\u305b\u3088\uff0e\r\n\u305f\u3060\u3057\u3001\u6539\u884c\u3092\u5fd8\u308c\u306a\u3044\u3053\u3068\uff0e\r\n",
+    "description": "\u70b9 \\(A,B,C,D\\) \u306exy\u5ea7\u6a19 \\(A_x,A_y,B_x,B_y,C_x,C_y,D_x,D_y\\) \u304c\u4e0e\u3048\u3089\u308c\u308b\u306e\u3067\uff0c\u76f4\u7dda \\(AB\\) \u3068\u76f4\u7dda \\(CD\\) \u304c\u4ea4\u308f\u308b\u304b\u5e73\u884c\u3067\u3042\u308b\u304b\u5224\u5b9a\u305b\u3088\uff0e",
+    "input_format": "\u5165\u529b\u306f\u4ee5\u4e0b\u306e\u5f62\u5f0f\u3067\u6a19\u6e96\u5165\u529b\u304b\u3089\u4e0e\u3048\u3089\u308c\u308b\uff0e\r\n\r\n\\(A_x\\ A_y\\) \r\n\\(B_x\\ B_y\\)\r\n\\(C_x\\ C_y\\)\r\n\\(D_x\\ D_y\\)",
+    "score": 100
+}

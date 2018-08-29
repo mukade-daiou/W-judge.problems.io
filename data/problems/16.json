@@ -1,0 +1,18 @@
+{
+    "contest_id": "none",
+    "title": "(400)Dibs on Fibs",
+    "tle": 1000,
+    "mle": 256,
+    "sample_io": [
+        {
+            "input": "1\r\n3 3\r\n1 2 3\r\n4 5 6\r\n",
+            "output": "63\r\n",
+            "description": "The innermost loop is ran for 9 pairs of initial values: \\((1,4),(1,5),(1,6),(2,4),(2,5),(2,6),(3,4),(3,5),(3,6)\\). The corresponding values added to result are \\(5,6,7,6,7,8,7,8,9\\), and their sum is 63."
+        }
+    ],
+    "restriction": "\\(1\u2264T\u22643\\)\r\n\\(1\u2264M\u226410^5\\)\r\n\\(1\u2264N\u226410^5\\)\r\n\\(0\u2264A_i,B_i\u226410^9\\) for each valid \\(i\\)",
+    "output_format": "For each test case, print the final value of \\(result\\) modulo \\(10^9+7\\).",
+    "description": "You are given two sequences \\(A\\) and \\(B\\), each with size \\(M\\), and an integer \\(N\\). Consider the following pseudocode:\r\n\r\nresult := 0\r\nfor i := 1 to M\r\n    for j := 1 to M\r\n        array fib[1..max(2, N)]\r\n        fib[1] := A[i]\r\n        fib[2] := B[j]\r\n        for k := 3 to N\r\n            fib[k] := fib[k-1] + fib[k-2]\r\n        result := result + fib[N]\r\n\r\nCompute the final value of the variable \\(result\\). Since it can be very large, compute its remainder modulo \\(10^9+7\\).",
+    "input_format": "The first line of the input contains a single integer \\(T\\) denoting the number of test cases. The description of \\(T\\) test cases follows.\r\nThe first line of each test case contains two space-seperated integers \\(M\\) and \\(N\\).\r\nThe second line contains \\(M\\) space-seperated integers \\(A_1,A_2,\u2026,A_M\\).\r\nThe third line contains \\(M\\) space-seperated integers \\(B_1,B_2,\u2026,B_M\\).",
+    "score": 400
+}

@@ -1,0 +1,28 @@
+{
+    "contest_id": "none",
+    "title": "\u30c7\u30fc\u30bf\u69cb\u9020\u306b\u304a\u3051\u308b\u6728\u306e\u6271\u3044\u65b9[1]",
+    "tle": 2000,
+    "mle": 256,
+    "sample_io": [
+        {
+            "input": "3 2\r\n1 2\r\n1 3\r\n",
+            "output": "Yes\r\n",
+            "description": "3-1-2\u3068\u3044\u3046\u98a8\u306b\u3064\u306a\u304c\u3063\u3066\u3044\u308b\u305f\u3081\u6728\u3067\u3042\u308b\u3002"
+        },
+        {
+            "input": "4 3\r\n1 2\r\n1 3\r\n2 3\r\n",
+            "output": "No\r\n",
+            "description": "1,2,3\u3067\u9589\u8def\u304c\u3067\u304d\u3066\u3044\u3066\u30014\u304c\u9023\u7d50\u3067\u306f\u306a\u3044\u305f\u3081\u6728\u3067\u306f\u306a\u3044\u3002"
+        },
+        {
+            "input": "4 2\r\n1 2\r\n3 4\r\n",
+            "output": "No\r\n",
+            "description": "\u3053\u308c\u306f\u6728\u3067\u306f\u306a\u3044\u3067\u3059\u304c\u3001\u6728\u304c\u4e8c\u672c\u3042\u308b\u3068\u3082\u53d6\u308c\u308b\u305f\u3081\u3001\u68ee\u3068\u3044\u3046\u3002"
+        }
+    ],
+    "restriction": "\\(1\\leq V\\leq 100000\\)\r\n\\(0\\leq E\\leq V*(V+1)/2\\)",
+    "output_format": "\\(Yes\\)\u304b\\(No\\)",
+    "description": "\u9802\u70b9\u6570\\(V\\)\u3068\u8fba\u306e\u6570\\(E\\)\u304c\u5165\u529b\u3055\u308c\u308b\u3002\r\n\\(E\\)\u672c\u306e\u8fba\u306e\u60c5\u5831\u304c\u5165\u529b\u3055\u308c\u308b\u3002\r\n\u3053\u308c\u3089\u306e\u60c5\u5831\u304b\u3089\u3053\u306e\u30b0\u30e9\u30d5\u304c\u6728\u304b\u3069\u3046\u304b\\(Yes\\)\u304b\\(No\\)\u3067\u51fa\u529b\u305b\u3088\u3002\r\n\u9802\u70b9\u756a\u53f7\u306f1\uff5eV\u3067\u3042\u308b\u3002\r\n\u203b\u6728\u3068\u306f\u9589\u8def\u306e\u306a\u3044\u3001\u3059\u3079\u3066\u306e\u9802\u70b9\u304c\u9023\u7d50\u306e\u30b0\u30e9\u30d5\u3067\u3042\u308b\u3002",
+    "input_format": "\\(V\\ E\\)\r\n\\(s_1\\ t_1\\)\r\n\\(s_2\\ t_2\\)\r\n\u30fb\r\n\u30fb\r\n\u30fb\r\n\\(s_E\\ t_E\\)\r\n\r\n\\(s_i\\)\u3068\\(t_i\\)\u306f\u9023\u7d50\u3067\u3042\u308b\u3002",
+    "score": 100
+}

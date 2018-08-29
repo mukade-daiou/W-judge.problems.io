@@ -1,0 +1,1 @@
+{"submission_id": "667", "source": "class Sample1\r\n{\r\npublic static void main(String[] args)\r\n{\r\nSystem.out.println(\"Hello, PCP\");\r\n}\r\n}", "problem_id": "79", "problem_title": "Hello, PCP", "datetime": "2018-08-06 13:48:28", "lang": "C++", "user": "reyesefren", "result": "CompileError", "score": "0", "max_score": "0"}

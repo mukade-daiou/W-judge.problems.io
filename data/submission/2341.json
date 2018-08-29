@@ -1,0 +1,1 @@
+{"submission_id": "2341", "source": "#include<iostream>\r\nint main() {\r\n\tint N, M;\r\n\tstd::cin << N << M;\r\n\tstd::cout << N - N % M << std::endl;\r\n\treturn 0;\r\n}", "problem_id": "117", "problem_title": "(250)mother child stand up", "datetime": "2018-08-28 14:43:56", "lang": "C++", "user": "papipupepo", "result": "CompileError", "score": "0", "max_score": "0"}

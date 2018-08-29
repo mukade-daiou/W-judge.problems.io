@@ -1,0 +1,18 @@
+{
+    "contest_id": "9",
+    "title": "(500)Range Add Query",
+    "tle": 2000,
+    "mle": 262,
+    "sample_io": [
+        {
+            "input": "3 5\r\n0 1 2 1\r\n0 2 3 2\r\n0 3 3 3\r\n1 2\r\n1 3\r\n",
+            "output": "3\r\n5\r\n",
+            "description": ""
+        }
+    ],
+    "restriction": "\\(1\\leqq N\\leqq 10^{11}\\)\r\n\\(1\\leqq s\\leqq t\\leqq n\\)\r\n\\(1\\leqq i\\leqq n\\)\r\n\\(-10^9\\leqq x\\leqq 10^9\\)\r\n\\(1\\leqq Q\\leqq 10^5\\)",
+    "output_format": "\u5404\\(get\\)\u30af\u30a8\u30ea\u306b\u3064\u3044\u3066\u3001\u5024\u3092\\(1\\)\u884c\u3067\u51fa\u529b\u305b\u3088\u3002",
+    "description": "\u9577\u3055\\(N\\)\u3067\\(A_i\\)(\\(1\\leqq i\\leqq N\\))\u304c\\(0\\)\u306e\u6570\u5217\\(A\\)\u306b\u5bfe\u3057\u3001\u6b21\u306e\\(2\\)\u3064\u306e\u64cd\u4f5c\u3092\\(Q\\)\u56de\u884c\u3046\u30d7\u30ed\u30b0\u30e9\u30e0\u3092\u4f5c\u6210\u305b\u3088\u3002\r\n\r\n\u30fbadd(\\(s,t,x\\)):\\(A\\)\u306e\\([s,t]\\)\u306b\\(x\\)\u3092\u52a0\u7b97\u3059\u308b\u3002\r\n\u30fbget(\\(i\\)):\\(A_i\\)\u306e\u5024\u3092\u51fa\u529b\u3059\u308b\u3002\r\n",
+    "input_format": "\\(N \\  Q\\)\r\n\\(query_1\\)\r\n\\(query_2\\)\r\n\uff1a\r\n\\(query_Q\\)\r\n\r\n\\(1\\)\u884c\u76ee\u306b\\(A\\)\u306e\u8981\u7d20\u6570\\(N\\), \u30af\u30a8\u30ea\u306e\u6570\\(Q\\)\u304c\u4e0e\u3048\u3089\u308c\u308b\u3002\u7d9a\u304f\\(Q\\)\u884c\u306b \\(i\\) \u756a\u76ee\u306e\u30af\u30a8\u30ea \\(query_i\\) \u304c\u4e0e\u3048\u3089\u308c\u308b\u3002\\(query_i\\) \u306f\u4ee5\u4e0b\u306e\u3044\u305a\u308c\u304b\u306e\u5f62\u5f0f\u3067\u4e0e\u3048\u3089\u308c\u308b\u3002\r\n\r\n\\(0 \\  s\\  t\\  x\\)\r\n\u307e\u305f\u306f\r\n\\(1 \\  i\\)\r\n\u5404\u30af\u30a8\u30ea\u306e\u6700\u521d\u306e\u6587\u5b57\u306f\u30af\u30a8\u30ea\u306e\u7a2e\u985e\u3092\u8868\u3057\u3001\\(0\\)\u304c\\(add\\)\u30af\u30a8\u30ea\u3001\\(1\\)\u304c\\(get\\)\u30af\u30a8\u30ea\u3092\u8868\u3059\u3002",
+    "score": 500
+}

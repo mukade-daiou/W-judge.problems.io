@@ -1,0 +1,1 @@
+{"submission_id": "433", "source": "#include<iostream>\r\nint main() {\r\n\tint x = 0;\r\n\tstd::cin >> x;\r\n\tint n[x], m[x];\r\n\t", "problem_id": "39", "problem_title": "\u30e9\u30f3\u30c1(Lunch)", "datetime": "2018-07-31 14:04:24", "lang": "C++", "user": "yoshiyasu", "result": "CompileError", "score": "0", "max_score": "0"}

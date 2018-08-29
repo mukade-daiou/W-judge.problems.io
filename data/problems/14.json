@@ -1,0 +1,23 @@
+{
+    "contest_id": "none",
+    "title": "\u5b9f\u8ceatancahn",
+    "tle": 2000,
+    "mle": 256,
+    "sample_io": [
+        {
+            "input": "natchan\r\n",
+            "output": "Yes\r\n",
+            "description": "\\(natchan\\)\u306f\u4e26\u3073\u66ff\u3048\u3066\\(tancahn\\)\u306b\u306a\u308b\u306e\u3067\\(Yes\\)\u3067\u3059\u3002"
+        },
+        {
+            "input": "nnattcchan\r\n",
+            "output": "No\r\n",
+            "description": ""
+        }
+    ],
+    "restriction": "\\(S\\)\u306f\u6587\u5b57\u5217",
+    "output_format": "\\(Yes\\)\u304b\\(No\\)",
+    "description": "\\({\\style{color:red}{n}}a{\\style{color:red}{t}}chan\\)\u306f\u5b9f\u8cea\\({\\style{color:red}{t}}a{\\style{color:red}{n}}cahn\\)\u3067\u3059\u3002\r\n\u4e26\u3073\u5909\u3048\u3066\\(tancahn\\)\u306b\u306a\u308b\u304b\u3069\u3046\u304b\u3092\\(Yes\\)\u304b\\(No\\)\u304b\u3067\u51fa\u529b\u3057\u3066\u304f\u3060\u3055\u3044",
+    "input_format": "\\(S\\)",
+    "score": 100
+}

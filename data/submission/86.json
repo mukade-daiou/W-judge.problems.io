@@ -1,0 +1,1 @@
+{"submission_id": "86", "source": "#include<iostream>\r\nint main() {\r\n\tstd::cout << \"Hello, World\" << std::eendl;\r\n}", "problem_id": "1", "problem_title": "Hello, World", "datetime": "2018-07-15 11:33:37", "lang": "C++", "user": "papipupepo", "result": "CompileError", "score": "0", "max_score": "0"}

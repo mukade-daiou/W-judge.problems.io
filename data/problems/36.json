@@ -1,0 +1,18 @@
+{
+    "contest_id": "3",
+    "title": "AMAGAERU",
+    "tle": 1000,
+    "mle": 256,
+    "sample_io": [
+        {
+            "input": "AMAGR",
+            "output": "YES",
+            "description": ""
+        }
+    ],
+    "restriction": "|S|<=200000",
+    "output_format": "\u4f5c\u308c\u308b\u306a\u3089YES\u3001\u4f5c\u308c\u306a\u3044\u306a\u3089NO\u3092\u51fa\u529b\u3057\u306a\u3055\u3044\u3002",
+    "description": "\u6587\u5b57\u5217S\u306b\u6bcd\u97f3\u3092\u5165\u529b\u3059\u308b\u3053\u3068\u3067AMAGAERU\u3092\u4f5c\u308c\u308b\u304b\u5224\u5b9a\u3057\u306a\u3055\u3044\u3002",
+    "input_format": "S",
+    "score": 100
+}
