@@ -1,0 +1,10 @@
+#table{
+    border-collapse: collapse;
+    margin-right: auto;margin-left: auto;
+    border: solid 2px;
+    text-align: center;
+}
+#table th,#table td{
+    width: 200px;
+    border:solid 1px gray;
+}
