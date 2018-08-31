@@ -50,6 +50,6 @@ $(function(){
     })
     $(".enter").click(function(){
         var num=$(".textbox").val();
-        ac_check("mukadenodaiou");
+        ac_check(num);
     })
 })
