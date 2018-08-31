@@ -37,6 +37,9 @@ function ac_check(username){
         if(obj["user"]==username&&obj["result"]=="Accepted"){
             $("#p_"+String(obj["problem_id"]-1)).css("background","skyblue");
         }
+        else{
+            $("#p_"+String(obj["problem_id"]-1)).css("background","white");
+        }
     })
     })
     
