@@ -1,8 +1,10 @@
 {
+    "output_format": "bye",
     "contest_id": "none",
-    "title": "Don't try to solve this",
-    "tle": 4200,
+    "input_format": "nothing",
     "mle": 0,
+    "tle": 4200,
+    "title": "Don't try to solve this",
     "sample_io": [
         {
             "input": "nothing",
@@ -10,8 +12,6 @@
         }
     ],
     "restriction": "You'll get MLE",
-    "output_format": "bye",
     "description": "This is impossible to solve.",
-    "input_format": "nothing",
-    "score": 520
+    "score": 0
 }
