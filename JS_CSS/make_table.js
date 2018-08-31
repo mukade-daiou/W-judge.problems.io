@@ -33,9 +33,14 @@ function draw_table(id,tags){
 function ac_check(username){
     $.getJSON("data/submits.json",
     function(data){
+        var aced=[]
         $.each(data,function(i,obj){
         if(obj["user"]==username&&obj["result"]=="Accepted"){
             $("#p_"+String(obj["problem_id"]-1)).css("background","skyblue");
+            aced[obj["problem_id"]-1]=true;
+        }
+        else{
+            if(!aced[obj["problem_id"]-1])$("#p_"+String(obj["problem_id"]-1)).css("background","white");
         }
     })
     })
