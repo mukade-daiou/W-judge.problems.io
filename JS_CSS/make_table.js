@@ -21,8 +21,17 @@ function make_table(){
         else{
             str+="contest/contest/problem_description?contest_id="
             +obj["contest_id"]+"&problem_id="+String(i+1);
-        } 
+        }
         p.link=str;
+        $.getJSON("data/contests.json",function(c_data){
+            //alert(obj["contest_id"])
+            if(obj["contest_id"]==="none"){p.contest="-";p.contest_link=""}
+            else {
+                p.contest=c_data[obj["contest_id"]-1]["name"];
+                p.contest_link="https://wjudge.wasedah-pcp.net/contest/contest/problem_view?contest_id="
+                                        +obj["contest_id"];
+            }
+        })
         problems[i]=p;
         });
     })
@@ -35,6 +44,9 @@ function draw_table(id,tags){
         $.each(tags,function(j,tag){
             if(tag=="title"){
                 str+="<td class="+tag+"><a href="+obj["link"]+" target="+"_blank"+">"+String(obj[tag])+"</a></td>";}
+            else if(tag=="contest"&&obj["contest"]!="-"){
+                str+="<td class="+tag+"><a href="+obj["contest_link"]+" target="+"_blank"+">"+String(obj[tag])+"</a></td>";
+            }
             else str+="<td class="+tag+">"+String(obj[tag])+"</td>";
         }); 
         str+="</tr>";
@@ -61,7 +73,7 @@ var flag=false;
 $(function(){
     make_table();
     $(".textbox").click(function(){
-        if(!flag)draw_table("table",["title","score"]);
+        if(!flag)draw_table("table",["title","score","contest"]);
         flag=true;
     })
     $(".enter").click(function(){
