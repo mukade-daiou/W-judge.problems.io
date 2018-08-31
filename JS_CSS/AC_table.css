@@ -5,23 +5,31 @@
     text-align: center;
 }
 .title{
-    max-width: 200px;
+    max-width: 400px;
     border:solid 1px gray;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
-.num{
-    width: 50px;
+.num,.score{
+    width: 100px;
     border:solid 1px gray;
 }
-#p_1{
-    background-color: aqua;
-}
 .textbox{
+    display: inline-block;
     width: 400px;
     height:40px;
     font-size: 40px;
     position: relative;
-    left:600px;
-}   
+    left:550px;
+}  
+.enter{
+    display: inline-block;
+    height: 40px;
+    position: relative;
+    left:550px;
+    top:-10px;
+}
+.enter:hover{
+    box-shadow: 0 0 7px blue;
+}
