@@ -1,1 +1,5 @@
-{"submission_id": "598", "source": "#include<iostream>\r\n#include<vector>\r\n#include<algorithm>\r\n#include<functional>\r\n#include<string>\r\n#include<cmath>\r\n#include<utility>\r\n#define rep(i,rept) for (ll i = 0; i < rept; i++)\r\ntypedef long long ll;\r\nint main() {\r\n\tstd::cout << \"Hello PCP\" << std::endl;\r\n\treturn 0;\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n}", "problem_id": "79", "problem_title": "Hello, PCP", "datetime": "2018-08-06 13:30:48", "lang": "C++", "user": "Hinamel", "sample_io": ["WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "Hinamel",
+    "problem_id": 79,
+    "result": "WrongAnswer"
+}

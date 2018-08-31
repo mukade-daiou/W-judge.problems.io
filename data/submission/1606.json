@@ -1,1 +1,5 @@
-{"submission_id": "1606", "source": "#include<iostream>\r\n#include<vector>\r\n#include<cstring>\r\n#include<algorithm>\r\nusing namespace std;\r\nint main(){\r\n    string a;\r\n    cin>>a;\r\n    int sum=0;\r\n    int b=0;\r\n    for(int i=1;i<(a.length()-1);i++){\r\n        sum+=1;\r\n    }\r\n    for(int i=0;i<a.length();i++){\r\n        b=i;\r\n    }\r\n    int n=a.length();\r\n    cout<<a[0]<<sum<<a[b]<<endl;\r\n}", "problem_id": "69", "problem_title": "i18n", "datetime": "2018-08-08 10:00:42", "lang": "C++", "user": "lassi_nassi", "sample_io": ["Accepted", "Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "lassi_nassi",
+    "problem_id": 69,
+    "result": "Accepted"
+}

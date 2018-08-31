@@ -1,1 +1,5 @@
-{"submission_id": "1033", "source": "#include<iostream>\r\n#include<cmath>\r\n\r\nint a;\r\n\r\nunsigned long long res;\r\n\r\nint main(){\r\n    \r\n    std::cin>>a;\r\n    \r\n    res=((unsigned long long)pow(2,a)-1)%1000000007;\r\n    \r\n    std::cout<<res<<std::endl;\r\n    \r\n    \r\n    return 0;\r\n}", "problem_id": "44", "problem_title": "Go big", "datetime": "2018-08-06 15:58:07", "lang": "C++", "user": "shugo15", "sample_io": ["Accepted", "Accepted"], "testcase": [{"result": "Accepted", "max_score": "30", "io_result": ["Accepted", "Accepted"]}, {"result": "WrongAnswer", "max_score": "30", "io_result": ["WrongAnswer"]}, {"result": "WrongAnswer", "max_score": "40", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "result": "WrongAnswer", "score": "30", "max_score": "100"}
+{
+    "user": "shugo15",
+    "problem_id": 44,
+    "result": "WrongAnswer"
+}

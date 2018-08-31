@@ -1,1 +1,5 @@
-{"submission_id": "581", "source": "#include <iostream>\r\n#include <string>\r\n\r\nint main(){\r\n\r\n\tstd::string str;\r\n\r\n\tstd::cin >> str;\r\n\r\n\tint B = 0, W = 0;\r\n\tfor(auto &c : str){\r\n\t\tif(c == 'B'){\r\n\t\t\t++B;\r\n\t\t}\r\n\t\telse if(c == 'W'){\r\n\t\t\t++W;\r\n\t\t}\r\n\t}\r\n\r\n\tif(B < W){\r\n\t\tstd::cout << \"White wins\" << std::endl;\r\n\t}\r\n\telse if(B > W){\r\n\t\tstd::cout << \"Black wins\" << std::endl;\r\n\t}\r\n\telse{\r\n\t\tstd::cout << \"Draw\" << std::endl;\r\n\t}\r\n\r\n\treturn 0;\r\n\r\n}\r\n", "problem_id": "35", "problem_title": "\u725b\u4e3c\u306e\u6ce8\u6587", "datetime": "2018-08-06 01:27:27", "lang": "C++", "user": "taiki_okano", "sample_io": ["WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "taiki_okano",
+    "problem_id": 35,
+    "result": "WrongAnswer"
+}

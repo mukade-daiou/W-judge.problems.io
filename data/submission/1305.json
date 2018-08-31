@@ -1,1 +1,5 @@
-{"submission_id": "1305", "source": "#include <iostream>\r\n#include <algorithm>\r\n#include <string>\r\n#include <vector>\r\n#include <map>\r\n#include <iomanip>\r\n#include <cmath>\r\n#include <cstdlib>\r\n#include <math.h>\r\n\r\nint main()\r\n{\r\n\tlong long a, b;\r\n\tstd::cin >> a >> b;\r\n\tstd::cout << a + b << std::endl;\r\n\treturn 0;\r\n}\r\n\r\n", "problem_id": "37", "problem_title": "\u305f\u3057\u3056\u3093", "datetime": "2018-08-07 10:33:42", "lang": "C++", "user": "Torumu106", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "40", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}, {"result": "WrongAnswer", "max_score": "60", "io_result": ["WrongAnswer", "Accepted", "Accepted", "WrongAnswer", "WrongAnswer"]}], "result": "WrongAnswer", "score": "40", "max_score": "100"}
+{
+    "user": "Torumu106",
+    "problem_id": 37,
+    "result": "WrongAnswer"
+}

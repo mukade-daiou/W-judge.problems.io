@@ -1,1 +1,5 @@
-{"submission_id": "997", "source": "#include <iostream>\r\n#include <algorithm>\r\n#include <cmath>\r\n#include <string>\r\n#include <vector>\r\n#include <queue>\r\ntypedef unsigned long long ULL;\r\n\r\n int main (){\r\n\r\n\t std::string str;\r\n\r\n\t std::getline(std::cin, str);\r\n\r\n\t for (int i = 0; i < str.size(); ++i) {\r\n\t\t if (str[i] == ' ' || str[i] == '.') {\r\n\t\t\t continue;\r\n\t\t }\r\n\t\t else {\r\n\t\t\t str[i] -= 1;\r\n\t\t\t if (str[i] == 123) {\r\n\t\t\t\t str[i] = 'a';\r\n\t\t\t }\r\n\t\t }\r\n\t }\r\n\r\n\t std::cout << str << std::endl;\r\n\t return 0;\r\n\r\n}", "problem_id": "57", "problem_title": "\u30b7\u30fc\u30b6\u30fc\u6697\u53f7", "datetime": "2018-08-06 15:49:41", "lang": "C++", "user": "rockman", "sample_io": ["Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "RuntimeError", "WrongAnswer", "WrongAnswer"]}], "result": "WrongAnswer", "score": "0", "max_score": "100"}
+{
+    "user": "rockman",
+    "problem_id": 57,
+    "result": "WrongAnswer"
+}

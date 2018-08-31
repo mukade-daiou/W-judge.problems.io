@@ -1,1 +1,5 @@
-{"submission_id": "631", "source": "#include <iostream>\r\nint main() {\r\n\tstd::cout << \"Hello, PCP\" << std::endl;\r\n\tsystem(\"pause\");\r\n\treturn 0;\r\n}", "problem_id": "79", "problem_title": "Hello, PCP", "datetime": "2018-08-06 13:34:21", "lang": "C++", "user": "takenoko", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "takenoko",
+    "problem_id": 79,
+    "result": "Accepted"
+}

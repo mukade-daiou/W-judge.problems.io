@@ -1,1 +1,5 @@
-{"submission_id": "1651", "source": "#include<iostream>\r\n#include<cmath>\r\n#include<algorithm>\r\n#define rep(i,rept) for (ll i = 0; i < rept; i++)\r\n\ttypedef long long ll;\r\n\r\n\tint main() {\r\n\t\tll i = 0, j = 0;\r\n\t\tll n = 0,ans = 0;\r\n\t\tll count = 0;\r\n\t\tll arr[100000] = {};\r\n\t\tstd::cin >> n;\r\n\t\trep(i, n) {\r\n\t\t\tarr[i] = 1;\r\n\t\t}\r\n\t\tfor (int i = 2; i < sqrt(n); i++) {\r\n\t\t\tif (arr[i]) {\r\n\t\t\t\tfor (int j = 0; i*(j + 2) < n; j++) {\r\n\t\t\t\t\tarr[i*(j + 2)] = 0;\r\n\t\t\t\t}\r\n\r\n\t\t\t}\r\n\t\t}\r\n\t\tfor (int i = 2; i < n; i++) {\r\n\t\t\tif (arr[i]) {\r\n\t\t\t\tans++;\r\n\t\t\t}\r\n\t\t}\r\n\t\tstd::cout << ans << std::endl;\r\n\r\n\t}\r\n", "problem_id": "65", "problem_title": "FOO\u541b\u306e\u6559\u79d1\u66f8\u306b\u8f09\u3063\u3066\u308b\u30b3\u30e9\u30e0\u7de8", "datetime": "2018-08-08 10:18:47", "lang": "C++", "user": "Hinamel", "sample_io": ["Accepted"], "testcase": [{"result": "RuntimeError", "max_score": "100", "io_result": ["WrongAnswer", "Accepted", "Accepted", "Accepted", "RuntimeError", "Accepted", "Accepted", "Accepted", "RuntimeError", "Accepted"]}], "result": "RuntimeError", "score": "0", "max_score": "100"}
+{
+    "user": "Hinamel",
+    "problem_id": 65,
+    "result": "RuntimeError"
+}

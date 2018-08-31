@@ -1,1 +1,5 @@
-{"submission_id": "930", "source": "#include <iostream>\r\n#include<vector>\r\n#include<algorithm>\r\nusing namespace std;\r\nint main(){\r\n    int a;\r\n    cin>>a;\r\n    int ans;\r\n    for(int i=1;i<a;i++){\r\n        ans*=2;\r\n    }\r\n    int ababa;\r\n    if((ans-1)>1000000007){\r\n        ababa=(ans-1)%1000000007;\r\n    }else{\r\n        ababa=ans-1;\r\n    }\r\n    cout<<ababa<<endl;\r\n}\r\n", "problem_id": "44", "problem_title": "Go big", "datetime": "2018-08-06 15:30:24", "lang": "C++", "user": "lassi", "sample_io": ["WrongAnswer", "WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "30", "io_result": ["WrongAnswer", "WrongAnswer"]}, {"result": "WrongAnswer", "max_score": "30", "io_result": ["WrongAnswer"]}, {"result": "WrongAnswer", "max_score": "40", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "lassi",
+    "problem_id": 44,
+    "result": "WrongAnswer"
+}

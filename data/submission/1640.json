@@ -1,1 +1,5 @@
-{"submission_id": "1640", "source": "include<iostream>\r\n#include<string>\r\nint main() {\r\n\tstd::string s;\r\n\tstd::cin >> s;\r\n    std::cout << s[0] << s.size() - 2 << s[s.size() - 1] << std::endl;\r\n}", "problem_id": "69", "problem_title": "i18n", "datetime": "2018-08-08 10:13:22", "lang": "C++", "user": "inosei", "result": "CompileError", "score": "0", "max_score": "0"}
+{
+    "user": "inosei",
+    "problem_id": 69,
+    "result": "CompileError"
+}

@@ -1,1 +1,5 @@
-{"submission_id": "1526", "source": "#include<iostream>\r\n#include<cmath>\r\n#include<algorithm>\r\n#include <cassert>\r\n#include <stdio.h>\r\n#include<string>\r\nusing namespace std;\r\nint main() {\r\n\tstring S;\r\n\tint n;\r\n\tcin >> S;\r\n\tn = S.size();\r\n\tcout <<\"L\"<< n - 2<<\"n\"<<endl;\r\n\treturn 0;\r\n}", "problem_id": "69", "problem_title": "i18n", "datetime": "2018-08-08 09:41:14", "lang": "C++", "user": "forest", "sample_io": ["WrongAnswer", "Accepted"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "forest",
+    "problem_id": 69,
+    "result": "WrongAnswer"
+}

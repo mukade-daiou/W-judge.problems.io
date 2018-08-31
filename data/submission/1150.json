@@ -1,1 +1,5 @@
-{"submission_id": "1150", "source": "#include <string>\r\n#include <algorithm>\r\n\r\n#include <iostream>\r\nusing namespace std;\r\n\r\n\r\nint main() {\r\n\tstring str;\r\n\tcin >> str;\r\n\tfor (int i = 0; i < str.size(); i++) {\r\n\t\tif ('a' <= str[i] && str[i] <= 'z') {\r\n\t\t\tstr[i] += 'A' - 'a';\r\n\t\t}\r\n\t\telse if ('A' <= str[i] && str[i] <= 'Z') {\r\n\t\t\tstr[i] += 'a' - 'A';\r\n\t\t}\r\n\t}\r\n\tcout << str << endl;\r\n}", "problem_id": "63", "problem_title": "Switch", "datetime": "2018-08-07 09:43:08", "lang": "C++", "user": "shoji", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "shoji",
+    "problem_id": 63,
+    "result": "Accepted"
+}

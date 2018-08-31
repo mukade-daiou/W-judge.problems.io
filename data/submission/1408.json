@@ -1,1 +1,5 @@
-{"submission_id": "1408", "source": "#include<iostream>\r\n#include<cstring>\r\n#include<algorithm>\r\n#include<vector>\r\nusing namespace std;\r\nint main(){\r\n    int h,w,x;\r\n    cin>>h>>w>>x;\r\n    int ozi=h*w+1;\r\n    for(int i=1;i<ozi;i++){\r\n        if(i==x){}\r\n        else{\r\n        cout<<i<<\" \";\r\n    }\r\n}\r\ncout<<endl;\r\nreturn 0;\r\n}\r\n", "problem_id": "81", "problem_title": "TORUS", "datetime": "2018-08-07 11:15:27", "lang": "C++", "user": "lassi", "sample_io": ["WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "lassi",
+    "problem_id": 81,
+    "result": "WrongAnswer"
+}

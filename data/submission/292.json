@@ -1,1 +1,5 @@
-{"submission_id": "292", "source": "#include <iostream>\r\n#include <algorithm>\r\n\r\nint main(){\r\n\r\n\tint A = 2000, B = 2000;\r\n\r\n\tfor(int i = 0; i < 3; ++i){\r\n\t\tint in;\r\n\t\tstd::cin >> in;\r\n\r\n\t\tif(A > in){\r\n\t\t\tA = in;\r\n\t\t}\r\n\t}\r\n\r\n\tfor(int i = 0; i < 2; ++i){\r\n\t\tint in;\r\n\t\tstd::cin >> in;\r\n\r\n\t\tif(B > in){\r\n\t\t\tB = in;\r\n\t\t}\r\n\t}\r\n\r\n\tstd::cout << A + B - 50 << std::endl;\r\n\r\n\treturn 0;\r\n}", "problem_id": "41", "problem_title": "\u6c17\u8c61\u4e88\u5831\u58eb (Weather Forecaster)", "datetime": "2018-07-30 08:47:39", "lang": "C++", "user": "taiki_okano", "sample_io": ["WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "taiki_okano",
+    "problem_id": 41,
+    "result": "WrongAnswer"
+}

@@ -1,1 +1,5 @@
-{"submission_id": "1620", "source": "#include <iostream>\r\n#include <algorithm>\r\n#include <string>\r\n#include <vector>\r\n#include <cmath>\r\n#define rep(i,rept) for(long long i = 0; i<rept;i++)\r\nusing namespace std;\r\nint main() {\r\n\tlong long x, y=0;\r\n\tcin >> x;\r\n\twhile (x != 1) {\r\n\t\tif (x % 2 == 0) {\r\n\t\t\tx = x / 2;\r\n\t\t}\r\n\t\telse {\r\n\t\t\tx = x * 3 + 1;\r\n\t\t}\r\n\t\ty++;\r\n\t}\r\n\tcout << y << endl;\r\n}\r\n\r\n", "problem_id": "42", "problem_title": "3n+1", "datetime": "2018-08-08 10:05:10", "lang": "C++", "user": "Terashima", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "Terashima",
+    "problem_id": 42,
+    "result": "Accepted"
+}

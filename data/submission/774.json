@@ -1,1 +1,5 @@
-{"submission_id": "774", "source": "#include <iostream>\r\nusing namespace std;\r\n\r\nint main()\r\n{\r\n\tcout << \"Hello, PCP\" << endl;\r\n\r\n}", "problem_id": "79", "problem_title": "Hello, PCP", "datetime": "2018-08-06 14:27:06", "lang": "C++", "user": "reyesefren", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "reyesefren",
+    "problem_id": 79,
+    "result": "Accepted"
+}

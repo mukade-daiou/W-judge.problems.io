@@ -1,1 +1,5 @@
-{"submission_id": "2136", "source": "#include<iostream>\r\n#include<vector>\r\n#include<algorithm>\r\nusing namespace std;\r\nint main(){\r\n    int a,b,c;\r\n    cin>>a>>b>>c;\r\n    if(a>b*c){\r\n        cout<<a<<endl;\r\n    }else{\r\n        cout<<b*c<<endl;\r\n    }\r\n}", "problem_id": "107", "problem_title": "(100)\u30ab\u30fc\u30c9\u30b2\u30fc\u30e0\u306e\u795e\u3001akusyounin!", "datetime": "2018-08-25 13:03:09", "lang": "C++", "user": "lassi_nassi", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "lassi_nassi",
+    "problem_id": 107,
+    "result": "Accepted"
+}

@@ -1,1 +1,5 @@
-{"submission_id": "693", "source": "#include <iostream>\r\n#include <string>\r\nint main(){\r\n    int b=0,w=0;\r\n    std::string a;\r\n    std::cin>>a;\r\n    for(int i=0;i<a.size();++i){\r\n        if(a[i]=='B'){\r\n            ++b;\r\n        }\r\n        if(a[i]=='W'){\r\n            ++w;\r\n        }\r\n   }\r\n    if(b<w){\r\n        std::cout<<\"White wins\"<<std::endl;\r\n   }\r\n    if(b>w){\r\n        std::cout<<\"Black wins\"<<std::endl;\r\n   }\r\n    if(b==w){\r\n        std::cout<<\"Draw\"<<std::endl;\r\n   }\r\n}\r\n", "problem_id": "58", "problem_title": "\u4e00\u6b21\u5143\u30ea\u30d0\u30fc\u30b7", "datetime": "2018-08-06 14:00:44", "lang": "C++", "user": "yuden", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "yuden",
+    "problem_id": 58,
+    "result": "Accepted"
+}

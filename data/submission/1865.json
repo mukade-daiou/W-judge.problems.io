@@ -1,1 +1,5 @@
-{"submission_id": "1865", "source": "#include <iostream>\r\n#include <algorithm>\r\n#include <string>\r\n#include <vector>\r\n#include <cmath>\r\n#define rep(i,rept) for(unsigned long long i = 0; i<rept;i++)\r\nusing namespace std;\r\nint main() {\r\n\tint n,count=0;\r\n\tcin >> n;\r\n\tvector<int> prime ;\r\n\tprime.push_back(0);\r\n\tint q = sqrt(n);\r\n\trep(i, n) {\r\n\t\tprime.push_back(1);\r\n\t}\r\n\tfor (int i = 2;i < n;i++) {\r\n\t\tif (prime[i] == 1) {\r\n\t\t\tfor (int j = 2;i*j < n;j++) {\r\n\t\t\t\t\tprime[i*j] = 0;\r\n\t\t\t}\r\n\t\t}\r\n\r\n\t}\r\n\tfor (int i = 1;i < n;i++) {\r\n\t\tif (prime[i] == 1) {\r\n\t\t\tcount++;\r\n\t\t}\r\n\t}\r\n\tcout<<count-1<<endl;\r\n}\r\n\r\n", "problem_id": "65", "problem_title": "FOO\u541b\u306e\u6559\u79d1\u66f8\u306b\u8f09\u3063\u3066\u308b\u30b3\u30e9\u30e0\u7de8", "datetime": "2018-08-08 11:34:47", "lang": "C++", "user": "Terashima", "sample_io": ["Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "WrongAnswer", "score": "0", "max_score": "100"}
+{
+    "user": "Terashima",
+    "problem_id": 65,
+    "result": "WrongAnswer"
+}

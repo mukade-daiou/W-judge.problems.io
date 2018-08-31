@@ -1,1 +1,5 @@
-{"submission_id": "894", "source": "#include <iostream>\r\nint main(){\r\n\tint N,a,b,M=0;\r\n\tstd::cin>>N;\r\n\tint A[1000]={},B[1000]={};\r\n\tfor(int i=0;i<N;i++){\r\n\t\tstd::cin>>A[i];\r\n\t\tstd::cin>>B[i];\r\n\t}\r\n\tfor(int i=0;i<N-1;i++){\r\n\t\tif(A[i]<A[i-1]){\r\n\t\t\ta=A[i];\r\n\t\t\tA[i]=A[i-1];\r\n\t\t\tA[i-1]=a;\r\n\t\t}\r\n\t}\r\n\tfor(int i=0;i<N-1;i++){\r\n\t\tif(B[i+1]>B[i]){\r\n\t\t\tb=B[i+1];\r\n\t\t\tB[i+1]=B[i];\r\n\t\t\tB[i]=b;\r\n\t\t}\r\n\t}\r\n\tfor(int i=0;i<N;i++){\r\n\t\tM+=A[i]*B[i];\r\n\t}\r\n\tstd::cout<<M<<std::endl;\r\n\treturn 0;\r\n}", "problem_id": "72", "problem_title": "\u5316\u5b66\u306e\u5b9f\u9a13", "datetime": "2018-08-06 15:18:54", "lang": "C++", "user": "246", "sample_io": ["WrongAnswer"], "result": "RuntimeError", "testcase": [{"result": "WrongAnswer", "max_score": "40", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}, {"result": "RuntimeError", "max_score": "60", "io_result": ["RuntimeError", "RuntimeError", "RuntimeError", "RuntimeError", "RuntimeError"]}], "score": "0", "max_score": "100"}
+{
+    "user": "246",
+    "problem_id": 72,
+    "result": "RuntimeError"
+}

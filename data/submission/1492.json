@@ -1,1 +1,5 @@
-{"submission_id": "1492", "source": "#include \"iostream\"\r\n#include \"string\"\r\n#include \"algorithm\"\r\n#include \"vector\"\r\n#include \"map\"\r\n\r\nusing namespace std;\r\n\r\nint main() {\r\n\tint n, m;\r\n\tcin >> n >> m;\r\n\tint ans = 0;\r\n\tans += n + m;\r\n\tif (n - m >= 0) {\r\n\t\tans += n - m;\r\n\t}\r\n\telse ans += m - n;\r\n\tint tmp = m / n;\r\n\tif (tmp < 0) tmp *= -1;\r\n\tans += tmp;\r\n\tans += m * n;\r\n\tans += n % m;\r\n\tcout << ans << endl;\r\n\r\n\treturn 0;\r\n}", "problem_id": "50", "problem_title": "FOO\u541b\u3068HOGE\u3061\u3083\u3093\u306e\u5165\u5b66\u9593\u8fd1\u7de8", "datetime": "2018-08-08 09:35:44", "lang": "C++", "user": "Kame", "sample_io": ["Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "Accepted", "WrongAnswer", "Accepted"]}], "result": "WrongAnswer", "score": "0", "max_score": "100"}
+{
+    "user": "Kame",
+    "problem_id": 50,
+    "result": "WrongAnswer"
+}

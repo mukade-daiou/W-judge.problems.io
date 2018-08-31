@@ -1,1 +1,5 @@
-{"submission_id": "328", "source": "#include<iostream>\r\nint main(){\r\nfor(;;){}\r\n}", "problem_id": "1", "problem_title": "Hello, World", "datetime": "2018-07-31 12:55:03", "lang": "C++", "user": "not_itahara", "sample_io": [], "testcase": [{"result": "TimeLimitExceeded", "max_score": "100", "io_result": ["TimeLimitExceeded"]}], "result": "TimeLimitExceeded", "score": "0", "max_score": "100"}
+{
+    "user": "not_itahara",
+    "problem_id": 1,
+    "result": "TimeLimitExceeded"
+}

@@ -1,1 +1,5 @@
-{"submission_id": "996", "source": "#include <iostream>\r\n#include <string>\r\n#include <vector>\r\n#include <algorithm>\r\nusing namespace std;\r\nint main() {\r\n\tint n, m;\r\n\tm = 1;\r\n\tcin >> n;\r\n\tfor (int i=0; i < n; i++) {\r\n\t\tm = m * 2;\r\n\t}\r\n\tcout << m % 1000000007 << endl;\r\n}\r\n\r\n", "problem_id": "44", "problem_title": "Go big", "datetime": "2018-08-06 15:49:27", "lang": "C++", "user": "shoji", "sample_io": ["WrongAnswer", "WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "30", "io_result": ["WrongAnswer", "WrongAnswer"]}, {"result": "WrongAnswer", "max_score": "30", "io_result": ["WrongAnswer"]}, {"result": "WrongAnswer", "max_score": "40", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "shoji",
+    "problem_id": 44,
+    "result": "WrongAnswer"
+}

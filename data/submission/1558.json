@@ -1,1 +1,5 @@
-{"submission_id": "1558", "source": "#include <iostream>\r\n#include <algorithm>\r\n#include <string>\r\n#include <vector>\r\n\r\nint main() {\r\n\tlong a;\r\n\tstd::cin >> a;\r\n\tint b = 0;\r\n\twhile (true) {\r\n\t\tif (a == 1) {\r\n\t\t\tbreak;\r\n\t\t}\r\n\t\telse if (a % 2 == 0) {\r\n\t\t\ta = a / 2;\r\n\t\t}\r\n\t\telse if (a % 2 == 1) {\r\n\t\t\ta = a * 3 + 1;\r\n\t\t}\r\n\t\tb++;\r\n\t}\r\n\tstd::cout << b << std::endl;\r\n}", "problem_id": "42", "problem_title": "3n+1", "datetime": "2018-08-08 09:48:05", "lang": "C++", "user": "takashu", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "takashu",
+    "problem_id": 42,
+    "result": "Accepted"
+}

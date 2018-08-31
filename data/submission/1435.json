@@ -1,1 +1,5 @@
-{"submission_id": "1435", "source": "#include <iostream>\r\nusing namespace std;\r\n\r\nint main()\r\n{\r\n  int i;\r\n\r\n  for( i=0; i<15; i++ ){\r\n    str[i] = tolower( str[i] );\r\n  }\r\n  cout << \"%s\u00a5n\", str << endl;\r\n\r\n  for( i=0; i<15; i++ ){\r\n    str[i] = toupper( str[i] );\r\n  }\r\n  cout << \"%s\u00a5n\", str << endl;\r\n\r\n  return 0;\r\n}", "problem_id": "63", "problem_title": "Switch", "datetime": "2018-08-07 11:28:39", "lang": "C++", "user": "reyesefren", "result": "CompileError", "score": "0", "max_score": "0"}
+{
+    "user": "reyesefren",
+    "problem_id": 63,
+    "result": "CompileError"
+}

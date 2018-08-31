@@ -1,1 +1,5 @@
-{"submission_id": "1776", "source": "#include<iostream>\r\n#include<vector>\r\n#include<cstring>\r\n#include<algorithm>\r\nusing namespace std;\r\nint main(){\r\n    int n;\r\n    int sum=0;\r\n    cin>>n;\r\n    vector<int>a(n);\r\n    vector<int>b(n);\r\n    for(int i=2;i<=n;i++){\r\n        a[i]=i;\r\n        b[i]=a[i];\r\n    }\r\n    for(int i=2;i<=n;i++){\r\n        for(int j=2;j<=n;j++){\r\n            if(a[i]==j){\r\n            }else if(a[i]%j==0){\r\n                b[i]=0;\r\n            }else{}\r\n    }\r\n    }\r\n    for(int i=0;i<n+1;i++){\r\n        if(b[i]==0){\r\n        }else{\r\n            sum+=1;\r\n        }\r\n    }\r\n    cout<<sum<<endl;\r\n}\r\n", "problem_id": "65", "problem_title": "FOO\u541b\u306e\u6559\u79d1\u66f8\u306b\u8f09\u3063\u3066\u308b\u30b3\u30e9\u30e0\u7de8", "datetime": "2018-08-08 11:07:27", "lang": "C++", "user": "lassi_nassi", "sample_io": ["RuntimeError"], "result": "TimeLimitExceeded", "testcase": [{"result": "TimeLimitExceeded", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "TimeLimitExceeded", "Accepted", "Accepted", "Accepted", "TimeLimitExceeded", "TimeLimitExceeded"]}], "score": "0", "max_score": "100"}
+{
+    "user": "lassi_nassi",
+    "problem_id": 65,
+    "result": "TimeLimitExceeded"
+}

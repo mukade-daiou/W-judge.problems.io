@@ -1,1 +1,5 @@
-{"submission_id": "452", "source": "#include<iostream>\r\n#include<algorithm>\r\nint ms(int di,int da) {\r\n\tint abe = 0;\r\n\tabe=std::min(d[di] * c[da] + ms(di + 1, da + 1), ms(di, da + 1));\r\n\tif (da > m - 1) {\r\n\t\tabe = 1000001;\r\n\t\treturn abe;\r\n\t}\r\n\treturn abe;\r\n}\r\nint n, m;\r\nint d[1001], c[1001];\r\nint main() {\r\n\t\r\n\tstd::cin >> n >> m;\r\n\tfor (int i = 0; i < n; ++i) {\r\n\t\tstd::cin >> d[i];\r\n\t}\r\n\tfor (int i = 0; i < m; ++i) {\r\n\t\tstd::cin >> c[i];\r\n\t}\r\n\tstd::cout << ms(0, 0) << std::endl;\r\n}", "problem_id": "43", "problem_title": "\u30b7\u30eb\u30af\u30ed\u30fc\u30c9 (Silk Road)", "datetime": "2018-07-31 14:53:03", "lang": "C++", "user": "abe2", "result": "CompileError", "score": "0", "max_score": "0"}
+{
+    "user": "abe2",
+    "problem_id": 43,
+    "result": "CompileError"
+}

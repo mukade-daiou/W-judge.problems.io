@@ -1,1 +1,5 @@
-{"submission_id": "2219", "source": "#include<iostream>\r\nint main() {\r\n\tint a, b, c;\r\n\tstd::cin >> a >> b >> c;\r\n\tif (a >= b*c) {\r\n\t\tstd::cout << a << std::endl;\r\n\t}\r\n\telse {\r\n\t\tstd::cout << b * c << std::endl;\r\n\t}\r\n}", "problem_id": "108", "problem_title": "(200)\u76ee\u6e2c\u306e\u795e\u3001akusyounin!", "datetime": "2018-08-25 13:37:09", "lang": "C++", "user": "inosei", "sample_io": ["WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "200", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "200"}
+{
+    "user": "inosei",
+    "problem_id": 108,
+    "result": "WrongAnswer"
+}

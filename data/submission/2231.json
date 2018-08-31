@@ -1,1 +1,5 @@
-{"submission_id": "2231", "source": "#include<iostream>\r\nint main() {\r\n\tint A = 0;\r\n\tint B = 0;\r\n\tint C = 0;\r\n\tstd::cin >> A >> B >> C;\r\n\tif (A < B*C) {\r\n\t\tstd::cout <<B*C<< std::endl;\r\n\r\n\t}\r\n}\r\n", "problem_id": "107", "problem_title": "(100)\u30ab\u30fc\u30c9\u30b2\u30fc\u30e0\u306e\u795e\u3001akusyounin!", "datetime": "2018-08-25 13:42:09", "lang": "C++", "user": "yoshiyasu", "sample_io": ["Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["Accepted", "WrongAnswer", "WrongAnswer"]}], "result": "WrongAnswer", "score": "0", "max_score": "100"}
+{
+    "user": "yoshiyasu",
+    "problem_id": 107,
+    "result": "WrongAnswer"
+}

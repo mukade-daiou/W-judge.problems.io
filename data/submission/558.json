@@ -1,1 +1,5 @@
-{"submission_id": "558", "source": "#include<iostream>\r\nint main()\r\n{\r\n\tint N;\r\n\tstd::cin >> N;\r\n\tif (N % 15 == 0) {\r\n\t\tstd::cout << \"FizzBuzz\" << std::endl;\r\n\t}\r\n\telse if (N % 5 == 0) {\r\n\t\tstd::cout << \"Buzz\" << std::endl;\r\n\t}\r\n\telse if (N % 3 == 0) {\r\n\t\tstd::cout << \"Fizz\" << std::endl;\r\n\t}\r\n\telse {\r\n\t\tstd::cout << N << std::endl;\r\n\t}\r\n}", "problem_id": "13", "problem_title": "\u54c1\u6027\u306e\u306a\u3044FizzBuzz", "datetime": "2018-08-05 08:16:10", "lang": "C++", "user": "yuuto", "sample_io": ["Accepted", "Accepted", "Accepted", "Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "result": "WrongAnswer", "score": "0", "max_score": "100"}
+{
+    "user": "yuuto",
+    "problem_id": 13,
+    "result": "WrongAnswer"
+}

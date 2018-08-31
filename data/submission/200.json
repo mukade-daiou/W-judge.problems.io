@@ -1,1 +1,5 @@
-{"submission_id": "200", "problem_id": "1", "problem_title": "Hello, World", "datetime": "2018-07-21 08:00:12", "result": "WaitingJudge", "source": "#include<iostream>\r\nint main() {\r\n\tstd::cout << \"Hello, World\" << std::endl;\r\n}", "user": "papipupepo", "lang": "C++"}
+{
+    "user": "papipupepo",
+    "problem_id": 1,
+    "result": "WaitingJudge"
+}

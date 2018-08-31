@@ -1,1 +1,5 @@
-{"submission_id": "1439", "source": "#include<iostream>\r\n#include<string>\r\nint main() {\r\n\tint h=0, k=0;\r\n\tstd::string s;\r\n\tstd::cin >> s;\r\n\tfor (int i = 0; i < s.size(); i++) {\r\n\t\tfor (int j = i + 1; j < s.size(); j++) {\r\n\t\t\tif (s[i] == 'r') {\r\n\r\n\t\t\t\tif (s[j] == 'u') {\r\n\t\t\t\t\tk += 1;\r\n\t\t\t\t}\r\n\t\t\t\tif (s[j] == 'd') {\r\n\t\t\t\t\tk -= 1;\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t\t\tif (s[i] == 'l') {\r\n\t\t\t\t\tif (s[j] == 'u') {\r\n\t\t\t\t\t\th += 1;\r\n\t\t\t\t\t}\r\n\t\t\t\t\tif (s[j] == 'd') {\r\n\t\t\t\t\t\th -= 1;\r\n\t\t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\tif (h < 0) {\r\n\t\t\t\th = 23;\r\n\t\t\t}\r\n\t\t\tif (h == 24) {\r\n\t\t\t\th = 0;\r\n\t\t\t}\r\n\t\t\tif (k < 0) {\r\n\t\t\t\tk = 23;\r\n\t\t\t}\r\n\t\t\tif (k == 24) {\r\n\t\t\t\tk = 0;\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n\tstd::cout << h << \" \" << k;\r\n}", "problem_id": "71", "problem_title": "\u30c7\u30b8\u30bf\u30eb\u6642\u8a08", "datetime": "2018-08-07 11:30:04", "lang": "C++", "user": "UMT", "sample_io": ["WrongAnswer", "WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "UMT",
+    "problem_id": 71,
+    "result": "WrongAnswer"
+}

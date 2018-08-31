@@ -1,1 +1,5 @@
-{"submission_id": "2298", "source": "#include <iostream>\r\n\r\nint calc_x(int L, int K, int l) {\r\n\tint X;\r\n\tif (l < L) {\r\n\t\tX = 0;\r\n\t}\r\n\telse {\r\n\t\tX = K;\r\n\t}\r\n\treturn X;\r\n\t}\r\n\r\n\r\nint calc_y(int L, int K, int l) {\r\n\tint Y;\r\n\tif (l < L) {\r\n\t\tY = 1;\r\n\t}\r\n\telse {\r\n\t\tY = 0;\r\n\t}\r\n\treturn Y;\r\n}\r\nint main() {\r\n\tint N, L, K;\r\n\tunsigned long long  X = 0, Y = 0;\r\n\tstd::cin >> N >> L >> K;\r\n\tfor (int i = 0;i < N;++i) {\r\n\t\tint l;\r\n\t\tstd::cin >> l;\r\n\t\tX += calc_x(L, K, l);\r\n\t\tY += calc_y(L, K, l);\r\n\t}\r\n\tstd::cout << X << std::endl;\r\n\tstd::cout << Y << std::endl;\r\n\treturn 0;\r\n}", "problem_id": "108", "problem_title": "(200)\u76ee\u6e2c\u306e\u795e\u3001akusyounin!", "datetime": "2018-08-25 15:41:48", "lang": "C++", "user": "hinata_totyu", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "200", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "200", "max_score": "200"}
+{
+    "user": "hinata_totyu",
+    "problem_id": 108,
+    "result": "Accepted"
+}

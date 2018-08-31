@@ -1,1 +1,5 @@
-{"submission_id": "812", "source": "#include<iostream>\r\n#include<string>\r\n#include<vector>\r\n\r\nint main() {\r\n\tint N, M;\r\n\tstd::cin >> N >> M;\r\n\r\n\tint ban[60000];\r\n\tstd::vector<int>lunk;\r\n\tfor (int i = 0; i < N; i++) {\r\n\t\tstd::cin >> ban[i];//ban[0]=10;//ban[1]=7;//ban[0]=19;\r\n\t\tif(lunk.size() == 0)lunk.push_back(i);\r\n\t\telse {\r\n\t\t\tfor (int j = 0; j < lunk.size(); j++) {\r\n\t\t\t\tif (ban[lunk[j]] > ban[i]) {\r\n\t\t\t\t\tlunk.insert(lunk.begin() + j, i);\r\n\t\t\t\t\tbreak;\r\n\t\t\t\t}\r\n\t\t\t\telse if (j == lunk.size() - 1) {\r\n\t\t\t\t\tlunk.push_back(i);\r\n\t\t\t\t\tbreak;\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t};\r\n\t}\r\n\r\n\tint k = 0;\r\n\tint z = 0;\r\n\twhile (M >= 0) {\r\n\t\tfor (int i = 0; i < lunk[z] + 1; i++) {\r\n\t\t\tM -= ban[lunk[z]];\r\n\t\t\tif (M >= 0)k++;\r\n\t\t}\r\n\t\tz++;\r\n\t}\r\n\tstd::cout << k << std::endl;\r\n\treturn 0;\r\n}", "problem_id": "73", "problem_title": "\u682a\u53d6\u5f15", "datetime": "2018-08-06 14:43:44", "lang": "C++", "user": "oraoradori", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "oraoradori",
+    "problem_id": 73,
+    "result": "Accepted"
+}

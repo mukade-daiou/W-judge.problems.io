@@ -1,1 +1,5 @@
-{"submission_id": "725", "source": "\r\n#include <iostream>\r\n#include <string>\r\n\tint main() {\r\n\t\tstd::string str;\r\n\t\tstd::cin >> str;\r\n\t\tint a = str.size();\r\n\t\tfor (int i = 0; i<a; i++) {\r\n\t\t\tchar c = str[i];\r\n\t\t\tif (c <= 'w'&&c >= 'a') {\r\n\t\t\t\tc += 3;\r\n\t\t\t\tstd::cout << c;\r\n\t\t\t}\r\n\t\t\tif (c >= 'x'&&c <= 'z') {\r\n\t\t\t\tc -= 23;\r\n\t\t\t\tstd::cout << c;\r\n\t\t\t}\r\n\r\n\t\t}\r\n\t\tstd::cout << std::endl;\r\n\t\t\t}\r\n\r\n", "problem_id": "57", "problem_title": "\u30b7\u30fc\u30b6\u30fc\u6697\u53f7", "datetime": "2018-08-06 14:09:26", "lang": "C++", "user": "shoji", "sample_io": ["WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "shoji",
+    "problem_id": 57,
+    "result": "WrongAnswer"
+}

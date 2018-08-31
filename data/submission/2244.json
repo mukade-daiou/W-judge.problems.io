@@ -1,1 +1,5 @@
-{"submission_id": "2244", "source": "#include<iostream>\r\nint main() {\r\n\tint N = 0;\r\n\tlong long int M = 0;\r\n\tstd::cin >> N >> M;\r\n\tstd::cout << N % M << std::endl;\r\n\treturn 0;\r\n\r\n}", "problem_id": "112", "problem_title": "(300)mod!mod!akusyounin!", "datetime": "2018-08-25 13:55:26", "lang": "C++", "user": "yoshiyasu", "sample_io": ["Accepted", "Accepted"], "testcase": [{"result": "RuntimeError", "max_score": "300", "io_result": ["Accepted", "RuntimeError", "RuntimeError"]}], "result": "RuntimeError", "score": "0", "max_score": "300"}
+{
+    "user": "yoshiyasu",
+    "problem_id": 112,
+    "result": "RuntimeError"
+}

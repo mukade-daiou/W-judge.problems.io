@@ -1,1 +1,5 @@
-{"submission_id": "1186", "source": "#include<iostream>\r\n#include<string>\r\n\r\nstd::string str;\r\n\r\nint t;\r\n\r\nint r;\r\n\r\nenum tmtm{hour,minute};\r\n\r\ntmtm select=hour;\r\n\r\nint main(){\r\n    \r\n    std::cin>>str;\r\n    \r\n    for(auto&& x:str){\r\n        if(x=='u'){\r\n            if(select==hour)\r\n                t+=60;\r\n            else\r\n                t++;\r\n        }\r\n        if(x=='d'){\r\n            if(select==hour)\r\n                t-=60;\r\n            else\r\n                t--;\r\n        }\r\n        if(x=='r')\r\n            select=minute;\r\n        if(x=='l')\r\n            select=hour;\r\n    }\r\n    \r\n    t=(t+3600*10000)%3600;\r\n    \r\n    std::cout<<t/60<<':'<<t%60<<std::endl;\r\n    \r\n}", "problem_id": "71", "problem_title": "\u30c7\u30b8\u30bf\u30eb\u6642\u8a08", "datetime": "2018-08-07 09:54:34", "lang": "C++", "user": "shugo15", "result": "CompileError", "score": "0", "max_score": "0"}
+{
+    "user": "shugo15",
+    "problem_id": 71,
+    "result": "CompileError"
+}

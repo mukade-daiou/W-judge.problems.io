@@ -1,1 +1,5 @@
-{"submission_id": "629", "source": "#include <iostream>\r\n#include <vector>\r\n//using namespace std;\r\nint main(void){\r\n    // Your code here!\r\n    std::cout<<\"Hello, PCP\"<<std::endl;\r\n}\r\n", "problem_id": "79", "problem_title": "Hello, PCP", "datetime": "2018-08-06 13:34:19", "lang": "C++", "user": "taiki", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "taiki",
+    "problem_id": 79,
+    "result": "Accepted"
+}

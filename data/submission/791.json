@@ -1,1 +1,5 @@
-{"submission_id": "791", "source": "#include<iostream>\r\n#include<cmath>\r\n#include<algorithm>\r\n#include <cassert>\r\nusing namespace std;\r\nint main() {\r\n\tint N, M, A[10000], B[10000], fee[10000], total1, total2;\r\n\tcin >> N >> M;\r\n\tfor (int p = 0; p < M ; p++) {\r\n\t\tcin >> A[p];\r\n\t\tcin >> B[p];\r\n\t}\r\n\tfor (int q = 1; q < M+1 ; q++) {\r\n\t\tfee[q-1] = B[q-1] / A[q-1];\r\n\t}\r\n\r\n\ttotal2 = min(fee[0],114514);\r\n\tif (M > 1) {\r\n\t\tfor (int w = 1; w < M + 1; w++) {\r\n\t\t\ttotal2 = min(fee[w-1], fee[w ]);\r\n\t\t\t\r\n\t\t}\r\n\t}\r\n\ttotal1 = N * total2;\r\n\tcout << total1 << endl;\r\n}", "problem_id": "35", "problem_title": "\u725b\u4e3c\u306e\u6ce8\u6587", "datetime": "2018-08-06 14:32:25", "lang": "C++", "user": "forest", "sample_io": ["Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "result": "WrongAnswer", "score": "0", "max_score": "100"}
+{
+    "user": "forest",
+    "problem_id": 35,
+    "result": "WrongAnswer"
+}

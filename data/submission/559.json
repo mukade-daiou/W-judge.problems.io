@@ -1,1 +1,5 @@
-{"submission_id": "559", "source": "#include <iostream>\r\n\r\nusing ll=long long int;\r\n\r\nconstexpr int MAX_N=25;\r\n\r\nint n;\r\nll p;\r\n\r\nll a[MAX_N];\r\n\r\nint main() {\r\n\r\n    std::cin>>n>>p;\r\n\r\n    for(int i=0;i<n;++i)\r\n        std::cin>>a[i];\r\n\r\n    for(int i=0;i<(1<<n);++i){\r\n        ll res1=1,res2=1;\r\n        for(int j=0;j<n;++j){\r\n            if((i>>j)&1){\r\n                res1*=a[j];\r\n                res1%=p;\r\n            }\r\n            else{\r\n                res2*=a[j];\r\n                res2%=p;\r\n            }\r\n        }\r\n        res1=(res1+p)%p;\r\n        res2=(res2+p)%p;\r\n        if(res1==res2){\r\n            std::cout<<\"Yes\"<<std::endl;\r\n            return 0;\r\n        }\r\n    }\r\n\r\n    std::cout<<\"No\"<<std::endl;\r\n\r\n    return 0;\r\n}", "problem_id": "75", "problem_title": "\u590f\u4f11\u307f\u7de8", "datetime": "2018-08-05 12:26:19", "lang": "C++", "user": "ikasmith", "sample_io": ["WrongAnswer", "WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "ikasmith",
+    "problem_id": 75,
+    "result": "WrongAnswer"
+}

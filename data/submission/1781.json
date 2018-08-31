@@ -1,1 +1,5 @@
-{"submission_id": "1781", "source": "#include<iostream>\r\n#include<string>\r\n#include<vector>\r\n#include <stdio.h>\r\n#include <stdlib.h>\r\n#include <time.h>\r\n#include <algorithm>\r\n\r\n\r\nint Eratosthenes(int N) {\r\n\tint arr[100000];\r\n\tfor (int i = 0; i < N; i++) {\r\n\t\tarr[i] = 1;\r\n\t}\r\n\tfor (int i = 2; i < sqrt(N); i++) {\r\n\t\tif (arr[i]) {\r\n\t\t\tfor (int j = 0; i * (j + 2) < N; j++) {\r\n\t\t\t\tarr[i *(j + 2)] = 0;\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n\r\n\tint count = 0;\r\n\tfor (int i = 2; i < N; i++) {\r\n\t\tif (arr[i]) {\r\n\t\t\tcount++;\r\n\t\t}\r\n\t}\r\n\treturn count;\r\n}\r\n\r\nint main() {\r\n\tint N;\r\n\tstd::cin >> N;\r\n\tstd::cout << Eratosthenes(N) << std::endl;\r\n\treturn 0;\r\n}", "problem_id": "65", "problem_title": "FOO\u541b\u306e\u6559\u79d1\u66f8\u306b\u8f09\u3063\u3066\u308b\u30b3\u30e9\u30e0\u7de8", "datetime": "2018-08-08 11:07:46", "lang": "C++", "user": "oraoradori", "result": "CompileError", "score": "0", "max_score": "0"}
+{
+    "user": "oraoradori",
+    "problem_id": 65,
+    "result": "CompileError"
+}

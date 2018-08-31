@@ -1,1 +1,5 @@
-{"submission_id": "1042", "source": "#include <iostream>\r\n#include <math.h>\r\n\r\nint main() {\r\n\tunsigned long long X;\r\n\tstd::cin >> X;\r\n\tunsigned long long kakko;\r\n\tkakko = pow(2, X);\r\n\tkakko = long(kakko) - 1;\r\n\tunsigned long long aaa = kakko % 1000000007;\r\n\tstd::cout << aaa << std::endl;\r\n\treturn 0;\r\n}", "problem_id": "44", "problem_title": "Go big", "datetime": "2018-08-06 15:59:19", "lang": "C++", "user": "takashu", "sample_io": ["Accepted", "Accepted"], "testcase": [{"result": "Accepted", "max_score": "30", "io_result": ["Accepted", "Accepted"]}, {"result": "WrongAnswer", "max_score": "30", "io_result": ["WrongAnswer"]}, {"result": "WrongAnswer", "max_score": "40", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "result": "WrongAnswer", "score": "30", "max_score": "100"}
+{
+    "user": "takashu",
+    "problem_id": 44,
+    "result": "WrongAnswer"
+}

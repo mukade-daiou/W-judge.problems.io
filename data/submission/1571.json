@@ -1,1 +1,5 @@
-{"submission_id": "1571", "source": "#include <iostream>\r\n#include <string>\r\n#include <algorithm>\r\n#include <vector>\r\n#include <map>\r\n#include <cmath>\r\n#include <iomanip>\r\n#include <queue>\r\n#include <stack>\r\n#include <deque>\r\n#define rep(i,n) for(int i=0;i<n;++i)\r\n#define FOR(i,s) for(int i=s;i>=0;--i)\r\n\r\nusing ll = long long;\r\nusing ull = unsigned long long;\r\nusing namespace std;\r\n\r\nconst ll INF = 1000000000000;\r\nconst ll MOD = 1000000007;\r\n\r\nll n, m, ans = 0, A[101010];\r\nstring s;\r\nint main() {\r\n\tcin >> n;\r\n\trep(i,n) {\r\n\t\tif (n == 1) break;\r\n\t\telse if (n % 2 == 0) {\r\n\t\t\tn /= 2;\r\n\t\t\tans++;\r\n\t\t}\r\n\t\telse {\r\n\t\t\tn *= 3;\r\n\t\t\tn++;\r\n\t\t\tans++;\r\n\t\t}\r\n\t\ti--;\r\n\t}\r\n\tcout << ans << endl;\r\n\treturn 0;\r\n}", "problem_id": "42", "problem_title": "3n+1", "datetime": "2018-08-08 09:52:27", "lang": "C++", "user": "Under_bar", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "Under_bar",
+    "problem_id": 42,
+    "result": "Accepted"
+}

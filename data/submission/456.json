@@ -1,1 +1,5 @@
-{"submission_id": "456", "source": "#include <iostream>\r\n\r\nint main(){\r\n  int n;\r\n  std::cin>>n;\r\n  int p[201][3];\r\n  int memo[101][3] = {0};\r\n  int res[101] = {0};\r\n  for(int i=0;i<n;++i){\r\n    for(int j=0;j<3;++j){\r\n      std::cin>>p[i][j];\r\n    }\r\n  }\r\n  for(int i=0;i<3;++i){\r\n    for(int j=0;j<n;++j){\r\n      memo[p[j][i]][i]++;\r\n    }\r\n    for(int j=0;j<n;++j){\r\n      if(memo[p[j][i]][i]==1)res[j]+=p[j][i];\r\n    }\r\n  }\r\n\r\n  for(int i=0;i<n;++i){\r\n    std::cout<<res[i]<<std::endl;\r\n  }\r\n  return 0;\r\n}\r\n", "problem_id": "40", "problem_title": "\u6570\u5f53\u3066\u30b2\u30fc\u30e0 (Unique number)", "datetime": "2018-07-31 15:10:27", "lang": "C++", "user": "vel", "sample_io": ["Accepted", "Accepted"], "testcase": [{"result": "Accepted", "max_score": "20", "io_result": ["Accepted"]}, {"result": "Accepted", "max_score": "20", "io_result": ["Accepted"]}, {"result": "Accepted", "max_score": "20", "io_result": ["Accepted"]}, {"result": "WrongAnswer", "max_score": "20", "io_result": ["WrongAnswer"]}, {"result": "WrongAnswer", "max_score": "20", "io_result": ["WrongAnswer"]}], "result": "WrongAnswer", "score": "60", "max_score": "100"}
+{
+    "user": "vel",
+    "problem_id": 40,
+    "result": "WrongAnswer"
+}

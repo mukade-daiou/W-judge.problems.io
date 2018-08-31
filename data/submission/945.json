@@ -1,1 +1,5 @@
-{"submission_id": "945", "source": "#include <iostream>\r\nint main(){\r\n\tlong long X=0,Y=1;\r\n\tstd::cin>>X;\r\n\tfor(int i=0;i<X;i++){\r\n\t\tY=2*Y;\r\n\t}\r\n\tstd::cout<<(Y-1)%1000000007<<std::endl;\r\n\treturn 0;\r\n}", "problem_id": "44", "problem_title": "Go big", "datetime": "2018-08-06 15:37:09", "lang": "C++", "user": "246", "sample_io": ["Accepted", "Accepted"], "testcase": [{"result": "Accepted", "max_score": "30", "io_result": ["Accepted", "Accepted"]}, {"result": "WrongAnswer", "max_score": "30", "io_result": ["WrongAnswer"]}, {"result": "WrongAnswer", "max_score": "40", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "result": "WrongAnswer", "score": "30", "max_score": "100"}
+{
+    "user": "246",
+    "problem_id": 44,
+    "result": "WrongAnswer"
+}

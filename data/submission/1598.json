@@ -1,1 +1,5 @@
-{"submission_id": "1598", "source": "#include <iostream>\r\n#include <string>\r\nint main(){\r\n\tint n,m=0;\r\n\tstd::cin>>n;\r\n\twhile(n!=1){\r\n\t\tif(n%2==0){\r\n\t\t\tn=n/2;\r\n\t\t\tm++;\r\n\t\t}else{\r\n\t\t\tn=n*3+1;\r\n\t\t\tm++;\r\n\t\t}\r\n\t}\r\n\tstd::cout<<m<<std::endl;\r\n\treturn 0;\r\n}", "problem_id": "42", "problem_title": "3n+1", "datetime": "2018-08-08 09:58:37", "lang": "C++", "user": "246", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "246",
+    "problem_id": 42,
+    "result": "Accepted"
+}

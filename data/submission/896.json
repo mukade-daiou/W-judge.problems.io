@@ -1,1 +1,5 @@
-{"submission_id": "896", "source": "#include<iostream>\r\n#include<string>\r\nint main() {\r\n\tint b, w,e;\r\n\tstd::string str;\r\n\tstd::cin >> str;\r\n\tstr=\"B\";\r\n\tb = str.size();\r\n\tstr=\"W\";\r\n\tw = str.size();\r\n\tstr = \"E\";\r\n\te = str.size();\r\n\t\tif (b > w)\r\n\t\t\tstd::cout << \"Black wins\" << std::endl;\r\n\t\telse\r\n\t\t\tif (b < w)\r\n\t\t\t\tstd::cout << \"White wins\" << std::endl;\r\n\t\t\telse\r\n\t\t\t\tstd::cout << \"Draw\" << std::endl;\r\n\treturn 0;\r\n}", "problem_id": "58", "problem_title": "\u4e00\u6b21\u5143\u30ea\u30d0\u30fc\u30b7", "datetime": "2018-08-06 15:19:29", "lang": "C++", "user": "kazuyoshi", "sample_io": ["WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "Accepted", "Accepted", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "kazuyoshi",
+    "problem_id": 58,
+    "result": "WrongAnswer"
+}

@@ -1,1 +1,5 @@
-{"submission_id": "1648", "source": "#include <iostream>\r\n#include <math.h>\r\nusing namespace std;\r\n\r\nlong Eratosthenes(long g, long *arr) {\r\n\tlong kazu = 0;\r\n\tfor (long i = 0; i < g; i++) {\r\n\t\tarr[i] = 1;\r\n\t}\r\n\tfor (long i = 2; i < sqrt(g); i++) {\r\n\t\tif (arr[i]) {\r\n\t\t\tfor (long j = 0; i * (j + 2) < g; j++) {\r\n\t\t\t\tarr[i *(j + 2)] = 0;\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n\r\n\tfor (long i = 2; i < g; i++) {\r\n\t\tif (arr[i]) {\r\n\t\t\tkazu++;\r\n\t\t}\r\n\t}\r\n\treturn kazu;\r\n}\r\n\r\n\r\nint main() {\r\n\tlong g;\r\n\tstd::cin >> g;\r\n\tlong *arr;\r\n\tarr = new long[1000000];\r\n\tlong kazu = Eratosthenes(g, arr);\r\n\tstd::cout << kazu << std::endl;\r\n}", "problem_id": "65", "problem_title": "FOO\u541b\u306e\u6559\u79d1\u66f8\u306b\u8f09\u3063\u3066\u308b\u30b3\u30e9\u30e0\u7de8", "datetime": "2018-08-08 10:17:55", "lang": "C++", "user": "takashu", "sample_io": ["Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "WrongAnswer", "score": "0", "max_score": "100"}
+{
+    "user": "takashu",
+    "problem_id": 65,
+    "result": "WrongAnswer"
+}

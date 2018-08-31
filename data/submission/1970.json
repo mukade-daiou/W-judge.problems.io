@@ -1,1 +1,5 @@
-{"submission_id": "1970", "source": "#include<iostream>\r\nusing namespace std;\r\nint main()\r\n{\r\n cin >> \"Hello,World\" >> endl;\r\n}", "problem_id": "86", "problem_title": "Hello, World", "datetime": "2018-08-13 09:29:25", "lang": "C++", "user": "yuuto", "result": "CompileError", "score": "0", "max_score": "0"}
+{
+    "user": "yuuto",
+    "problem_id": 86,
+    "result": "CompileError"
+}

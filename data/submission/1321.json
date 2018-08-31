@@ -1,1 +1,5 @@
-{"submission_id": "1321", "source": "#include<iostream>\r\n#include<string>\r\n\r\nstd::string str;\r\n\r\nint hourt,minutet;\r\n\r\nenum tmtmdsdds{hour,minute};\r\n\r\ntmtmdsdds selectee=hour;\r\n\r\nint main(){\r\n    \r\n    std::cin>>str;\r\n    \r\n    for(auto&& x:str){\r\n        if(x=='u'){\r\n            if(selectee==hour)\r\n                hourt++;\r\n            else\r\n                minutet++;\r\n        }\r\n        if(x=='d'){\r\n            if(selectee==hour)\r\n                hourt--;\r\n            else\r\n                minutet--;\r\n        }\r\n        if(x=='r')\r\n            selectee=minute;\r\n        if(x=='l')\r\n            selectee=hour;\r\n    }\r\n    \r\n    hourt=(hourt+24*10000)%24;\r\n    \r\n    minutet=(minutet+60*10000)%60;\r\n    \r\n    std::cout<<hourt<<' '<<minutet<<std::endl;\r\n    \r\n    return 0;\r\n    \r\n}", "problem_id": "71", "problem_title": "\u30c7\u30b8\u30bf\u30eb\u6642\u8a08", "datetime": "2018-08-07 10:40:30", "lang": "C++", "user": "shugo15", "sample_io": ["Accepted", "Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "shugo15",
+    "problem_id": 71,
+    "result": "Accepted"
+}

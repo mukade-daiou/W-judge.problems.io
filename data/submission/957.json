@@ -1,1 +1,5 @@
-{"submission_id": "957", "source": "#include <iostream>\r\n#include <algorithm>\r\n#include <string>\r\n#include <vector>\r\n#include <map>\r\n#include <iomanip>\r\n#include <cmath>\r\n#include <cstdlib>\r\n#include <math.h>\r\n\r\nint main(int argc, char **argv)\r\n{\r\n\tint h, w, n;\r\n\tstd::cin >> h >> w >> n;\r\n\tif(n<=100) std::cout << \"Yes\" << std::endl;\r\n\treturn 0;\r\n}\r\n", "problem_id": "59", "problem_title": "\u30e4\u30ae\u306e\u7267\u5834", "datetime": "2018-08-06 15:40:53", "lang": "C++", "user": "Torumu106", "sample_io": ["Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "WrongAnswer", "Accepted", "WrongAnswer", "WrongAnswer", "WrongAnswer", "Accepted", "Accepted", "Accepted", "Accepted", "WrongAnswer", "Accepted", "WrongAnswer"]}], "result": "WrongAnswer", "score": "0", "max_score": "100"}
+{
+    "user": "Torumu106",
+    "problem_id": 59,
+    "result": "WrongAnswer"
+}

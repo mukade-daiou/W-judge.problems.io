@@ -1,1 +1,5 @@
-{"submission_id": "1617", "source": "#include<iostream>\r\n\r\nunsigned long long n,res;\r\n\r\nint main(){\r\n    \r\n    std::cin>>n;\r\n    \r\n    while(n!=1){\r\n        \r\n        if(n%2)\r\n            n=n*3+1;\r\n        else\r\n            n=n/2;\r\n        \r\n        res++;\r\n        \r\n    }\r\n    \r\n    std::cout<<res<<std::endl;\r\n    \r\n    return 0;\r\n}", "problem_id": "42", "problem_title": "3n+1", "datetime": "2018-08-08 10:03:55", "lang": "C++", "user": "shugo15", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "shugo15",
+    "problem_id": 42,
+    "result": "Accepted"
+}

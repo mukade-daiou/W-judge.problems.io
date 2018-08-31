@@ -1,1 +1,5 @@
-{"submission_id": "2261", "source": "#include<iostream>\r\nint main() {\r\n    long long N, M;\r\n    std::cin >> N >> M;\r\n    std::cout << N % M << std::endl;\r\n    return 0;\r\n}", "problem_id": "112", "problem_title": "(300)mod!mod!akusyounin!", "datetime": "2018-08-25 14:05:46", "lang": "C++", "user": "yuuto", "sample_io": ["Accepted", "Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "300", "io_result": ["Accepted", "WrongAnswer", "WrongAnswer"]}], "result": "WrongAnswer", "score": "0", "max_score": "300"}
+{
+    "user": "yuuto",
+    "problem_id": 112,
+    "result": "WrongAnswer"
+}

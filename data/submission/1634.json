@@ -1,1 +1,5 @@
-{"submission_id": "1634", "source": "#include<iostream>\r\n#include<algorithm>\r\n#define rep(i,rept) for (ll i = 0; i < rept; i++)\r\n\ttypedef long long ll;\r\n\r\n\tint main() {\r\n\t\tll i = 0, j = 0;\r\n\t\tll n = 0,ans = 0;\r\n\t\tll count = 0;\r\n\t\tstd::cin >> n;\r\n\t\tfor (int i = 1; i < n; i++) {\r\n\t\t\tcount = 0;\r\n\t\t\tfor (j = 1; j <= i; j++) {\r\n\t\t\t\tif (i%j == 0) {\r\n\t\t\t\t\tcount++;\r\n\t\t\t\t}\r\n\t\t\t\tif (count > 2) {\r\n\t\t\t\t\tbreak;\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t\tif (count == 2) {\r\n\t\t\t\tans++;\r\n\t\t\t}\r\n\t\t}\r\n\t\tstd::cout << ans << std::endl;\r\n\r\n\t}", "problem_id": "65", "problem_title": "FOO\u541b\u306e\u6559\u79d1\u66f8\u306b\u8f09\u3063\u3066\u308b\u30b3\u30e9\u30e0\u7de8", "datetime": "2018-08-08 10:10:44", "lang": "C++", "user": "Hinamel", "sample_io": ["Accepted"], "testcase": [{"result": "TimeLimitExceeded", "max_score": "100", "io_result": ["WrongAnswer", "Accepted", "Accepted", "Accepted", "TimeLimitExceeded", "Accepted", "Accepted", "Accepted", "TimeLimitExceeded", "TimeLimitExceeded"]}], "result": "TimeLimitExceeded", "score": "0", "max_score": "100"}
+{
+    "user": "Hinamel",
+    "problem_id": 65,
+    "result": "TimeLimitExceeded"
+}

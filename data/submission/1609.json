@@ -1,1 +1,5 @@
-{"submission_id": "1609", "source": "#include<iostream>\r\n#include<cstdlib>\r\nint main() {\r\n\tint n = 0, m = 0;\r\n\tstd::cin >> n, m;\r\n\tstd::cout << n+m+n*m+n/m+n%m+std::abs(n-m)<< std::endl;\r\n}", "problem_id": "50", "problem_title": "FOO\u541b\u3068HOGE\u3061\u3083\u3093\u306e\u5165\u5b66\u9593\u8fd1\u7de8", "datetime": "2018-08-08 10:01:28", "lang": "C++", "user": "yokawa", "sample_io": ["RuntimeError"], "result": "RuntimeError", "testcase": [{"result": "RuntimeError", "max_score": "100", "io_result": ["RuntimeError", "RuntimeError", "RuntimeError", "RuntimeError", "RuntimeError"]}], "score": "0", "max_score": "100"}
+{
+    "user": "yokawa",
+    "problem_id": 50,
+    "result": "RuntimeError"
+}

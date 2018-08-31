@@ -1,1 +1,5 @@
-{"submission_id": "307", "source": "#include <iostream>\r\nusing namespace std;\r\nint main() {\r\n\tint n;\r\n\tcin >> n;\r\n\tif (n <= 2.5)\r\n\t\tcout << \"nail\" << endl;\r\n\telse if (n <= 5.5)\r\n\t\tcout << \"knife\" << endl;\r\n\telse\r\n\t\tcout << \"; ;\" << endl;\r\n\treturn 0;\r\n}", "problem_id": "33", "problem_title": "\u30e2\u30fc\u30b9\u786c\u5ea6 / Mohs hardness", "datetime": "2018-07-30 22:42:44", "lang": "C++", "user": "yuuto", "sample_io": ["Accepted", "Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "yuuto",
+    "problem_id": 33,
+    "result": "Accepted"
+}

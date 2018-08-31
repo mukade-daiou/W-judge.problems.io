@@ -1,1 +1,5 @@
-{"submission_id": "911", "source": "#include<iostream>\r\n#include<string>\r\n#include<vector>\r\n#include <stdio.h>\r\n#include <stdlib.h>\r\n#include <time.h>\r\n\r\nchar shift_char(int shift_count, char char_in)\r\n{\r\n\tchar str[27] = \"abcdefghijklmnopqrstuvwxyz\";\r\n\tint i, j;\r\n\r\n\tfor (i = 0; i < 26; i++) {\r\n\t\tif (char_in == str[i]) break;\r\n\t}\r\n\tif (i >= 26) return char_in; /* \u3053\u306e\u884c\u3092\u8ffd\u52a0\u3059\u308b */\r\n\r\n\tj = (i + shift_count) % 26;\r\n\r\n\tif (j < 0) {\r\n\t\tj += 26;\r\n\t}\r\n\treturn str[j];\r\n}\r\n\r\nint main() {\r\n\tsrand((unsigned)time(NULL));\r\n\tif (rand() % 2 == 0)std::cout << \"Yes\" << std::endl;\r\n\telse std::cout << \"No\" << std::endl;\r\n\treturn 0;\r\n}", "problem_id": "59", "problem_title": "\u30e4\u30ae\u306e\u7267\u5834", "datetime": "2018-08-06 15:25:53", "lang": "C++", "user": "oraoradori", "sample_io": ["WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "Accepted", "Accepted", "WrongAnswer", "WrongAnswer", "WrongAnswer", "Accepted", "Accepted", "Accepted", "Accepted", "WrongAnswer", "WrongAnswer", "Accepted"]}], "score": "0", "max_score": "100"}
+{
+    "user": "oraoradori",
+    "problem_id": 59,
+    "result": "WrongAnswer"
+}

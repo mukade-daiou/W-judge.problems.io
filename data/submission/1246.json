@@ -1,1 +1,5 @@
-{"submission_id": "1246", "source": "#include<iostream>\r\n#include<string>\r\n#include<vector>\r\n#include <stdio.h>\r\n#include <stdlib.h>\r\n#include <time.h>\r\n#include <algorithm>\r\n\r\n\r\nint main() {\r\n\tstd::string str;\r\n\tstd::cin >> str;\r\n\r\n\tint hour = 0, min = 0;\r\n\tbool time = true;\r\n\tfor (int i = 0; i<str.size(); i++) {\r\n\t\tif (str[i] == 'u') {\r\n\t\t\tif (time)hour++;\r\n\t\t\telse min++;\r\n\t\t}\r\n\t\tif (str[i] == 'd') {\r\n\t\t\tif (time)hour--;\r\n\t\t\telse min--;\r\n\r\n\t\t}\r\n\t\tif (str[i] == 'r') time = false;\r\n\t\tif (str[i] == 'l') time = true;\r\n\t}\r\n\twhile (min >= 60) {\r\n\t\tmin -= 60;\r\n\t\t//hour++;\r\n\t}\r\n\twhile (min < 0) {\r\n\t\tmin += 60;\r\n\t\t//hour--;\r\n\t}\r\n\twhile (hour >= 24)hour -= 24;\r\n\twhile (hour < 0)hour += 24;\r\n\tstd::cout << hour << \" \" << min << std::endl;\r\n\treturn 0;\r\n}", "problem_id": "71", "problem_title": "\u30c7\u30b8\u30bf\u30eb\u6642\u8a08", "datetime": "2018-08-07 10:14:09", "lang": "C++", "user": "oraoradori", "sample_io": ["Accepted", "Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "oraoradori",
+    "problem_id": 71,
+    "result": "Accepted"
+}

@@ -1,1 +1,5 @@
-{"submission_id": "664", "source": "#include<iostream>\r\n#include<string>\r\n\r\nint main() {\r\n\tstd::string str;\r\n\tstd::cin >> str;\r\n\tint white = 0;\r\n\tint black = 0;\r\n\tfor (int i = 0; i < str.size();i++) {\r\n\t\tif (str[i] == 'W') {\r\n\t\t\twhite++;\r\n\t\t}\r\n\t\telse if (str[i] == 'B') {\r\n\t\t\tblack++;\r\n\t\t}\r\n\t}\r\n\tif (white < black) {\r\n\t\tstd::cout << \"Black wins\" << std::endl;\r\n\t}\r\n\telse if (white > black) {\r\n\t\tstd::cout << \"White wins\" << std::endl;\r\n\t}\r\n\telse {\r\n\t\tstd::cout << \"Draw\" << std::endl;\r\n\t}\r\n}\r\n", "problem_id": "58", "problem_title": "\u4e00\u6b21\u5143\u30ea\u30d0\u30fc\u30b7", "datetime": "2018-08-06 13:47:10", "lang": "C++", "user": "s.ogino", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "s.ogino",
+    "problem_id": 58,
+    "result": "Accepted"
+}

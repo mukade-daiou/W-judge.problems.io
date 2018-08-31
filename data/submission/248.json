@@ -1,1 +1,5 @@
-{"submission_id": "248", "source": "#include <iostream>\r\n#include <algorithm>\r\nint sa(int n, int m) {\r\n\tif (n >= 0) {\r\n\t\tif (m >= 0)\r\n\t\t\treturn max(n, m) - min(n, m);\r\n\t\telse\r\n\t\t\treturn n + abs(m);\r\n\t}\r\n\telse {\r\n\t\tif (m >= 0)\r\n\t\t\treturn m - n;\r\n\t\telse\r\n\t\t\treturn abs(min(n, m)) - abs(max(n, m));\r\n\t}\r\n}\r\nint main() {\r\n\tint a, b, c, d, n, m, o, p;\r\n\tcin >> a >> b >> c >> d >> n >> m >> o >> p;\r\n\r\n\tif (sa(b, d) / sa(a, c) != sa(m, p) / sa(n, o))\r\n\t\tcout << \"Intersect\" << endl;\r\n\telse\r\n\t\tcout << \"Parallel\" << endl;\r\n\treturn 0;\r\n}", "problem_id": "25", "problem_title": "+INTERSECT+", "datetime": "2018-07-28 05:37:43", "lang": "C++", "user": "akusyounin", "result": "CompileError", "score": "0", "max_score": "0"}
+{
+    "user": "akusyounin",
+    "problem_id": 25,
+    "result": "CompileError"
+}

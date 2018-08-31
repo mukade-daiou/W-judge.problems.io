@@ -1,1 +1,5 @@
-{"submission_id": "2345", "source": "#include <iostream>\r\n#include <vector>\r\n\r\nint n,m;\r\n\r\nstd::vector<int> vec;\r\n\r\nint main() {\r\n\r\n    std::cin>>n>>m;\r\n\r\n    for(int i=1;i<=n;++i)\r\n        vec.emplace_back(i);\r\n\r\n    int index=0;\r\n    \r\n    for(int i=0;i<n-1;++i){\r\n        vec.erase(vec.begin()+index);\r\n        index+=m-1;\r\n        index%=vec.size();\r\n    }\r\n\r\n    std::cout<<vec.front()<<std::endl;\r\n\r\n    return 0;\r\n}", "problem_id": "117", "problem_title": "(250)mother child stand up", "datetime": "2018-08-28 14:51:03", "lang": "C++", "user": "ikasmith", "sample_io": ["Accepted", "Accepted"], "testcase": [{"result": "Accepted", "max_score": "250", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "250", "max_score": "250"}
+{
+    "user": "ikasmith",
+    "problem_id": 117,
+    "result": "Accepted"
+}

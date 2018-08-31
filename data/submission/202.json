@@ -1,1 +1,5 @@
-{"submission_id": "202", "source": "# include <iostream>\r\n# include <algorithm>\r\n# include <vector>\r\n# include <string>\r\n#define rep(i,rept) for (int i = 0; i < rept; i++)\r\n#define Yes(b) std::cout<< (b ? \"Yes\" : \"No\")\r\n#define YES(b) std::cout<< (b ? \"YES\" : \"NO\")\r\nusing namespace std;\r\nint main(void) {\r\n\tconst string tanc = \"tancahn\";\r\n\tvector<char> strArray, tanArray;\r\n\tstring str;\r\n\tcin >> str;\r\n\tif (tanc.size() != str.size()) {\r\n\t\tYes(false);\r\n\t\treturn 0;\r\n\t}\r\n\trep(i, tanc.size()) {\r\n\t\ttanArray.push_back(tanc[i]);\r\n\t}\r\n\tsort(tanArray.begin(), tanArray.end());\r\n\r\n\trep(i, str.size()) {\r\n\t\tstrArray.push_back(str[i]);\r\n\t}\r\n\tsort(strArray.begin(), strArray.end());\r\n\r\n\tYes(strArray == tanArray);\r\n\treturn 0;\r\n}", "problem_id": "14", "problem_title": "\u5b9f\u8ceatancahn", "datetime": "2018-07-21 10:09:18", "lang": "C++", "user": "leaf2326", "sample_io": ["WrongAnswer", "WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "leaf2326",
+    "problem_id": 14,
+    "result": "WrongAnswer"
+}

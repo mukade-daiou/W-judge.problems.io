@@ -1,1 +1,5 @@
-{"submission_id": "1322", "source": "#include<iostream>\r\n#include<string>\r\n#include<vector>\r\n#include <stdio.h>\r\n#include <stdlib.h>\r\n#include <time.h>\r\n#include <algorithm>\r\n\r\n\r\nint main() {\r\n\tunsigned long long int a, b;\r\n\tstd::cin >> a >> b;\r\n\tstd::cout << a + b << std::endl;\r\n\treturn 0;\r\n}", "problem_id": "37", "problem_title": "\u305f\u3057\u3056\u3093", "datetime": "2018-08-07 10:40:44", "lang": "C++", "user": "oraoradori", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "40", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}, {"result": "WrongAnswer", "max_score": "60", "io_result": ["WrongAnswer", "Accepted", "Accepted", "WrongAnswer", "WrongAnswer"]}], "result": "WrongAnswer", "score": "40", "max_score": "100"}
+{
+    "user": "oraoradori",
+    "problem_id": 37,
+    "result": "WrongAnswer"
+}

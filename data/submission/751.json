@@ -1,1 +1,5 @@
-{"submission_id": "751", "source": "#include<iostream>\r\n#include<string>\r\n#include<vector>\r\n\r\nint main() {\r\n\tint N, M;\r\n\tstd::cin >> N >> M;\r\n\r\n\tint ban[100000000];\r\n\tstd::vector<int>lunk;\r\n\tfor (int i = 0; i < N; i++) {\r\n\t\tstd::cin >> ban[i];\r\n\t\tfor (int j = 0; j < lunk.size(); j++) {\r\n\t\t\tif (lunk[j] > ban[i])lunk.insert(lunk.begin() + j, i);\r\n\t\t}\r\n\t}\r\n\r\n\tint k = 0;\r\n\tint z = 0;\r\n\twhile (1) {\r\n\t\tfor (int i = 0; i < lunk[z]; i++) {\r\n\t\t\tM -= ban[lunk[z]];\r\n\t\t\tif (M >= 0)k++;\r\n\t\t\telse goto flag;\r\n\t\t}\r\n\t\tz++;\r\n\t}\r\nflag:;\r\n\tstd::cout << k << std::endl;\r\n\r\n\treturn 0;\r\n}", "problem_id": "73", "problem_title": "\u682a\u53d6\u5f15", "datetime": "2018-08-06 14:19:27", "lang": "C++", "user": "oraoradori", "sample_io": ["RuntimeError"], "result": "RuntimeError", "testcase": [{"result": "RuntimeError", "max_score": "100", "io_result": ["RuntimeError", "RuntimeError", "RuntimeError", "RuntimeError", "RuntimeError", "RuntimeError"]}], "score": "0", "max_score": "100"}
+{
+    "user": "oraoradori",
+    "problem_id": 73,
+    "result": "RuntimeError"
+}

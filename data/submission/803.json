@@ -1,1 +1,5 @@
-{"submission_id": "803", "source": "#include<iostream>\r\n#include<vector>\r\n#include<algorithm>\r\n#include<functional>\r\n#include<map>\r\n#include<string>\r\n#include<cmath>\r\n#include<utility>\r\n#define rep(i,rept) for (int i = 0; i < rept; i++)\r\ntypedef long long ll;\r\n\r\nint main() {\r\n\tint n = 0, m = 0;\r\n\tint count = 0;\r\n\tint a[10000] = {}; \r\n\tint b[10000] = {};\r\n\tint f[10000] = {};\r\n\tint money[10000] = {};\r\n\tstd::cin >> n >> m;\r\n\trep(i, m) {\r\n\t\tstd::cin >> a[i] >> b[i];\r\n\t}\r\n\t\r\n\tfor (int i = 0; i < m; i++) {\r\n\t\tf[i] = n / a[i];\r\n\t\tif (n%a[i] == 0) {\r\n\t\t\tmoney[i] = b[i] * f[i];\r\n\t\t}\r\n\t\telse {\r\n\t\t\tmoney[i] = b[i] * (f[i]+1);\r\n\t\t}\r\n\t}\r\n\tstd::sort(money, money + m);\r\n\tstd::cout << money[0] << std::endl;\r\n\treturn 0;\r\n}", "problem_id": "35", "problem_title": "\u725b\u4e3c\u306e\u6ce8\u6587", "datetime": "2018-08-06 14:38:29", "lang": "C++", "user": "Hinamel", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "Hinamel",
+    "problem_id": 35,
+    "result": "Accepted"
+}

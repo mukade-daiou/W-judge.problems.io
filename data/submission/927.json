@@ -1,1 +1,5 @@
-{"submission_id": "927", "source": "#include <iostream>\r\n#include <vector>\r\n#include <string>\r\n#include <algorithm>\r\nusing namespace std;\r\nint main(void){\r\ncout<<\"Yes\"<<endl;\r\n}", "problem_id": "59", "problem_title": "\u30e4\u30ae\u306e\u7267\u5834", "datetime": "2018-08-06 15:29:44", "lang": "C++", "user": "taiki", "sample_io": ["Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "WrongAnswer", "Accepted", "WrongAnswer", "WrongAnswer", "WrongAnswer", "Accepted", "Accepted", "Accepted", "Accepted", "WrongAnswer", "Accepted", "WrongAnswer"]}], "result": "WrongAnswer", "score": "0", "max_score": "100"}
+{
+    "user": "taiki",
+    "problem_id": 59,
+    "result": "WrongAnswer"
+}

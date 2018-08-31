@@ -1,1 +1,5 @@
-{"submission_id": "351", "source": "#include <iostream>\r\n#include <algorithm>\r\n#include <string>\r\n#include <vector>\r\n#include <map>\r\n#include <iomanip>\r\n#include <cmath>\r\n#include <cstdlib>\r\n\r\nint main(int argc, char **argv)\r\n{\r\n\tint a, b, c, d, e;\r\n\tstd::cin >> a >> b >> c >> d >> e;\r\n\tstd::cout << std::min({a,b,c}) + std::min(d,e) - 50<< std::endl;\r\n\treturn 0;\r\n}\r\n", "problem_id": "39", "problem_title": "\u30e9\u30f3\u30c1(Lunch)", "datetime": "2018-07-31 13:11:10", "lang": "C++", "user": "Torumu106", "sample_io": ["Accepted", "Accepted"], "testcase": [{"result": "Accepted", "max_score": "20", "io_result": ["Accepted"]}, {"result": "Accepted", "max_score": "20", "io_result": ["Accepted"]}, {"result": "Accepted", "max_score": "20", "io_result": ["Accepted"]}, {"result": "Accepted", "max_score": "20", "io_result": ["Accepted"]}, {"result": "Accepted", "max_score": "20", "io_result": ["Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "Torumu106",
+    "problem_id": 39,
+    "result": "Accepted"
+}

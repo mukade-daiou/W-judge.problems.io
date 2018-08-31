@@ -1,1 +1,5 @@
-{"submission_id": "536", "source": "#include<iostream>\r\n#include<string>\r\n#include<random>\r\n#include<ctime>\r\n#include<cmath>\r\nint main() {\r\n\tstd::string s,ans=\"\";\r\n\tstd::cin >> s;\r\n\tfor (int i = 0; i < s.size(); i++) {\r\n\t\tif ('a' <= s[i] && s[i] <= 'z') {\r\n\t\t\tans += s[i] + ('A' - 'a');\r\n\t\t}\r\n\t\telse {\r\n\t\t\tans += s[i] - ('A' - 'a');\r\n\t\t}\r\n\t}\r\n\tstd::cout << ans << \"\\n\";\r\n}", "problem_id": "63", "problem_title": "Switch", "datetime": "2018-08-04 11:03:24", "lang": "C++", "user": "not_itahara", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "not_itahara",
+    "problem_id": 63,
+    "result": "Accepted"
+}

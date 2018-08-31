@@ -1,1 +1,5 @@
-{"submission_id": "521", "source": "#include<iostream>\r\n#include<algorithm>\r\n#include<string>\r\nint main() {\r\n\tstd::string s;\r\n\tint isblank[8] = { 0 };\r\n\tstd::cin >> s;\r\n\tfor (int i = 0; i <= 7; i++) {\r\n\t\tfor (int j = 0; j < 4; j++) {\r\n\t\t\tif (s[(5 * i) + j] != '0') {\r\n\t\t\t\tisblank[i] = 0;\r\n\t\t\t\tbreak;\r\n\t\t\t}\r\n\t\t\tisblank[i] = i == 0 ? 1 : isblank[i - 1] + 1;\r\n\t\t}\r\n\t}\r\n\tif(std::max_element(isblank, isblank + 8)-isblank!=0){\r\n\t\tint maxend=std::max_element(isblank, isblank + 8) - isblank;\r\n\t    int i= maxend + 1 - isblank[maxend];\r\n\t\tmaxend = (maxend + 1) * 5 - 1;\r\n\t\ti = i * 5 ;\r\n\t\ts.erase(i, maxend - i);\r\n\t\tif(maxend==39) std::cout << s+':' << \"\\n\";\r\n\t\telse std::cout << s << \"\\n\";\r\n\t}\r\n\telse std::cout << s << \"\\n\";\r\n}", "problem_id": "42", "problem_title": "IPV6", "datetime": "2018-08-03 16:04:49", "lang": "C++", "user": "not_itahara", "sample_io": ["WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "Accepted", "Accepted", "Accepted", "Accepted"]}], "score": "0", "max_score": "100"}
+{
+    "user": "not_itahara",
+    "problem_id": 42,
+    "result": "WrongAnswer"
+}

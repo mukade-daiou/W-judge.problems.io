@@ -1,1 +1,5 @@
-{"submission_id": "651", "source": "#include <iostream>\r\n#include <string>\r\n#include <algorithm>\r\n#include <vector>\r\n#include <cmath>\r\n\r\nint main() {\r\n\tstd::string s;\r\n\tint b = 0, w = 0;\r\n\tstd::cin >> s;\r\n\tfor (int i = 0; i < s.size(); i++) {\r\n\t\tif (s[i] == 'B') {\r\n\t\t\tb++;\r\n\t\t}\r\n\t\telse if (s[i] == 'W') {\r\n\t\t\tw++;\r\n\t\t}\r\n\t}\r\n\tif (w < b) {\r\n\t\tstd::cout << \"Black wins\" << std::endl;\r\n\t}\r\n\telse if (w > b) {\r\n\t\tstd::cout << \"White wins\" << std::endl;\r\n\t}\r\n\telse if (w == b) {\r\n\t\tstd::cout << \"Draw\" << std::endl;\r\n\t}\r\n}", "problem_id": "58", "problem_title": "\u4e00\u6b21\u5143\u30ea\u30d0\u30fc\u30b7", "datetime": "2018-08-06 13:40:41", "lang": "C++", "user": "yomaru", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "yomaru",
+    "problem_id": 58,
+    "result": "Accepted"
+}

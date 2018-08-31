@@ -1,1 +1,5 @@
-{"submission_id": "830", "source": "#include <iostream>\r\n#include <algorithm>\r\n#include <string>\r\n#include <vector>\r\n\r\nusing namespace std;\r\n\r\nint main() {\r\n\tint n, m, w[10000] = {}, e[10000] = {}, r[10000] = {};\r\n\tcin >> n >> m;\r\n\tfor (int i = 0;i < m;i++) {\r\n\t\tcin >> w[i] >> e[i];\r\n\t}\r\n\tfor (int o = 0;o < m;o++) {\r\n\t\tr[o] = e[o] / w[o];\r\n\t}\r\n\tstd::sort(r, r + m);\r\n\r\n\tcout << r[0]*n << endl;\r\n\r\n}\r\n", "problem_id": "35", "problem_title": "\u725b\u4e3c\u306e\u6ce8\u6587", "datetime": "2018-08-06 14:50:42", "lang": "C++", "user": "Terashima", "sample_io": ["Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "result": "WrongAnswer", "score": "0", "max_score": "100"}
+{
+    "user": "Terashima",
+    "problem_id": 35,
+    "result": "WrongAnswer"
+}

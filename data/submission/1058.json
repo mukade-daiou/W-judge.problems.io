@@ -1,1 +1,5 @@
-{"submission_id": "1058", "source": "#include <iostream>\r\n#include <string>\r\nusing namespace std;\r\n\r\n\r\nint main() {\r\n\tunsigned long long int X=0;\r\n\tcin >> X;\r\n\tunsigned long long int x=1;\r\n\tunsigned long long int h=0;\r\n\tfor (int i = 1; i <= X; i++) {\r\n\t\tx = 2 * x;\r\n\t}\r\n\th = x - 1;\r\n\tcout << h;\r\n\t//unsigned long long int answer = 0;\r\n\t//answer = h / 1000000007;\r\n\t//cout << answer << '\\n';\r\n}", "problem_id": "44", "problem_title": "Go big", "datetime": "2018-08-06 16:02:23", "lang": "C++", "user": "Heyjyokyo", "sample_io": ["WrongAnswer", "WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "30", "io_result": ["WrongAnswer", "WrongAnswer"]}, {"result": "WrongAnswer", "max_score": "30", "io_result": ["WrongAnswer"]}, {"result": "WrongAnswer", "max_score": "40", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "Heyjyokyo",
+    "problem_id": 44,
+    "result": "WrongAnswer"
+}

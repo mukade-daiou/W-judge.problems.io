@@ -1,1 +1,5 @@
-{"submission_id": "1947", "source": "#include <iostream>\r\n\r\nint main(){\r\n\r\n\tstd::cout << \"Hello, World\" << std::endl;\r\n\r\n\treturn 0;\r\n}", "problem_id": "86", "problem_title": "Hello, World", "datetime": "2018-08-08 22:14:28", "lang": "C++", "user": "tsuzu", "sample_io": [], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "tsuzu",
+    "problem_id": 86,
+    "result": "Accepted"
+}

@@ -1,1 +1,5 @@
-{"submission_id": "1121", "source": "#include <iostream>\r\n#include <string>\r\n#include <algorithm>\r\n#include <vector>\r\n#include <cmath>\r\n#include <map>\r\n#include <queue>\r\n#include <stack>\r\n#define rep(i,n) for(int i=0;i<n;++i)\r\n\r\nusing namespace std;\r\nint n, m, ans[101010101], A[10101010], B[10101010];\r\nstring s;\r\nint main() {\r\n\tcin >> s;\r\n\trep(i, s.size()) {\r\n\t\tif (s[i] >= 'a'&&s[i] <= 'z') {\r\n\t\t\tchar c = s[i] - ('a' - 'A');\r\n\t\t\tcout << c;\r\n\t\t}\r\n\t\telse {\r\n\t\t\tchar c = s[i] + ('a' - 'A');\r\n\t\t\tcout << c;\r\n\t\t}\r\n\t}\r\n\tcout << endl;\r\n\treturn 0;\r\n}", "problem_id": "63", "problem_title": "Switch", "datetime": "2018-08-07 09:31:56", "lang": "C++", "user": "Under_bar", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "Under_bar",
+    "problem_id": 63,
+    "result": "Accepted"
+}

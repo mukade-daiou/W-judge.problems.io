@@ -1,1 +1,5 @@
-{"submission_id": "1910", "source": "#include <iostream>\r\n#include <vector>\r\n\r\nint main() {\r\n\tint sievesize;\r\n\tstd::cin >> sievesize;\r\n\tstd::vector<int> sieve(sievesize, 1);\r\n\tfor (int i = 2; i * i < sievesize; i++)\r\n\t\tif (sieve[i])\r\n\t\t\tfor (int j = i + i; j < sievesize; j += i)\r\n\t\t\t\tsieve[j] = 0;\r\n\tstd::cout << std::count(sieve.begin(),sieve.end(),0) << std::endl;\r\n}", "problem_id": "65", "problem_title": "FOO\u541b\u306e\u6559\u79d1\u66f8\u306b\u8f09\u3063\u3066\u308b\u30b3\u30e9\u30e0\u7de8", "datetime": "2018-08-08 11:52:30", "lang": "C++", "user": "takashu", "result": "CompileError", "score": "0", "max_score": "0"}
+{
+    "user": "takashu",
+    "problem_id": 65,
+    "result": "CompileError"
+}

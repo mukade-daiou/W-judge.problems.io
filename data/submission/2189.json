@@ -1,1 +1,5 @@
-{"submission_id": "2189", "source": "// This file is a \"Hello, world!\" in C++ language by GCC for wandbox.\r\n#include <iostream>\r\nint main()\r\n{int l=0,k=0,n=0,b[100000],o=0,p=0;\r\nstd::cin>>n>>l>>k;\r\nfor(int i=0;i<n;i++){\r\nstd::cin>>b[i];\r\nif(b[i]<l){\r\np++;\r\n}else{o=o+k;}\r\n}\r\nstd::cout<<o<<std::endl;\r\nstd::cout<<p<<std::endl;\r\n}\r\n", "problem_id": "112", "problem_title": "(300)mod!mod!akusyounin!", "datetime": "2018-08-25 13:23:50", "lang": "C++", "user": "yokawa", "sample_io": ["WrongAnswer", "RuntimeError"], "result": "RuntimeError", "testcase": [{"result": "RuntimeError", "max_score": "300", "io_result": ["WrongAnswer", "RuntimeError", "RuntimeError"]}], "score": "0", "max_score": "300"}
+{
+    "user": "yokawa",
+    "problem_id": 112,
+    "result": "RuntimeError"
+}

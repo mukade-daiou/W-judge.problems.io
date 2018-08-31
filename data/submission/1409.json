@@ -1,1 +1,5 @@
-{"submission_id": "1409", "source": "#include<iostream>\r\n#include<algorithm>\r\n#include<cmath>\r\n#include<string>\r\n#include<cstring>\r\nint main()\r\n{\r\n\tint n = 0, m = 0, c = 0, d = 0, e = 0, min = 0, ma = 0, ansa = 0, ansb = 0, count = 0, crowdy[101] = {}, toki = 0, bu = 0;\r\n\tchar hairetu[200] = {};\r\n\tint number[10000], price[10000], sort[100000] = {}, kisu[10000] = { 100000 }, gusu[10000] = { 100000 };\r\n\tusing namespace std;\r\n\tint x = 1, y = 0, z = 0, play[200] = {}, acount = 0, bcount = 0;\r\n\tstd::string str, strt, str_s;\r\n\tbool zi = true;\r\n\tbool fun = false;\r\n\r\n\tcin >> str;\r\n\tn = str.find('M', 0);\r\n\tm = str.find('G', 0);\r\n\tc = str.find('R', 0);\r\n\tif (n < m&&m < c) {\r\n\t\tcout << \"YES\" << endl;\r\n\t}\r\n\telse {\r\n\t\tcout << \"NO\" << endl;\r\n\t}\r\n}", "problem_id": "82", "problem_title": "AMAGAERU", "datetime": "2018-08-07 11:16:43", "lang": "C++", "user": "okadataku124", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "okadataku124",
+    "problem_id": 82,
+    "result": "Accepted"
+}

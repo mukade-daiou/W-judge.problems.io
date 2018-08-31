@@ -1,1 +1,5 @@
-{"submission_id": "635", "source": "##include<iostream>\r\nint main(){\r\nstd::cout<<\"Hello,PCP\"<<std::endl;\r\nreturn 0;\r\n}", "problem_id": "79", "problem_title": "Hello, PCP", "datetime": "2018-08-06 13:35:03", "lang": "C++", "user": "kazuyoshi", "result": "CompileError", "score": "0", "max_score": "0"}
+{
+    "user": "kazuyoshi",
+    "problem_id": 79,
+    "result": "CompileError"
+}

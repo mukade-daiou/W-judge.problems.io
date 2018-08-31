@@ -1,1 +1,5 @@
-{"submission_id": "1425", "source": "#include <iostream>\r\n#include <algorithm>\r\n#include <cmath>\r\n#include <string>\r\n#include <vector>\r\n#include <queue>\r\ntypedef unsigned long long ULL;\r\n\r\nint main() {\r\n\tstd::string str;\r\n\tstd::cin >> str;\r\n\tint m = 0;\r\n\tint g = 0;\r\n\tint r = 0;\r\n\r\n\tfor (int i = 0; i < str.size(); ++i) {\r\n\t\tif (str[i] == 'M') {\r\n\t\t\tm += 1;\r\n\t\t}\r\n\t\tif (str[i] == 'G') {\r\n\t\t\tg += 1;\r\n\t\t}\r\n\t\tif (str[i] == 'R') {\r\n\t\t\tr += 1;\r\n\t\t}\r\n\t}\r\n\tif (m >= 1 && g >= 1 && r >= 1) {\r\n\t\tstd::cout << \"YES\" << std::endl;\r\n\t}\r\n\telse {\r\n\t\tstd::cout << \"NO\" << std::endl;\r\n\t}\r\n\treturn 0;\r\n}\r\n", "problem_id": "82", "problem_title": "AMAGAERU", "datetime": "2018-08-07 11:25:31", "lang": "C++", "user": "rockman", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "rockman",
+    "problem_id": 82,
+    "result": "Accepted"
+}

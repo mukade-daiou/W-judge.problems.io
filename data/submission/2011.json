@@ -1,1 +1,5 @@
-{"submission_id": "2011", "source": "#include<iostream>\r\n#include<string>\r\nint main() {\r\n\tint n, m, a, b, c=10000;\r\n\tstd::cin >> n >> m;\r\n\tfor (int i = 0;i < m;i++) {\r\n\t\tstd::cin >> a;\r\n\t\tif (n % a == 0) {\r\n\t\t\tstd::cin >> b;\r\n\t\t\tif (c > b*n / a) {\r\n\t\t\t\tc = b * n / a;\r\n\t\t\t}\r\n\t\t}\r\n\t\telse {\r\n\t\t\tstd::cin >> b;\r\n\t\t\tif (c > b*n / a + b) {\r\n\t\t\t\tc = b * n / a + b;\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n\tstd::cout << c << std::endl;\r\n}", "problem_id": "35", "problem_title": "\u725b\u4e3c\u306e\u6ce8\u6587", "datetime": "2018-08-14 16:23:15", "lang": "C++", "user": "kuriharashuya", "sample_io": ["WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["Accepted", "Accepted", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "kuriharashuya",
+    "problem_id": 35,
+    "result": "WrongAnswer"
+}

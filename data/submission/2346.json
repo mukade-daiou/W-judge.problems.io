@@ -1,1 +1,5 @@
-{"submission_id": "2346", "source": "#include <iostream>\r\n#include <string>\r\n\r\nint N;\r\nstd::string str;\r\n\r\nint main(){\r\n\r\n\tstd::cin >> str >> N;\r\n\r\n\tstr += str;\r\n\r\n\twhile(N--){\r\n\r\n\t\tstd::string input;\r\n\r\n\t\tstd::cin >> input;\r\n\r\n\t\tif(str.find(input) == std::string::npos){\r\n\t\t\tstd::cout << \"impossible\" << std::endl;\r\n\t\t}\r\n\t\telse{\r\n\t\t\tstd::cout << \"possible\" << std::endl;\r\n\t\t}\r\n\t}\r\n\r\n\treturn 0;\r\n}\r\n", "problem_id": "116", "problem_title": "(500)Rotate Possible?", "datetime": "2018-08-28 14:51:03", "lang": "C++", "user": "taiki_okano", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "500", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "500", "max_score": "500"}
+{
+    "user": "taiki_okano",
+    "problem_id": 116,
+    "result": "Accepted"
+}

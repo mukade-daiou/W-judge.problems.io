@@ -1,1 +1,5 @@
-{"submission_id": "1199", "source": "#include <iostream>\r\n#include <string>\r\n#include <algorithm>\r\n#include <vector>\r\n#include <cmath>\r\n\r\nint main() {\r\n\tint a[100], x;\r\n\tint k[100], g[100];\r\n\tint p = 0, q = 0;\r\n\tstd::cin >> x;\r\n\tfor (int i = 0; i < x; i++) {\r\n\t\tstd::cin >> a[i];\r\n\t\tif (a[i] % 2 == 1) {\r\n\t\t\tk[p] = a[i];\r\n\t\t\tp++;\r\n\t\t}\r\n\t\telse {\r\n\t\t\tg[q] = a[i];\r\n\t\t\tq++;\r\n\t\t}\r\n\t}\r\n\tstd::sort(k, k + p);\r\n\tstd::sort(g, g + q);\r\n\r\n\tfor (int i = 0; i < p; i++) {\r\n\t\tstd::cout << k[i] << \" \";\r\n\t}\r\n\tfor (int i = 0; i < q; i++) {\r\n\t\tstd::cout << g[i] << \" \";\r\n\t}\r\n\tstd::cout << std::endl;\r\n}", "problem_id": "38", "problem_title": "\u5947\u6570\u30d5\u30a1\u30fc\u30b9\u30c8", "datetime": "2018-08-07 09:57:52", "lang": "C++", "user": "yomaru", "sample_io": ["WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "yomaru",
+    "problem_id": 38,
+    "result": "WrongAnswer"
+}

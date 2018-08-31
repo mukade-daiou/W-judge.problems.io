@@ -1,1 +1,5 @@
-{"submission_id": "847", "source": "#include <iostream>\r\n\r\nint main() {\r\n\tunsigned long long X;\r\n\tstd::cin >> X;\r\n\tunsigned long long kakko = 2;\r\n\tfor (unsigned long long i = 2; i <= X; i++) {\r\n\t\tkakko = kakko * 2;\r\n\t}\r\n\tkakko = kakko - 1;\r\n\tunsigned long long aaa = kakko % 1000000007;\r\n\tstd::cout << aaa << std::endl;\r\n\treturn 0;\r\n}", "problem_id": "44", "problem_title": "Go big", "datetime": "2018-08-06 14:56:28", "lang": "C++", "user": "takashu", "sample_io": ["Accepted", "Accepted"], "testcase": [{"result": "Accepted", "max_score": "30", "io_result": ["Accepted", "Accepted"]}, {"result": "WrongAnswer", "max_score": "30", "io_result": ["WrongAnswer"]}, {"result": "TimeLimitExceeded", "max_score": "40", "io_result": ["WrongAnswer", "TimeLimitExceeded", "TimeLimitExceeded", "TimeLimitExceeded", "TimeLimitExceeded"]}], "result": "TimeLimitExceeded", "score": "30", "max_score": "100"}
+{
+    "user": "takashu",
+    "problem_id": 44,
+    "result": "TimeLimitExceeded"
+}

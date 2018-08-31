@@ -1,1 +1,5 @@
-{"submission_id": "2254", "source": "#include <iostream>\r\n\r\nint main() {\r\n\r\n\tint N, L, K, l, X, Y;\r\n\t\r\n\tstd::cin >> N >> L >> K;\r\n\r\n\tfor (int i = 0; i < N;++i) {\r\n\t\t\r\n\r\n\t\tstd::cin >> l;\r\n\r\n\t\tX = 0;\r\n\r\n\t\tY = 0;\r\n\r\n\t\tif (l < L) {\r\n\r\n\t\t\tfor (int i = 0; i < N;++i) {\r\n\r\n\r\n\t\t\t\tY += 1;\r\n\r\n\t\t\t\tX += 0;\r\n\t\t\t}\r\n\t\t}\r\n\t\telse {\r\n\r\n\t\t\tfor (int i = 0; i < N;++i) {\r\n\r\n\r\n\t\t\t\tX += K;\r\n\r\n\t\t\t\tY += 0;\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n\tstd::cout << X << std::endl;\r\n\tstd::cout << Y << std::endl;\r\n\treturn 0;\r\n}\r\n", "problem_id": "108", "problem_title": "(200)\u76ee\u6e2c\u306e\u795e\u3001akusyounin!", "datetime": "2018-08-25 14:02:13", "lang": "C++", "user": "hinata_totyu", "sample_io": ["Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "200", "io_result": ["Accepted", "Accepted", "Accepted", "WrongAnswer", "WrongAnswer"]}], "result": "WrongAnswer", "score": "0", "max_score": "200"}
+{
+    "user": "hinata_totyu",
+    "problem_id": 108,
+    "result": "WrongAnswer"
+}

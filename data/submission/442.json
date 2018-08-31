@@ -1,1 +1,5 @@
-{"submission_id": "442", "source": "#include<iostream>\r\nint main() {\r\n\tint p1, p2, p3, j1, j2, p, j;\r\n\tstd::cin >> p1 >> p2 >> p3 >> j1 >> j2;\r\n\tif (j1 <= j2) {\r\n\t\tj = j1;\r\n\t}\r\n\tif (j1 > j2) {\r\n\t\tj = j2;\r\n\t}\r\n\tif (p1 <= p2) {\r\n\t\tif (p1 <= p3) {\r\n\t\t\tp = p3;\r\n\t\t}\r\n\t\tif (p1 > p3) {\r\n\t\t\tp = p3;\r\n\t\t}\r\n\t}\r\n\tif (p1 >= p2) {\r\n\t\tif (p2 >= p3) {\r\n\t\t\tp = p3;\r\n\t\t}\r\n\t\tif (p2 < p3) {\r\n\t\t\tp = p2;\r\n\t\t}\r\n\t}\r\n\tstd::cout << p + j - 50 << std::endl;\r\n}", "problem_id": "39", "problem_title": "\u30e9\u30f3\u30c1(Lunch)", "datetime": "2018-07-31 14:37:38", "lang": "C++", "user": "papipupepo", "sample_io": ["Accepted", "Accepted"], "testcase": [{"result": "Accepted", "max_score": "20", "io_result": ["Accepted"]}, {"result": "WrongAnswer", "max_score": "20", "io_result": ["WrongAnswer"]}, {"result": "Accepted", "max_score": "20", "io_result": ["Accepted"]}, {"result": "Accepted", "max_score": "20", "io_result": ["Accepted"]}, {"result": "Accepted", "max_score": "20", "io_result": ["Accepted"]}], "result": "WrongAnswer", "score": "80", "max_score": "100"}
+{
+    "user": "papipupepo",
+    "problem_id": 39,
+    "result": "WrongAnswer"
+}

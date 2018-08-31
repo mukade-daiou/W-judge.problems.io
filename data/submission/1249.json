@@ -1,1 +1,5 @@
-{"submission_id": "1249", "source": "#include<iostream>\r\n#include<cmath>\r\n#include<algorithm>\r\n#include <cassert>\r\n#include <stdio.h>\r\n#include<string>\r\nusing namespace std;\r\nint main() {\r\n\tint a, b;\r\n\tcin >> a >> b;\r\n\tcout << a + b << endl;;\r\n}", "problem_id": "37", "problem_title": "\u305f\u3057\u3056\u3093", "datetime": "2018-08-07 10:15:39", "lang": "C++", "user": "forest", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "40", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}, {"result": "WrongAnswer", "max_score": "60", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "result": "WrongAnswer", "score": "40", "max_score": "100"}
+{
+    "user": "forest",
+    "problem_id": 37,
+    "result": "WrongAnswer"
+}

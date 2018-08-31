@@ -1,1 +1,5 @@
-{"submission_id": "1361", "source": "#include <string>\r\n#include <algorithm>\r\n#include <iostream>\r\nusing namespace std;\r\n\r\n\r\nint main() {\r\n\tstring str;\r\n\tcin >> str;\r\n\tint r, m, g;\r\n\tr = 0;\r\n\tm = 0;\r\n\tg = 0;\r\n\tint s = str.size();\r\n\tfor (int i = 0; i < s; i++) {\r\n\t\tif (str[i] == 'R') {\r\n\t\t\tr++;\r\n\t\t}\r\n\t\tif (str[i] == 'M') {\r\n\t\t\tm++;\r\n\t\t}\r\n\t\tif (str[i] == 'G') {\r\n\t\t\tg++;\r\n\t\t}\r\n}\r\n\r\n\tif (r != 0 && m != 0 && g != 0) {\r\n\t\tcout << \"YES\" << endl;\r\n\t}\r\n\telse {\r\n\t\tcout << \"NO\" << endl;\r\n\t}\r\n}", "problem_id": "82", "problem_title": "AMAGAERU", "datetime": "2018-08-07 10:59:53", "lang": "C++", "user": "shoji", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "shoji",
+    "problem_id": 82,
+    "result": "Accepted"
+}

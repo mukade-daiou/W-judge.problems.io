@@ -1,1 +1,5 @@
-{"submission_id": "684", "source": "#include<iostream>\r\n#include<string>\r\n\r\nint main() {\r\n\tint N, M;\r\n\tstd::cin >> N >> M;\r\n\tint amount[1000], price[1000], kprice = 1145141919;\r\n\r\n\tfor (int i = 0; i < M; i++) {\r\n\t\tint k = 0;\r\n\t\tstd::cin >> amount[i] >> price[i];\r\n\t\tfor (int n = N; n > 0; n -= amount[i]) {\r\n\t\t\tk += price[i];\r\n\t\t}\r\n\t\tif (kprice > k)kprice = k;\r\n\t}\r\n\tstd::cout << kprice << std::endl;\r\n\treturn 0;\r\n}", "problem_id": "35", "problem_title": "\u725b\u4e3c\u306e\u6ce8\u6587", "datetime": "2018-08-06 13:56:52", "lang": "C++", "user": "oraoradori", "sample_io": ["Accepted"], "testcase": [{"result": "RuntimeError", "max_score": "100", "io_result": ["RuntimeError", "RuntimeError", "RuntimeError", "RuntimeError", "RuntimeError", "Accepted"]}], "result": "RuntimeError", "score": "0", "max_score": "100"}
+{
+    "user": "oraoradori",
+    "problem_id": 35,
+    "result": "RuntimeError"
+}

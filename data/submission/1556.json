@@ -1,1 +1,5 @@
-{"submission_id": "1556", "source": "#include <iostream>\r\n#include <algorithm>\r\n#include <string>\r\n#include <vector>\r\n#include <map>\r\n#include <iomanip>\r\n#include <cmath>\r\n#include <cstdlib>\r\n#include <math.h>\r\n#include <stdlib.h>\r\n\r\nint main()\r\n{\r\n\tstd::string str;\r\n\tstd::getline(std::cin,str);\r\n\tstd::cout << str[0] << str.size()-2 << str[str.size()-1] << std::endl;\r\n\treturn 0;\r\n}\r\n\r\n", "problem_id": "69", "problem_title": "i18n", "datetime": "2018-08-08 09:46:56", "lang": "C++", "user": "Torumu106", "sample_io": ["WrongAnswer", "WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "Torumu106",
+    "problem_id": 69,
+    "result": "WrongAnswer"
+}

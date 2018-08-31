@@ -1,1 +1,5 @@
-{"submission_id": "1797", "source": "#include <iostream>\r\n#include <string>\r\n//using namespace std;\r\n\r\nint main() {\r\n\tint a, b, c, d, e, f, g, h;\r\n\tstd::cin >> a >> b;\r\n\tc = a + b;\r\n\tg = a % b;\r\n\tif (a > b) {\r\n\t\td = a - b;\r\n\t\te = (a - g) / b;\r\n\t}\r\n\telse if (a <= b) {\r\n\t\td = b - a;\r\n\t\te = (b - g) / a;\r\n\t}\r\n\tf = a * b;\r\n\th = c + d + e + f + g;\r\n\tstd::cout << h << std::endl;\r\n}", "problem_id": "50", "problem_title": "FOO\u541b\u3068HOGE\u3061\u3083\u3093\u306e\u5165\u5b66\u9593\u8fd1\u7de8", "datetime": "2018-08-08 11:11:33", "lang": "C++", "user": "takashu", "sample_io": ["Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["Accepted", "WrongAnswer", "Accepted", "Accepted", "Accepted"]}], "result": "WrongAnswer", "score": "0", "max_score": "100"}
+{
+    "user": "takashu",
+    "problem_id": 50,
+    "result": "WrongAnswer"
+}

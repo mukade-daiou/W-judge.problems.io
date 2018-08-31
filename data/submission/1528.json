@@ -1,1 +1,5 @@
-{"submission_id": "1528", "source": "#include \"iostream\"\r\n#include \"string\"\r\n#include \"algorithm\"\r\n#include \"vector\"\r\n#include \"map\"\r\n\r\nusing namespace std;\r\n\r\nint main() {\r\n\tint n, m;\r\n\tcin >> n >> m;\r\n\tint a, b, c, d ,e;\r\n\ta = n + m;\r\n\tif (n - m >= 0) {\r\n\t\tb = n - m;\r\n\t}\r\n\telse b = m - n;\r\n\tc = n * m;\r\n\td = n / m;\r\n\te = n % m;\r\n\tint ans = a + b + c + d + e;\r\n\tcout << ans << endl;\r\n\r\n\treturn 0;\r\n}", "problem_id": "50", "problem_title": "FOO\u541b\u3068HOGE\u3061\u3083\u3093\u306e\u5165\u5b66\u9593\u8fd1\u7de8", "datetime": "2018-08-08 09:41:48", "lang": "C++", "user": "Kame", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "Kame",
+    "problem_id": 50,
+    "result": "Accepted"
+}

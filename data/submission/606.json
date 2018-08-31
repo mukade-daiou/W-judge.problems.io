@@ -1,1 +1,5 @@
-{"submission_id": "606", "source": "#include <utility>\r\n#include <iostream>\r\n#include <vector>\r\n#include <algorithm>\r\n#include <string>\r\n#include <map>\r\n#include <cmath>\r\n#include <numeric>\r\n#include <limits>\r\n#define ll long long\r\n#define rep(i,rept) for (ll i = 0; i < rept; i++)\r\n#define Yes(b) std::cout<< (b ? \"Yes\" : \"No\")<<std::endl\r\n#define YES(b) std::cout<< (b ? \"YES\" : \"NO\")<<std::endl\r\n#define fr first\r\n#define se second\r\n#define LLONG_MAX std::numeric_limits<long long>::max()\r\nusing namespace std;\r\n\r\nint main() {\r\n\r\n\tint n;\r\n\tcout << \"Hello, PCP\" << endl;\r\n\r\n\treturn 0;\r\n}", "problem_id": "79", "problem_title": "Hello, PCP", "datetime": "2018-08-06 13:31:09", "lang": "C++", "user": "leaf2326", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "leaf2326",
+    "problem_id": 79,
+    "result": "Accepted"
+}

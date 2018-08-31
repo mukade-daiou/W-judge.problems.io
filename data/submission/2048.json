@@ -1,1 +1,5 @@
-{"submission_id": "2048", "source": "#include<iostream>\r\nint a[10000000000000];\r\nint main(){\r\nstd::cout<<\"Hello, World\"<<std::endl;\r\nreturn 0;\r\n}", "problem_id": "1", "problem_title": "Hello, World", "datetime": "2018-08-22 10:53:35", "lang": "C++", "user": "akusyounin", "result": "CompileError", "score": "0", "max_score": "0"}
+{
+    "user": "akusyounin",
+    "problem_id": 1,
+    "result": "CompileError"
+}

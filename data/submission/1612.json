@@ -1,1 +1,5 @@
-{"submission_id": "1612", "source": "#include \"iostream\"\r\n#include \"string\"\r\n#include \"algorithm\"\r\n#include \"vector\"\r\n\r\nusing namespace std;\r\n\r\nint main() {\r\n\tstring a, b;\r\n\tcin >> a >> b;\r\n\tstring tmp = \"aa\";\r\n\tint ah, am, bh, bm;\r\n\ttmp[0] = a[0];\r\n\ttmp[1] = a[1];\r\n\tah = stoi(tmp);\r\n\ttmp[0] = a[3];\r\n\ttmp[1] = a[4];\r\n\tam = stoi(tmp);\r\n\ttmp[0] = b[0];\r\n\ttmp[1] = b[1];\r\n\tbh = stoi(tmp);\r\n\ttmp[0] = b[3];\r\n\ttmp[1] = b[4];\r\n\tbm = stoi(tmp);\r\n\t\r\n\tint r = 0, n = 0;;\r\n\tr += bh + bm;\r\n\r\n\tif (bm < am) bm += 60;\r\n\tif (bh < ah) bh += 24;\r\n\tn += bh - ah + bm - am;\r\n\r\n\tif (r < n) cout << r << endl;\r\n\telse cout << n << endl;\r\n\r\n\r\n\treturn 0;\r\n}", "problem_id": "45", "problem_title": "\u6642\u9593\u5408\u308f\u305b", "datetime": "2018-08-08 10:02:07", "lang": "C++", "user": "Kame", "sample_io": ["Accepted", "WrongAnswer"], "result": "Accepted", "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "score": "100", "max_score": "100"}
+{
+    "user": "Kame",
+    "problem_id": 45,
+    "result": "Accepted"
+}

@@ -1,1 +1,5 @@
-{"submission_id": "135", "source": "#include<iostream>\r\n#include<string>\r\nint main()\r\n{\r\n\tstd::string N;\r\n\tfor (int i = 0; i >= 2000000; i++) {\r\n\t\tif(N[i] % 3 = 0){\r\n\t\tif (N[1] = 0) {\r\n\t\t\tstd::cout << \"FizzBuzz\" << std::endl;\r\n\t\t}\r\n\t\telse if (N[1] = 5) {\r\n\t\t\tstd::cout << \"FizzBuzz\" << std::endl;\r\n\t\t}\r\n\t}\r\n\telse if (N[1] = 0) {\r\n\t\tif (N[1] = 5) {\r\n\t\t\tstd::cout << \"Buzz\" << std::endl;\r\n\t\t}\r\n\t}\r\n\telse if (N % 3 = 0) {\r\n\t\tstd::cout << \"Fizz\" << std::endl;\r\n\t}\r\n\telse {\r\n\t\tstd::stoi(N);\r\n\t}\r\n\treturn 0;\r\n}", "problem_id": "13", "problem_title": "\u54c1\u6027\u306e\u306a\u3044FizzBuzz", "datetime": "2018-07-17 13:14:32", "lang": "C++", "user": "yuuto", "result": "CompileError", "score": "0", "max_score": "0"}
+{
+    "user": "yuuto",
+    "problem_id": 13,
+    "result": "CompileError"
+}

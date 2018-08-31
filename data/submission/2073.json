@@ -1,1 +1,5 @@
-{"submission_id": "2073", "source": "\u306a\u306b\u3044\u3063\u3066\u3093\u306e\uff1f\r\n", "problem_id": "5", "problem_title": "hello", "datetime": "2018-08-22 15:15:40", "lang": "C++", "user": "yuki", "result": "CompileError", "score": "0", "max_score": "0"}
+{
+    "user": "yuki",
+    "problem_id": 5,
+    "result": "CompileError"
+}

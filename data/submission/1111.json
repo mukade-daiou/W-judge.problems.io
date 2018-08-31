@@ -1,1 +1,5 @@
-{"submission_id": "1111", "source": "#include<iostream>\r\n#include<string>\r\n\r\nint main() {\r\n\tstd::string s;\r\n\tstd::cin >> s;\r\n\tfor (int i = 0; i < s.size(); i++) {\r\n\t\tif (s[i] <= 'A', s[i] >= 'Z') {\r\n\t\t\ts[i] -= 'a' - 'A';\r\n\t\t}\r\n\t\telse {\r\n\t\t\ts[i] += 'a' - 'A';\r\n\t\t}\r\n\t}\r\n\tstd::cout << s << std::endl;\r\n}\r\n", "problem_id": "63", "problem_title": "Switch", "datetime": "2018-08-07 09:27:08", "lang": "C++", "user": "s.ogino", "sample_io": ["Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "WrongAnswer", "WrongAnswer", "Accepted"]}], "result": "WrongAnswer", "score": "0", "max_score": "100"}
+{
+    "user": "s.ogino",
+    "problem_id": 63,
+    "result": "WrongAnswer"
+}

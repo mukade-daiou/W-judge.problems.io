@@ -1,1 +1,5 @@
-{"submission_id": "2311", "source": "#include<iostream>\r\n#include<vector>\r\n#include<algorithm>\r\n#include<string>\r\nusing namespace std;\r\nint main(){\r\n    int n,a;\r\n    int sum=0;\r\n    cin>>n;\r\n    for(int i=0;i<n;i++){\r\n        cin>>a;\r\n        sum+=a;\r\n    }\r\n    cout<<sum<<endl;\r\n}", "problem_id": "118", "problem_title": "(100)\u3078\u3073\u3084\u3055\u3093 easy", "datetime": "2018-08-28 13:11:33", "lang": "C++", "user": "lassi_nassi", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "0", "io_result": ["Accepted"]}, {"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "lassi_nassi",
+    "problem_id": 118,
+    "result": "Accepted"
+}

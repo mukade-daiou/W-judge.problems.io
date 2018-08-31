@@ -1,1 +1,5 @@
-{"submission_id": "1072", "source": "#include <iostream>\r\n\r\nint main(int argc, char **argv)\r\n{\r\n\tint h, w, n, m;\r\n\tstd::cin >> h >> w >> n >>m;\r\n\tif(m==64) std::cout << \"No\" << std::endl;\r\n\treturn 0;\r\n}\r\n", "problem_id": "59", "problem_title": "\u30e4\u30ae\u306e\u7267\u5834", "datetime": "2018-08-06 16:07:07", "lang": "C++", "user": "Torumu106", "sample_io": ["WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "Accepted", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "Torumu106",
+    "problem_id": 59,
+    "result": "WrongAnswer"
+}

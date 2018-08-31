@@ -1,1 +1,5 @@
-{"submission_id": "62", "source": "#include<iostream>\r\nint gcd(int m, int n)\r\n{\r\n\twhile (m != n)\r\n\t{\r\n\t\tif (m > n) m = m - n;\r\n\t\telse         n = n - m;\r\n\t}\r\n\treturn m;\r\n}\r\nint main() {\r\n\tint n, m;\r\n\tstd::cin >> n >> m;\r\n\tstd::cout << gcd(m, n) << ' ' << n * m / gcd(m, n);\r\n\treturn 0;\r\n}", "problem_id": "9", "problem_title": "\u6700\u5927\u516c\u7d04\u6570\u3068\u6700\u5c0f\u516c\u500d\u6570", "datetime": "2018-07-14 15:26:51", "lang": "C++", "user": "leaf2326", "sample_io": ["WrongAnswer", "Accepted"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "leaf2326",
+    "problem_id": 9,
+    "result": "WrongAnswer"
+}

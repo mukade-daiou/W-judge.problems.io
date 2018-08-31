@@ -1,1 +1,5 @@
-{"submission_id": "1254", "source": "#include<iostream>\r\n#include<string>\r\n\r\nstd::string str;\r\n\r\nbool m,g,r;\r\n\r\nint main(){\r\n    \r\n    std::cin>>str;\r\n    \r\n    for(auto&& x:str){\r\n        if(x=='m')\r\n            m=true;\r\n        if(x=='g')\r\n            g=true;\r\n        if(x=='r')\r\n            r=true;\r\n        if(m&&g&&r)\r\n            break;\r\n    }\r\n    \r\n    if(m&&g&&r)\r\n        std::cout<<\"YES\"<<std::endl;\r\n    \r\n    else\r\n        std::cout<<\"NO\"<<std::endl;\r\n    \r\n}", "problem_id": "82", "problem_title": "AMAGAERU", "datetime": "2018-08-07 10:17:45", "lang": "C++", "user": "shugo15", "sample_io": ["WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["Accepted", "WrongAnswer", "Accepted", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "shugo15",
+    "problem_id": 82,
+    "result": "WrongAnswer"
+}

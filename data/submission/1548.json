@@ -1,1 +1,5 @@
-{"submission_id": "1548", "source": "#include <iostream>\r\n#include <algorithm>\r\n#include <string>\r\n#include <vector>\r\n\r\nint main() {\r\n\tstd::string a;\r\n\tstd::cin >> a;\r\n\tint kazu = int(a.size()) - 2;\r\n\tchar begin = a[0], end = a[int(a.size()) - 1];\r\n\tstd::cout << begin << kazu << end << std::endl;;\r\n}", "problem_id": "69", "problem_title": "i18n", "datetime": "2018-08-08 09:44:18", "lang": "C++", "user": "takashu", "sample_io": ["WrongAnswer", "Accepted"], "result": "Accepted", "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "score": "100", "max_score": "100"}
+{
+    "user": "takashu",
+    "problem_id": 69,
+    "result": "Accepted"
+}

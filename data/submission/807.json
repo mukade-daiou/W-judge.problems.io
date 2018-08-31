@@ -1,1 +1,5 @@
-{"submission_id": "807", "source": "#include <iostream>\r\n#include <vector>\r\n\r\nint main() {\r\n\tint n, m;\r\n\tstd::cin >> n >> m;\r\n\tstd::vector<int> a, b;\r\n\tfor (int i = 0; i < m; i++) {\r\n\t\tint aa, bb;\r\n\t\tstd::cin >> aa >> bb;\r\n\t\ta.push_back(aa);\r\n\t\tb.push_back(bb);\r\n\t}\r\n\tint minyen = 99999999999;\r\n\tfor (int i = 0; i < m; i++) {\r\n\t\tint kosuu = n / int(a.at(i));\r\n\t\tint amari = n % int(a.at(i));\r\n\t\tif (amari != 0) {\r\n\t\t\tkosuu++;\r\n\t\t}\r\n\t\tint ryokin = kosuu * int(b.at(i));\r\n\t\tif (ryokin < minyen) {\r\n\t\t\tminyen = ryokin;\r\n\t\t}\r\n\t}\r\n\tstd::cout << minyen << std::endl;\r\n}", "problem_id": "35", "problem_title": "\u725b\u4e3c\u306e\u6ce8\u6587", "datetime": "2018-08-06 14:41:50", "lang": "C++", "user": "takashu", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "takashu",
+    "problem_id": 35,
+    "result": "Accepted"
+}

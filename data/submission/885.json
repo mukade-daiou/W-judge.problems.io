@@ -1,1 +1,5 @@
-{"submission_id": "885", "source": "#include <iostream>\r\n#include <vector>\r\n#include <cmath>\r\n#include <algorithm>\r\nint main(){\r\n    int n,m;\r\n    std::cin>>n>>m;\r\n    std::vector<int> a(m),b(m),c(m);\r\n    for(int i=0;i<m;++i){\r\n        std::cin>>a[i]>>b[i];\r\n    }\r\n    for(int i=0;i<m;++i){\r\n        if(n%a[i]==0){\r\n            c[i]=(n/a[i])*b[i];\r\n        }\r\n        else{\r\n            c[i]=(n/a[i]+1)*b[i];\r\n        }\r\n    }\r\n    std::sort(c.begin(),c.end());\r\n    std::cout<<c[0]<<std::endl;\r\n}\r\n", "problem_id": "35", "problem_title": "\u725b\u4e3c\u306e\u6ce8\u6587", "datetime": "2018-08-06 15:15:22", "lang": "C++", "user": "yuden", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "yuden",
+    "problem_id": 35,
+    "result": "Accepted"
+}

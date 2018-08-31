@@ -1,1 +1,5 @@
-{"submission_id": "705", "source": "#include<iostream>\r\n#include<string>\r\n\r\nint main() {\r\n\tint n;\r\n\tint m;\r\n\tstd::cin >> n;\r\n\tstd::cin >> m;\r\n\tint a;\r\n\tint b;\r\n\tint ans =100000000 ;\r\n\tfor (int i = 0; i < m; i++) {\r\n\t\tstd::cin >> a;\r\n\t\tstd::cin >> b;\r\n\t\tif (n%a == 0) {\r\n\t\t\tif (ans > b*(n / a)) {\r\n\t\t\t\tans = b*(n / a);\r\n\t\t\t}\r\n\t\t}\r\n\t\telse{\r\n\t\t\tif (ans > b*((n / a)+1)) {\r\n\t\t\t\tans = b*((n / a)+1);\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n\tstd::cout << ans << std::endl;\r\n}\r\n", "problem_id": "35", "problem_title": "\u725b\u4e3c\u306e\u6ce8\u6587", "datetime": "2018-08-06 14:03:37", "lang": "C++", "user": "s.ogino", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "s.ogino",
+    "problem_id": 35,
+    "result": "Accepted"
+}

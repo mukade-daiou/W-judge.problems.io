@@ -1,1 +1,5 @@
-{"submission_id": "1749", "source": "#include <iostream>\r\n#include <string>\r\n#include<cstdlib>\r\n#include<algorithm>\r\n#include<string>\r\n#include<vector>\r\nusing namespace std;\r\n\r\nint main() {\r\n\tunsigned long long int N = 0;\r\n\tint answer = 0;\r\n\tcin >> N;\r\n\twhile (N != 1) {\r\n\t\tif (N % 2 == 0) {\r\n\t\t\tN = N / 2;\r\n\t\t\tanswer++;\r\n\t\t}\r\n\t\telse {\r\n\t\t\tN = 3 * N + 1;\r\n\t\t\tanswer++;\r\n\t\t}\r\n\t}\r\n\tcout << answer << '\\n';\r\n\treturn 0;\r\n}", "problem_id": "42", "problem_title": "3n+1", "datetime": "2018-08-08 10:56:25", "lang": "C++", "user": "Heyjyokyo", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "Heyjyokyo",
+    "problem_id": 42,
+    "result": "Accepted"
+}

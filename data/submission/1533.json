@@ -1,1 +1,5 @@
-{"submission_id": "1533", "source": "#include <iostream>\r\n#include <string>\r\nusing namespace std;\r\nint main(){\r\n    string s;\r\n    cin>>s;\r\n    cout<<s[0]<<s.size()-2<<s[s.size()-1]<<endl;\r\n}\r\n", "problem_id": "69", "problem_title": "i18n", "datetime": "2018-08-08 09:42:11", "lang": "C++", "user": "yuden", "sample_io": ["WrongAnswer", "Accepted"], "result": "Accepted", "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "score": "100", "max_score": "100"}
+{
+    "user": "yuden",
+    "problem_id": 69,
+    "result": "Accepted"
+}

@@ -1,1 +1,5 @@
-{"submission_id": "926", "source": "#include<iostream>\r\nint main() {\r\n\tstd::cout << \"Yes\" << std::endl;\r\n\treturn 0;\r\n}", "problem_id": "59", "problem_title": "\u30e4\u30ae\u306e\u7267\u5834", "datetime": "2018-08-06 15:29:41", "lang": "C++", "user": "oraoradori", "sample_io": ["Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "WrongAnswer", "Accepted", "WrongAnswer", "WrongAnswer", "WrongAnswer", "Accepted", "Accepted", "Accepted", "Accepted", "WrongAnswer", "Accepted", "WrongAnswer"]}], "result": "WrongAnswer", "score": "0", "max_score": "100"}
+{
+    "user": "oraoradori",
+    "problem_id": 59,
+    "result": "WrongAnswer"
+}

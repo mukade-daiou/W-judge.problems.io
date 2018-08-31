@@ -1,1 +1,5 @@
-{"submission_id": "1976", "source": "#include<iostream>\r\nusing namespace std;\r\nint main()\r\n{\r\n\tint n;\r\n\tcin >> n;\r\n\tint x = 0;\r\n\tfor (int i = 0; i <= 999; i++) {\r\n\t\tif (n%i == 0) {\r\n\t\t\tx += 1;\r\n\t\t}\r\n\t\tif (x == 3) {\r\n\t\t\tbreak;\r\n\t\t}\r\n\t}\r\n\tif (x == 2) {\r\n\t\tcout << \"yEs\" << endl;\r\n\t}\r\n\telse {\r\n\t\tcout << \"N0\" << endl; \r\n\t}\r\n}", "problem_id": "78", "problem_title": "\u534a\u7d20\u6570", "datetime": "2018-08-13 19:33:55", "lang": "C++", "user": "yuuto", "sample_io": ["RuntimeError"], "result": "RuntimeError", "testcase": [{"result": "RuntimeError", "max_score": "100", "io_result": ["RuntimeError", "RuntimeError", "RuntimeError", "RuntimeError"]}], "score": "0", "max_score": "100"}
+{
+    "user": "yuuto",
+    "problem_id": 78,
+    "result": "RuntimeError"
+}

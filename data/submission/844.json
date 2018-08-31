@@ -1,1 +1,5 @@
-{"submission_id": "844", "source": "#include<iostream>\r\nint main() {\r\n\tint a;\r\n\tunsigned int long long b=1;\r\n\tstd::cin >> a;\r\n\tfor (int i = 0; i < a ; i++) {\r\n\t\tb *= 2;\r\n\t}\r\n\tb = (b - 1) % 1000000007;\r\n\tstd::cout << b << std::endl;\r\n\treturn 0;\r\n}", "problem_id": "44", "problem_title": "Go big", "datetime": "2018-08-06 14:55:38", "lang": "C++", "user": "kazuyoshi", "sample_io": ["Accepted", "Accepted"], "testcase": [{"result": "Accepted", "max_score": "30", "io_result": ["Accepted", "Accepted"]}, {"result": "WrongAnswer", "max_score": "30", "io_result": ["WrongAnswer"]}, {"result": "WrongAnswer", "max_score": "40", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "result": "WrongAnswer", "score": "30", "max_score": "100"}
+{
+    "user": "kazuyoshi",
+    "problem_id": 44,
+    "result": "WrongAnswer"
+}

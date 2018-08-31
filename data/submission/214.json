@@ -1,1 +1,5 @@
-{"submission_id": "214", "source": "CE\u3057\u3084\u304c\u308c", "problem_id": "1", "problem_title": "Hello, World", "datetime": "2018-07-27 02:12:11", "lang": "C++", "user": "taiki_okano", "result": "CompileError", "score": "0", "max_score": "0"}
+{
+    "user": "taiki_okano",
+    "problem_id": 1,
+    "result": "CompileError"
+}

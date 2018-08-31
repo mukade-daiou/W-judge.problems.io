@@ -1,1 +1,5 @@
-{"submission_id": "1344", "source": "#include <iostream>\r\n#include <string>\r\nint main(){\r\n    std::string s;\r\n    std::cin>>s;\r\n    for(int i=0;i<s.size();++i){\r\n        if(97<=s[i]&&s[i]<=122){\r\n            s[i]=s[i]-32;\r\n        }\r\n        else if(65<=s[i]&&s[i]<=90){\r\n            s[i]=s[i]+32;\r\n        }\r\n    }\r\n    std::cout<<s<<std::endl;\r\n}\r\n", "problem_id": "63", "problem_title": "Switch", "datetime": "2018-08-07 10:51:29", "lang": "C++", "user": "yuden", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "yuden",
+    "problem_id": 63,
+    "result": "Accepted"
+}

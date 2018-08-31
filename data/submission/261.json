@@ -1,1 +1,5 @@
-{"submission_id": "261", "source": "#include <iostream>\r\n#include <string>\r\n#include <algorithm>\r\n#include <vector>\r\n#include <set>\r\n#include <map>\r\n#include <cmath>\r\n#include <iomanip>\r\n#include <queue>\r\n#include <stack>\r\n#include <deque>\r\n#include <utility>\r\n#include <functional>\r\n#define rep(i,n) for(int i=0;i<n;++i)\r\n#define FOR(i,s) for(int i=s;i>=0;--i)\r\n\r\nusing ll = long long;\r\nusing namespace std;\r\n\r\nconst ll INF = 1010101010;\r\nconst ll MOD = 1000000007;\r\n\r\nint main() {\r\n\tdouble n;\r\n\tcin >> n;\r\n\tif (n <= 2.5)\r\n\t\tcout << \"nail\" << endl;\r\n\telse if (n <= 5.5)\r\n\t\tcout << \"knife\" << endl;\r\n\telse\r\n\t\tcout << \"; ;\" << endl;\r\n\treturn 0;\r\n}", "problem_id": "33", "problem_title": "\u30e2\u30fc\u30b9\u786c\u5ea6 / Mohs hardness", "datetime": "2018-07-29 09:18:19", "lang": "C++", "user": "Under_bar", "sample_io": ["Accepted", "Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "result": "WrongAnswer", "score": "0", "max_score": "100"}
+{
+    "user": "Under_bar",
+    "problem_id": 33,
+    "result": "WrongAnswer"
+}

@@ -1,1 +1,5 @@
-{"submission_id": "1945", "source": "#include <iostream>\r\n#include <string>\r\n#include <algorithm>\r\nusing namespace std;\r\n\r\nint main()\r\n{\r\n\tstring s;\r\n\tcin >> s;\r\n\tcout << (count(s.begin(), s.end(), 'B') > count(s.begin(), s.end(), 'W') ? \"Black wins\" : count(s.begin(), s.end(), 'B') < count(s.begin(), s.end(), 'W') ? \"White wins\" : \"Draw\") << endl;\r\n}", "problem_id": "58", "problem_title": "\u4e00\u6b21\u5143\u30ea\u30d0\u30fc\u30b7", "datetime": "2018-08-08 18:42:26", "lang": "C++", "user": "kenken", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "kenken",
+    "problem_id": 58,
+    "result": "Accepted"
+}

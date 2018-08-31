@@ -1,1 +1,5 @@
-{"submission_id": "1141", "source": "#include <iostream>\r\n#include <vector>\r\nint main() {\r\n\tint N;\r\n\tstd::cin >> N;\r\n\tstd::vector <int> vec;\r\n\tfor (int i = 0; i < N; ++i) {\r\n\t\tint x;\r\n\t\tstd::cin >> x;\r\n\t\tvec.push_back(x);\r\n\t}\r\n\tstd::vector <int> vec2;\r\n\tfor (int i = 0; i < vec.size(); ++i) {\r\n\t\tif (vec[i] % 2 == 1)\r\n\t\t\tvec2.push_back(vec[i]);\r\n\t}\r\n\tfor (int i = 0; i < vec.size(); ++i) {\r\n\t\tif (vec[i] % 2 == 0)\r\n\t\t\tvec2.push_back(vec[i]);\r\n\t}\r\n\tfor (int i = 0; i < vec2.size(); ++i) {\r\n\t\tstd::cout << vec2[i] << \" \";\r\n\t\tif (i == vec2.size() - 1)\r\n\t\t\tstd::cout << std::endl;\r\n\t}\r\n\tsystem(\"pause\");\r\n\treturn 0;\r\n}", "problem_id": "38", "problem_title": "\u5947\u6570\u30d5\u30a1\u30fc\u30b9\u30c8", "datetime": "2018-08-07 09:38:49", "lang": "C++", "user": "takenoko", "sample_io": ["WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "takenoko",
+    "problem_id": 38,
+    "result": "WrongAnswer"
+}

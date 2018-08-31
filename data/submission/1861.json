@@ -1,1 +1,5 @@
-{"submission_id": "1861", "source": "#include <iostream>\r\n#include <vector>\r\n#include <string>\r\n#include <complex>\r\nusing namespace std;\r\n\r\n\r\n\r\nint a[100000];\r\n\r\n\r\nint main() {\r\n\tlong long n;\r\n\tcin >> n;\r\n\r\n\tint b = 0;\r\n\r\n\tfor (int i = 0; i < n; i++) {\r\n\t\ta[i] = 1;\r\n\t}\r\n\tfor (int i = 2; i < sqrt(n); i++) {\r\n\t\tif (a[i]) {\r\n\r\n\t\t\tfor (int j = 0; i * (j + 2) < n; j++) {\r\n\t\t\t\ta[i *(j + 2)] = 0;\r\n\t\t\t}\r\n\r\n\t\t}\r\n\t}\r\n\r\n\tfor (int i = 2; i < n; i++) {\r\n\t\tif (a[i]) {\r\n\r\n\t\t\tb++;\r\n\t\t}\r\n\t}\r\n\tcout << b << endl;\r\n}", "problem_id": "65", "problem_title": "FOO\u541b\u306e\u6559\u79d1\u66f8\u306b\u8f09\u3063\u3066\u308b\u30b3\u30e9\u30e0\u7de8", "datetime": "2018-08-08 11:32:12", "lang": "C++", "user": "shoji", "sample_io": ["Accepted"], "testcase": [{"result": "RuntimeError", "max_score": "100", "io_result": ["WrongAnswer", "Accepted", "Accepted", "Accepted", "RuntimeError", "Accepted", "Accepted", "Accepted", "RuntimeError", "Accepted"]}], "result": "RuntimeError", "score": "0", "max_score": "100"}
+{
+    "user": "shoji",
+    "problem_id": 65,
+    "result": "RuntimeError"
+}

@@ -1,1 +1,5 @@
-{"submission_id": "1663", "source": "#include <iostream>\r\n#include <vector>\r\n#include <string>\r\nusing namespace std;\r\n\r\n\r\n\r\n\t\tint main(){\r\n\t\t\tint n;\r\n\t\t\tcin >> n;\r\n\t\t\tint b = 0;\r\n\t\t\r\n\t\t\tfor (int i = 1; i <= n; i++) {\r\n\t\t\t\tint count = 0;\r\n\t\t\t\tfor (int j = 1; j <= i; j++) {\r\n\t\t\t\t\tif (i % j == 0) {\r\n\t\t\t\t\t\tcount++;\r\n\t\t\t\t\t}\r\n\t\t\t\t\tif (count > 2) {\r\n\t\t\t\t\t\tbreak;\r\n\t\t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\t\tif (count == 2) {\r\n\t\t\t\t\t\r\n\t\t\t\t\tb++;\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t\t\r\n\t\t\tcout << b << endl;\r\n}", "problem_id": "65", "problem_title": "FOO\u541b\u306e\u6559\u79d1\u66f8\u306b\u8f09\u3063\u3066\u308b\u30b3\u30e9\u30e0\u7de8", "datetime": "2018-08-08 10:22:49", "lang": "C++", "user": "shoji", "sample_io": ["Accepted"], "testcase": [{"result": "TimeLimitExceeded", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "TimeLimitExceeded", "Accepted", "Accepted", "Accepted", "TimeLimitExceeded", "Accepted"]}], "result": "TimeLimitExceeded", "score": "0", "max_score": "100"}
+{
+    "user": "shoji",
+    "problem_id": 65,
+    "result": "TimeLimitExceeded"
+}

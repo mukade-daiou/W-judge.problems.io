@@ -1,1 +1,5 @@
-{"submission_id": "785", "source": "#include<iostream>\r\nint main() {\r\n\tint n, m, a[10000], b[10000], A[10000];\r\n\tint long long B = 0;\r\n\tstd::cin >> n >> m;\r\n\tfor (int i = 0;i<m;i++) {\r\n\tstd::cin >> a[i] >> b[i];\r\n\t\tif (n%a[i] == 0)\r\n\t\t\tA[i] = n / a[i] * b[i];\r\n\t\telse\r\n\t\t\tA[i] = (n / a[i])*b[i] + b[i];\r\n\t}\r\n\tif (m == 1)\r\n\t\tstd::cout << A[0] << std::endl;\r\n\telse {\r\n\t\tfor (int i = 0; i < m - 1; i++) {\r\n\t\t\tif (A[i] <= A[i + 1])\r\n\t\t\t\tB = A[i];\r\n\t\t\telse\r\n\t\t\t\tB = A[i + 1];\r\n\t\t}\r\n\t\tstd::cout << B << std::endl;\r\n\t}\r\n\treturn 0;\r\n}", "problem_id": "35", "problem_title": "\u725b\u4e3c\u306e\u6ce8\u6587", "datetime": "2018-08-06 14:30:06", "lang": "C++", "user": "kazuyoshi", "sample_io": ["Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "Accepted"]}], "result": "WrongAnswer", "score": "0", "max_score": "100"}
+{
+    "user": "kazuyoshi",
+    "problem_id": 35,
+    "result": "WrongAnswer"
+}

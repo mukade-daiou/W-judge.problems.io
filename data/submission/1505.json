@@ -1,1 +1,5 @@
-{"submission_id": "1505", "source": "#include <iostream>\r\n#include <string>\r\n#include <algorithm>\r\n#include <vector>\r\n#include <cmath>\r\n\r\n\r\nint main() {\r\n\tstd::string s;\r\n\tstd::cin >> s;\r\n\tstd::cout << s[0] << s.size()-2 << s[s.size() - 1] << std::endl;\r\n}", "problem_id": "69", "problem_title": "i18n", "datetime": "2018-08-08 09:38:17", "lang": "C++", "user": "yomaru", "sample_io": ["WrongAnswer", "Accepted"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["Accepted", "Accepted", "WrongAnswer", "Accepted", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "yomaru",
+    "problem_id": 69,
+    "result": "WrongAnswer"
+}

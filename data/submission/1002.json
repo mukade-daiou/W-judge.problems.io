@@ -1,1 +1,5 @@
-{"submission_id": "1002", "source": "#include <iostream>\r\n#include <string>\r\n#include <vector>\r\n#include <algorithm>\r\nusing namespace std;\r\nint main() {\r\n\tunsigned long long  n, m;\r\n\tm = 1;\r\n\tcin >> n;\r\n\tfor (unsigned long long  i=0; i < n; i++) {\r\n\t\tm = m * 2;\r\n\t}\r\n\tcout << m % 1000000007 << endl;\r\n}\r\n", "problem_id": "44", "problem_title": "Go big", "datetime": "2018-08-06 15:50:43", "lang": "C++", "user": "shoji", "sample_io": ["WrongAnswer", "WrongAnswer"], "result": "TimeLimitExceeded", "testcase": [{"result": "WrongAnswer", "max_score": "30", "io_result": ["WrongAnswer", "WrongAnswer"]}, {"result": "WrongAnswer", "max_score": "30", "io_result": ["WrongAnswer"]}, {"result": "TimeLimitExceeded", "max_score": "40", "io_result": ["WrongAnswer", "TimeLimitExceeded", "TimeLimitExceeded", "TimeLimitExceeded", "TimeLimitExceeded"]}], "score": "0", "max_score": "100"}
+{
+    "user": "shoji",
+    "problem_id": 44,
+    "result": "TimeLimitExceeded"
+}

@@ -1,1 +1,5 @@
-{"submission_id": "744", "source": "#include<iostream>\r\n#include<algorithm>\r\n\r\nint main() {\r\n\tint n;\r\n\tstd::cin >> n;\r\n\tint a[100000];\r\n\tint b[100000];\r\n\tfor (int i = 0; i < n; i++) {\r\n\t\tstd::cin >> a[i];\r\n\t\tstd::cin >> b[i];\r\n\t\t\r\n\t}\r\n\tstd::sort(a, a + n - 1);\r\n\tstd::sort(b, b + n);\r\n\tint ans = 0;\r\n\tfor (int i = 0; i < n; i++) {\r\n\t\tans += a[i] * b[n - i - 1];\r\n\t\tstd::cout << a[i] << std::endl;\r\n\t\tstd::cout << b[i] << std::endl;\r\n\t}\r\n\tstd::cout << ans << std::endl;\r\n}\r\n", "problem_id": "72", "problem_title": "\u5316\u5b66\u306e\u5b9f\u9a13", "datetime": "2018-08-06 14:16:54", "lang": "C++", "user": "s.ogino", "sample_io": ["WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "40", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}, {"result": "WrongAnswer", "max_score": "60", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "s.ogino",
+    "problem_id": 72,
+    "result": "WrongAnswer"
+}

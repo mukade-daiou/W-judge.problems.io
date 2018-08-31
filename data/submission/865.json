@@ -1,1 +1,5 @@
-{"submission_id": "865", "source": "#include<iostream>\r\n#include<vector>\r\n#include<algorithm>\r\nusing namespace std;\r\nint main(){\r\n    int n;\r\n    int ans=0;\r\n    cin>>n;\r\n    vector<int>a(n);\r\n    vector<int>b(n);\r\n    vector<int>c(n);\r\n    for(int i=0;i<n;i++){\r\n        cin>>a[i]>>b[i];\r\n    }\r\n    sort(a.begin(),a.end(),greater<>());\r\n    sort(b.begin(),b.end(),greater<>());\r\n        for(int i=0;i<n;i++){\r\n        ans+=a[i]*b[n-(i+1)];\r\n    }\r\n    cout<<ans<<endl;\r\n}\r\n", "problem_id": "72", "problem_title": "\u5316\u5b66\u306e\u5b9f\u9a13", "datetime": "2018-08-06 15:05:07", "lang": "C++", "user": "lassi", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "40", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}, {"result": "WrongAnswer", "max_score": "60", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "result": "WrongAnswer", "score": "40", "max_score": "100"}
+{
+    "user": "lassi",
+    "problem_id": 72,
+    "result": "WrongAnswer"
+}

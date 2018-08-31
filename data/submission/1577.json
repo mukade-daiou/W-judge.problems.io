@@ -1,1 +1,5 @@
-{"submission_id": "1577", "source": "#include<iostream>\r\n#include<algorithm>\r\n#define rep(i,rept) for (ll i = 0; i < rept; i++)\r\n\ttypedef long long ll;\r\n\r\n\tint main() {\r\n\t\t\tll n = 0, m = 0;\r\n\t\t\tll sa = 0, syo = 0, amari = 0;\r\n\t\t\tstd::cin >> n >> m;\r\n\t\t\tsa = std::abs(n - m);\r\n\t\t\tsyo = std::max(n, m) / std::min(n, m);\r\n\t\t\tamari = std::max(n, m) % std::min(n, m);\r\n\t\t\tstd::cout << (n + m) + sa + syo + (n*m) + amari  << std::endl;\r\n\t\t\treturn 0;\r\n\t}", "problem_id": "50", "problem_title": "FOO\u541b\u3068HOGE\u3061\u3083\u3093\u306e\u5165\u5b66\u9593\u8fd1\u7de8", "datetime": "2018-08-08 09:53:50", "lang": "C++", "user": "Hinamel", "sample_io": ["Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["Accepted", "WrongAnswer", "Accepted", "Accepted", "Accepted"]}], "result": "WrongAnswer", "score": "0", "max_score": "100"}
+{
+    "user": "Hinamel",
+    "problem_id": 50,
+    "result": "WrongAnswer"
+}

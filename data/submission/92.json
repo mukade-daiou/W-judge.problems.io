@@ -1,1 +1,5 @@
-{"submission_id": "92", "source": "print('Hello, World')", "problem_id": "1", "problem_title": "Hello, World", "datetime": "2018-07-15 11:51:55", "lang": "C++", "user": "papipupepo", "result": "CompileError", "score": "0", "max_score": "0"}
+{
+    "user": "papipupepo",
+    "problem_id": 1,
+    "result": "CompileError"
+}

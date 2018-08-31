@@ -1,1 +1,5 @@
-{"submission_id": "1804", "source": "#include <iostream>\r\n#include <string>\r\n#include <algorithm>\r\n#define rep(i,n) for(int i=0;i<n;i++)\r\n\r\nusing ll = long long;\r\nusing namespace std;\r\n\r\nll n, m, a, b, ans;\r\nstring s, t;\r\nint main() {\r\n\tcin >> s >> t;\r\n\tn = s[1] - '0'; a = t[1] - '0';\r\n\tif (s[0] != '0') n += (s[0] - '0') * 10;\r\n\tif (t[0] != '0') a += (t[0] - '0') * 10; //n:m a:b\r\n\r\n\tm = s[4] - '0'; b = t[4] - '0';\r\n\tif (s[3] != '0') m += (s[3] - '0') * 10;\r\n\tif (t[3] != '0') b += (t[3] - '0') * 10;\r\n\t\r\n\tif (n > a) {\r\n\t\tans += 24 + a - n;\r\n\t\tif (m > b) ans += 60 + b - m;\r\n\t\telse ans += b - m;\r\n\t}\r\n\telse {\r\n\t\tans += a - n;\r\n\t\tif (m > b) ans += 60 + b - m;\r\n\t\telse ans += b - m;\r\n\t}\r\n\tans = min(ans, a + b + 1);\r\n\tcout << ans << endl;\r\n\treturn 0;\r\n}", "problem_id": "45", "problem_title": "\u6642\u9593\u5408\u308f\u305b", "datetime": "2018-08-08 11:13:53", "lang": "C++", "user": "Under_bar", "sample_io": ["Accepted", "Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "Under_bar",
+    "problem_id": 45,
+    "result": "Accepted"
+}

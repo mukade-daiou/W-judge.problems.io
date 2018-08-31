@@ -1,1 +1,5 @@
-{"submission_id": "2275", "source": "#include<iostream>\r\n#include<string>\r\nint main()\r\n{\r\n\tunsigned long int N, M;\r\n\tstd::cin >> N >> M;\r\n\tstd::cout << N % M << std::endl;\r\n}", "problem_id": "112", "problem_title": "(300)mod!mod!akusyounin!", "datetime": "2018-08-25 14:18:14", "lang": "C++", "user": "yuuto", "sample_io": ["Accepted", "Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "300", "io_result": ["Accepted", "WrongAnswer", "WrongAnswer"]}], "result": "WrongAnswer", "score": "0", "max_score": "300"}
+{
+    "user": "yuuto",
+    "problem_id": 112,
+    "result": "WrongAnswer"
+}

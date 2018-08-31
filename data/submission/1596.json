@@ -1,1 +1,5 @@
-{"submission_id": "1596", "source": "#include<iostream>\r\n\r\nint main() {\r\n\tint imazi;\r\n\tint imahun;\r\n\tint atozi;\r\n\tint atohun;\r\n\tchar s;\r\n\tstd::cin >>imazi >> s >> imahun;\r\n\tstd::cin >> atozi >> s >> atohun;\r\n\tint ans = atozi + atohun;\r\n\tif (atozi < imazi) {\r\n\t\tatozi += 24;\r\n\t}\r\n\tif (atohun < imahun) {\r\n\t\tatozi += 60;\r\n\t}\r\n\tif (ans > atozi - imazi + atohun - imahun) {\r\n\t\tans = atozi - imazi + atohun - imahun;\r\n\t}\r\n\tstd::cout << ans << std::endl;\r\n}", "problem_id": "45", "problem_title": "\u6642\u9593\u5408\u308f\u305b", "datetime": "2018-08-08 09:58:23", "lang": "C++", "user": "s.ogino", "sample_io": ["Accepted", "WrongAnswer"], "result": "Accepted", "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "score": "100", "max_score": "100"}
+{
+    "user": "s.ogino",
+    "problem_id": 45,
+    "result": "Accepted"
+}

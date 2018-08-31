@@ -1,1 +1,5 @@
-{"submission_id": "1465", "source": "#include <iostream>\r\n#include <string>\r\nint main(){\r\n\tint a=0;\r\n\tstd::string b;\r\n\tstd::cin>>b;\r\n\tfor(int i=0;i<=200000;i++){\r\n\t\tif(b[i]=='R'){\r\n\t\t\tfor(int j=0;j<b.j++){\r\n\t\t\t\tif(b[j]=='M'){\r\n\t\t\t\t\tfor(int l=0;l<b;l++){\r\n\t\t\t\t\t\tif(b[l]=='G'){\r\n}\r\n}\r\n}\r\n}\r\n}\r\n}\r\n       if(a==1){\r\n       std::cout<<\"YES\"<<std::endl;\r\n}\r\nelse{\r\n       std::cout<<\"NO\"<<std::endl;\r\n\t}\r\n\treturn 0;\r\n}", "problem_id": "82", "problem_title": "AMAGAERU", "datetime": "2018-08-07 21:48:20", "lang": "C++", "user": "yoshiyasu", "result": "CompileError", "score": "0", "max_score": "0"}
+{
+    "user": "yoshiyasu",
+    "problem_id": 82,
+    "result": "CompileError"
+}

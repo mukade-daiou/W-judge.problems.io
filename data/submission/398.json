@@ -1,1 +1,5 @@
-{"submission_id": "398", "source": "#include <iostream>\r\n#include <algorithm>\r\n#include <string>\r\n#include <vector>\r\n#include <map>\r\n#include <iomanip>\r\n#include <cmath>\r\n#include <cstdlib>\r\n\r\nint main(int argc, char **argv)\r\n{\r\n\tint h, w, c;\r\n\tchar input;\r\n\tstd::cin >> h >> w;\r\n\tfor(int i = 0; i < h; i++){\r\n\t\tc = -1;\r\n\t\tfor(int j = 0; j < w; j++){\r\n\t\t\tstd::cin >> input;\r\n\t\t\tif(c!=-1){\r\n\t\t\t\tc++;\r\n\t\t\t}\r\n\t\t\tif(input=='c'){\r\n\t\t\t\tc=0;\r\n\t\t\t}\r\n\t\t\tstd::cout << c;\r\n\t\t}\r\n\t\tstd::cout << std::endl;\r\n\t}\r\n\treturn 0;\r\n}\r\n", "problem_id": "41", "problem_title": "\u6c17\u8c61\u4e88\u5831\u58eb (Weather Forecaster)", "datetime": "2018-07-31 13:30:24", "lang": "C++", "user": "Torumu106", "sample_io": ["WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer"]}, {"result": "WrongAnswer", "max_score": "20", "io_result": ["WrongAnswer"]}, {"result": "WrongAnswer", "max_score": "20", "io_result": ["WrongAnswer"]}, {"result": "WrongAnswer", "max_score": "20", "io_result": ["WrongAnswer"]}, {"result": "WrongAnswer", "max_score": "20", "io_result": ["WrongAnswer"]}], "score": "0", "max_score": "180"}
+{
+    "user": "Torumu106",
+    "problem_id": 41,
+    "result": "WrongAnswer"
+}

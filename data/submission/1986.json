@@ -1,1 +1,5 @@
-{"submission_id": "1986", "source": "#include<iostream>\r\nint main()\r\n{\r\n\tint N, M;\r\n\tstd::cin >> N >> M;\r\n\tint A[10000], B[10000];\r\n\tint C[10000];\r\n\tfor (int i = 0; i <= M - 1; i++) {\r\n\t\tC[i] = 0;\r\n\t\tif (N%A[i] != 0) {\r\n\t\t\tC[i] = (N%A[i] + 1)*B[i];\r\n\t\t}\r\n\t\telse {\r\n\t\t\tC[i] = N % A[i] * B[i];\r\n\t\t}\r\n\t}\r\n\tint D = C[0];\r\n\tfor (int i = 1; i = M - 1; i++) {\r\n\t\tif (D > C[i]) {\r\n\t\t\tD = C[i];\r\n\t\t}\r\n\t}\r\n\tstd::cout << D << std::endl;\r\n}", "problem_id": "35", "problem_title": "\u725b\u4e3c\u306e\u6ce8\u6587", "datetime": "2018-08-14 12:58:23", "lang": "C++", "user": "yuuto", "sample_io": ["RuntimeError"], "result": "RuntimeError", "testcase": [{"result": "RuntimeError", "max_score": "100", "io_result": ["RuntimeError", "RuntimeError", "RuntimeError", "RuntimeError", "RuntimeError", "RuntimeError"]}], "score": "0", "max_score": "100"}
+{
+    "user": "yuuto",
+    "problem_id": 35,
+    "result": "RuntimeError"
+}

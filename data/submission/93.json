@@ -1,1 +1,5 @@
-{"submission_id": "93", "source": "#include <iostream>\r\n\r\nint main(){\r\nwhile(true){\r\nstd::cout << \"Hello, World\" << std::endl;\r\n}\r\nreturn 0;\r\n}", "problem_id": "4", "problem_title": "JOI\u4e88\u9078 2017/2018 Q1", "datetime": "2018-07-15 12:43:16", "lang": "C++", "user": "taiki_okano", "sample_io": ["TimeLimitExceeded", "TimeLimitExceeded"], "result": "TimeLimitExceeded", "testcase": [{"result": "TimeLimitExceeded", "max_score": "100", "io_result": ["TimeLimitExceeded", "TimeLimitExceeded", "TimeLimitExceeded", "TimeLimitExceeded", "TimeLimitExceeded", "TimeLimitExceeded", "TimeLimitExceeded", "TimeLimitExceeded", "TimeLimitExceeded", "TimeLimitExceeded", "TimeLimitExceeded", "TimeLimitExceeded", "TimeLimitExceeded", "TimeLimitExceeded", "TimeLimitExceeded", "TimeLimitExceeded", "TimeLimitExceeded", "TimeLimitExceeded", "TimeLimitExceeded", "TimeLimitExceeded"]}], "score": "0", "max_score": "100"}
+{
+    "user": "taiki_okano",
+    "problem_id": 4,
+    "result": "TimeLimitExceeded"
+}

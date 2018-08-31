@@ -1,1 +1,5 @@
-{"submission_id": "1203", "source": "#include<iostream>\r\n#include<string>\r\nusing namespace std;\r\n\r\nint main(){\r\n\tstring str;\r\n\tcin >> str;\r\n\tint M_point = 0;\r\n\tbool clear = false;\r\n\tfor (int i = 0; i < 20000; i++){\r\n\t\tM_point=str.find(\"M\", i);\r\n\t\tif (M_point == -1)break;\r\n\t\tif (str.find(\"G\", M_point) == M_point + 1 || str.find(\"AG\", M_point) == M_point + 1){\r\n\t\t\tif (str.find(\"G\", M_point) == M_point + 1)M_point += 1;\r\n\t\t\tif (str.find(\"AG\", M_point) == M_point + 1)M_point += 2;\r\n\t\t\tif (str.find(\"R\", M_point) == M_point + 1 || str.find(\"ER\", M_point) == M_point + 1 || str.find(\"AER\", M_point) == M_point + 1){\r\n\t\t\t\tclear = true;\r\n\t\t\t\tbreak;\r\n\t\t\t}\r\n\t\t}\r\n\t\ti = M_point;\r\n\t}\r\n\tif (clear)cout << \"YES\" << endl;\r\n\telse cout << \"NO\" << endl;\r\n}", "problem_id": "36", "problem_title": "AMAGAERU", "datetime": "2018-08-07 09:59:01", "lang": "C++", "user": "T_takahashi", "sample_io": ["WrongAnswer"], "result": "Accepted", "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted"]}], "score": "100", "max_score": "100"}
+{
+    "user": "T_takahashi",
+    "problem_id": 36,
+    "result": "Accepted"
+}

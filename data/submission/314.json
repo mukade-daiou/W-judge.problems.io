@@ -1,1 +1,5 @@
-{"submission_id": "314", "source": "#include<iostream>\r\nint main() {\r\n\tint ax, ay, bx, by, cx, cy, dx, dy;\r\n\tstd::cin >> ax >> ay >> bx >> by >> cx >> cy >> dx >> dy;\r\n\tif (ax - cx == bx - dy == ay - cy == by - dy) {\r\n\t\tstd::cout << \"Parallel\" << std::endl;\r\n\t}\r\n\telse {\r\n\t\tstd::cout << \"Intersect\" << std::endl;\r\n\t}\r\n\treturn 0;\r\n}", "problem_id": "25", "problem_title": "+INTERSECT+", "datetime": "2018-07-31 12:35:50", "lang": "C++", "user": "papipupepo", "sample_io": ["Accepted", "WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "50", "io_result": ["WrongAnswer"]}, {"result": "Accepted", "max_score": "50", "io_result": ["Accepted"]}], "score": "50", "max_score": "100"}
+{
+    "user": "papipupepo",
+    "problem_id": 25,
+    "result": "WrongAnswer"
+}

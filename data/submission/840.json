@@ -1,1 +1,5 @@
-{"submission_id": "840", "source": "#include <iostream>\r\n#include <algorithm>\r\n#include <string>\r\n#include <vector>\r\n#include <map>\r\n#include <iomanip>\r\n#include <cmath>\r\n#include <cstdlib>\r\n#include <math.h>\r\n\r\nint main(int argc, char **argv)\r\n{\r\n\tlong long n, m, ope, s, t, v, k;\r\n\tstd::cin >> n >> m;\r\n\tstd::vector<long long> vec(n);\r\n\tfor(int i = 0; i < m; i++){\r\n\t\tstd::cin >> ope;\r\n\t\tif(ope==1){\r\n\t\t\tstd::cin >> s >> t >> v;\r\n\t\t\tfor(int j = s + 1; j < t; j++){\r\n\t\t\t\tvec[j] = v;\r\n\t\t\t}\r\n\t\t}\r\n\t\tif(ope==2){\r\n\t\t\tstd::cin >> k;\r\n\t\t\tstd::cout << vec[k] << std::endl;\r\n\t\t}\r\n\t}\r\n\treturn 0;\r\n}\r\n", "problem_id": "70", "problem_title": "Range Set Query", "datetime": "2018-08-06 14:54:32", "lang": "C++", "user": "Torumu106", "sample_io": ["Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "40", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}, {"result": "TimeLimitExceeded", "max_score": "60", "io_result": ["TimeLimitExceeded", "TimeLimitExceeded", "TimeLimitExceeded", "TimeLimitExceeded", "TimeLimitExceeded"]}], "result": "TimeLimitExceeded", "score": "0", "max_score": "100"}
+{
+    "user": "Torumu106",
+    "problem_id": 70,
+    "result": "TimeLimitExceeded"
+}

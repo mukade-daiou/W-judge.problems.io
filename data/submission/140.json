@@ -1,1 +1,5 @@
-{"submission_id": "140", "source": "#include<iostream>\r\nint main() {\r\n\tint n;\r\n\tstd::cin >> n;\r\n\t\tif (n % 15 == 0) {\r\n\t\t\tstd::cout << \"FizzBuzz\\n\";\r\n\t\t}\r\n\t\telse if (n % 3 == 0) {\r\n\t\t\tstd::cout <<  \"Fizz\\n\";\r\n\t\t}\r\n\t\telse if (n % 5 == 0) {\r\n\t\t\tstd::cout <<  \"Buzz\\n\";\r\n\t\t}\r\n\t\telse {\r\n\t\t\tstd::cout << n << \"\\n\";\r\n\t\t}\r\n\treturn 0;\r\n}\r\n", "problem_id": "13", "problem_title": "\u54c1\u6027\u306e\u306a\u3044FizzBuzz", "datetime": "2018-07-17 13:17:44", "lang": "C++", "user": "kuriharashuya", "sample_io": ["Accepted", "Accepted", "Accepted", "Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "result": "WrongAnswer", "score": "0", "max_score": "100"}
+{
+    "user": "kuriharashuya",
+    "problem_id": 13,
+    "result": "WrongAnswer"
+}

@@ -1,1 +1,5 @@
-{"submission_id": "1233", "source": "#include<iostream>\r\n#include<string>\r\n\r\nint main() {\r\n\tstd::string s;\r\n\tstd::cin >> s;\r\n\tbool flug = true;\r\n\tint zi = 0;\r\n\tint hun = 0;\r\n\tfor (int i = 0; i < s.size(); i++) {\r\n\t\tif (s[i] == 'u') {\r\n\t\t\tif (flug) {\r\n\t\t\t\tzi++;\r\n\t\t\t\tif (zi == 24) {\r\n\t\t\t\t\tzi = 0;\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t\telse {\r\n\t\t\t\thun++;\r\n\t\t\t\tif (hun == 60) {\r\n\t\t\t\t\thun = 0;\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t}\r\n\t\telse if (s[i] == 'd') {\r\n\t\t\tif (flug) {\r\n\t\t\t\tzi--;\r\n\t\t\t\tif (zi == -1) {\r\n\t\t\t\t\tzi = 23;\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t\telse {\r\n\t\t\t\thun--;\r\n\t\t\t\tif (hun == -1) {\r\n\t\t\t\t\thun = 59;\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t}\r\n\t\telse if (s[i] == 'l') {\r\n\t\t\tflug = true;\r\n\t\t}\r\n\t\telse {\r\n\t\t\tflug = false;\r\n\t\t}\r\n\t}\r\n\tstd::cout << zi << ' ' << hun << std::endl;\r\n}", "problem_id": "71", "problem_title": "\u30c7\u30b8\u30bf\u30eb\u6642\u8a08", "datetime": "2018-08-07 10:08:25", "lang": "C++", "user": "s.ogino", "sample_io": ["Accepted", "Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "s.ogino",
+    "problem_id": 71,
+    "result": "Accepted"
+}

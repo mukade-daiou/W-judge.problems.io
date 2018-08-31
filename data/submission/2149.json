@@ -1,1 +1,5 @@
-{"submission_id": "2149", "source": "#include<iostream>\r\n#include<algorithm>\r\n#include<cmath>\r\n#include<string>\r\n#include<cstring>\r\nint main()\r\n{\r\n\tint a = 0, b = 0, c = 0, d = 0, e = 0, min = 0, ma = 0, ans = 0, ansb = 0, count = 0,countb, crowdy[101] = {},  bu = 0;\r\n\tint reset = 0,w=0;\r\n\tchar hairetu[200] = {};\r\n\tint number[10000], price[10000], sort[100000] = {}, kisu[10000] = { 100000 }, gusu[10000] = { 100000 };\r\n\tusing namespace std;\r\n\tint x = 0, y = 0, z = 0, play[200] = {}, acount = 0, bcount = 0;\r\n\tstd::string toki, tokit, fun,funt;\r\n\tint cake = 4, cookie = 7;\r\n\tbool okada=true;\r\n\tcin >> a >>b>>c;\r\n\tcout << std::max(a, b*c);\r\n\t/*for (int i = 0; i <= 15; i++) {\r\n\t\tcount = 0;\r\n\t\tcount = cookie * i;\r\n\r\n\t}\r\n\t*/\r\n\t}\r\n\r\n\t\t\r\n\t\r\n", "problem_id": "107", "problem_title": "(100)\u30ab\u30fc\u30c9\u30b2\u30fc\u30e0\u306e\u795e\u3001akusyounin!", "datetime": "2018-08-25 13:08:19", "lang": "C++", "user": "okadataku124", "sample_io": ["WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "okadataku124",
+    "problem_id": 107,
+    "result": "WrongAnswer"
+}

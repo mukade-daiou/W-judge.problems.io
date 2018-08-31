@@ -1,1 +1,5 @@
-{"submission_id": "628", "source": "#include <iostream>\r\n#include <string>\r\n#include <algorithm>\r\n#include <vector>\r\n#include <cmath>\r\n#include <iomanip>\r\n#include <queue>\r\n#include <stack>\r\n#define rep(i,n) for(int i=0;i<n;++i)\r\n\r\nusing namespace std;\r\nint n, m, ans, A[101010];\r\nstring s;\r\nint main() {\r\n\tcin >> s;\r\n\trep(i, s.size()) {\r\n\t\tif (s[i] == 'B') n++;\r\n\t\telse if (s[i] == 'W') m++;\r\n\t}\r\n\tif (n > m) cout << \"Black wins\" << endl;\r\n\telse if (n < m) cout << \"White wins\" << endl;\r\n\telse cout << \"Draw\" << endl;\r\n\treturn 0;\r\n}", "problem_id": "58", "problem_title": "\u4e00\u6b21\u5143\u30ea\u30d0\u30fc\u30b7", "datetime": "2018-08-06 13:34:19", "lang": "C++", "user": "Under_bar", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "Under_bar",
+    "problem_id": 58,
+    "result": "Accepted"
+}

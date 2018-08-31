@@ -1,1 +1,5 @@
-{"submission_id": "295", "source": "#include <cstdio>\r\n\r\nint count[3][101];\r\nint data[200][3];\r\n\r\nint main() {\r\n\tint N;\r\n\tscanf(\"%d\", &N);\r\n\tfor (int i = 0; i < N; i++) {\r\n\t\tfor (int j = 0; j < 3; j++) {\r\n\t\t\tint k;\r\n\t\t\tscanf(\"%d\", &k);\r\n\t\t\tdata[i][j] = k;\r\n\t\t\tcount[j][k]++;\r\n\t\t}\r\n\t}\r\n\tfor (int i = 0; i < N; i++) {\r\n\t\tint sum = 0;\r\n\t\tfor (int j = 0; j < 3; j++) {\r\n\t\t\tif (count[j][data[i][j]] == 1) sum += data[i][j];\r\n\t\t}\r\n\t\tprintf(\"%d\\n\", sum);\r\n\t}\r\n\treturn 0;\r\n}", "problem_id": "40", "problem_title": "\u6570\u5f53\u3066\u30b2\u30fc\u30e0 (Unique number)", "datetime": "2018-07-30 08:52:33", "lang": "C++", "user": "taiki_okano", "sample_io": ["WrongAnswer", "WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "Accepted", "max_score": "20", "io_result": ["Accepted"]}, {"result": "Accepted", "max_score": "20", "io_result": ["Accepted"]}, {"result": "Accepted", "max_score": "20", "io_result": ["Accepted"]}, {"result": "WrongAnswer", "max_score": "20", "io_result": ["WrongAnswer"]}, {"result": "WrongAnswer", "max_score": "20", "io_result": ["WrongAnswer"]}], "score": "60", "max_score": "100"}
+{
+    "user": "taiki_okano",
+    "problem_id": 40,
+    "result": "WrongAnswer"
+}

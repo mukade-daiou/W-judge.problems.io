@@ -1,1 +1,5 @@
-{"submission_id": "20", "source": "#include<iostream>\r\nint main()\r\n{\r\n\tint N, A, B, C, D;\r\n\tstd::cin >> N >> A >> B >> C >> D;\r\n\tint X = 0;\r\n\tint Y = 0;\r\n\tif (N%A == 0) {\r\n\t\tX = N / A * B;\r\n\t}\r\n\telse {\r\n\t\tX = (N / A + 1)*B;\r\n\t}\r\n\tif (N%C == 0) {\r\n\t\tY = N / C * D;\r\n\t}\r\n\telse {\r\n\t\tY = (N / C + 1)*D;\r\n\t}\r\n\tif (Y > X) {\r\n\t\tstd::cout << X << std::endl;\r\n\t}\r\n\telse {\r\n\t\tstd::cout << Y << std::endl;\r\n\t}\r\n}", "problem_id": "4", "problem_title": "JOI\u4e88\u9078 2017/2018 Q1", "datetime": "2018-07-14 11:46:13", "lang": "C++", "user": "yuuto", "sample_io": ["Accepted", "Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "yuuto",
+    "problem_id": 4,
+    "result": "Accepted"
+}

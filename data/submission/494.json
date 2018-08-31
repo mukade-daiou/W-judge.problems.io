@@ -1,1 +1,5 @@
-{"submission_id": "494", "source": "#include<iostream>\r\n#include<cmath>\r\n\r\nint main() {\r\n\tint n, v[100010];\r\n\tbool flag = 1;//1\u306a\u3089\u7d20\u6570 0\u306a\u3089\u5408\u6210\u6570\r\n\tstd::cin >> n;\r\n\tfor (int i = 0; i < n; ++i) {\r\n\t\tstd::cin >> v[i];\r\n\t\tflag = 1;\r\n\t\t//double\u578b\u3092int\u578b\u306b\u4ee3\u5165\u3057\u3066\u308b\u306e\u3067\u5c11\u3057\u6ce8\u610f\r\n\t\tfor (int j = 2; j <= std::sqrt(v[i]); ++j) {\r\n\t\t\tif (v[i] % j == 0) { \r\n\t\t\t\tflag = 0;\r\n\t\t\t\tbreak;\r\n\t\t\t}//1\u500b\u3067\u3082\u5272\u308c\u305f\u3089\u7d20\u6570\u3067\u306f\u306a\u3044\r\n\t\t}\r\n\t\tif (flag)std::cout << \"prime number\" << std::endl;\r\n\t\telse std::cout << \"composite number\" << std::endl;\r\n\t}\r\n\treturn 0;\r\n}", "problem_id": "54", "problem_title": "Prime_number", "datetime": "2018-08-01 03:17:33", "lang": "C++", "user": "mukadenodaiou", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "20", "io_result": ["Accepted"]}, {"result": "Accepted", "max_score": "40", "io_result": ["Accepted"]}, {"result": "TimeLimitExceeded", "max_score": "40", "io_result": ["TimeLimitExceeded", "TimeLimitExceeded"]}], "result": "TimeLimitExceeded", "score": "60", "max_score": "100"}
+{
+    "user": "mukadenodaiou",
+    "problem_id": 54,
+    "result": "TimeLimitExceeded"
+}

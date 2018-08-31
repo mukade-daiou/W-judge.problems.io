@@ -1,1 +1,5 @@
-{"submission_id": "2347", "source": "#include<iostream>\r\nint main() {\r\n\tint A, B;\r\n\tstd::cin >> A >> B;\r\n\tif (A == 8) {\r\n\t\tif (B == 5) {\r\n\t\t\tstd::cout << 2 << std::endl;\r\n\t\t}\r\n\t}\r\n\tif (A == 8) {\r\n\t\tif (B == 15) {\r\n\t\t\tstd::cout << 1 << std::endl;\r\n\t\t}\r\n\t}\r\n\tif (A == 7) {\r\n\t\tif (B == 20) {\r\n\t\t\tstd::cout << 0 << std::endl;\r\n\t\t}\r\n\t}\r\n\tif (A == 1000000000000) {\r\n\t\tif (B == 1000000000001) {\r\n\t\t\tstd::cout << 500000000000 << std::endl;\r\n\t\t}\r\n\t}\r\n}", "problem_id": "120", "problem_title": "(300)\u304a\u3082\u3061\u3083\u5c4b\u3055\u3093", "datetime": "2018-08-28 14:59:46", "lang": "C++", "user": "papipupepo", "sample_io": ["Accepted", "Accepted", "Accepted", "WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "300", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "300"}
+{
+    "user": "papipupepo",
+    "problem_id": 120,
+    "result": "WrongAnswer"
+}

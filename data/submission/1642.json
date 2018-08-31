@@ -1,1 +1,5 @@
-{"submission_id": "1642", "source": "#include<iostream>\r\nint main() {\r\n\tint n = 0;\r\n\tint m = 0;\r\n\tint x = 0;\r\n\tstd::cin >> n;\r\n\tstd::cin >> m;\r\n\tstd::cout << (n + m) + (n - m) + (n*m) + (n / m) + (n%m) << x<<std::endl;\r\n\treturn 0;\r\n\r\n}\r\n", "problem_id": "50", "problem_title": "FOO\u541b\u3068HOGE\u3061\u3083\u3093\u306e\u5165\u5b66\u9593\u8fd1\u7de8", "datetime": "2018-08-08 10:14:23", "lang": "C++", "user": "yoshiyasu", "sample_io": ["WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "yoshiyasu",
+    "problem_id": 50,
+    "result": "WrongAnswer"
+}

@@ -1,1 +1,5 @@
-{"submission_id": "2209", "source": "#include<iostream>\r\n#include<vector>\r\n#include<algorithm>\r\nusing namespace std;\r\nint main(){\r\n    int l,k,n;\r\n    long long int sum=0;\r\n    long long int goukei=0;\r\n    vector<int>a(n);\r\n    cin>>n>>l>>k;\r\n    for(int i=0;i<n;i++){\r\n        cin>>a[i];\r\n    }\r\n    for(int i=0;i<n;i++){\r\n        if(a[i]>=l){\r\n            sum+=k;\r\n        }else{\r\n            goukei++;\r\n        }\r\n    }\r\n    cout<<sum<<endl;\r\n    cout<<goukei<<endl;\r\n}", "problem_id": "108", "problem_title": "(200)\u76ee\u6e2c\u306e\u795e\u3001akusyounin!", "datetime": "2018-08-25 13:32:15", "lang": "C++", "user": "lassi_nassi", "sample_io": ["Accepted"], "testcase": [{"result": "RuntimeError", "max_score": "200", "io_result": ["Accepted", "Accepted", "Accepted", "RuntimeError", "RuntimeError"]}], "result": "RuntimeError", "score": "0", "max_score": "200"}
+{
+    "user": "lassi_nassi",
+    "problem_id": 108,
+    "result": "RuntimeError"
+}

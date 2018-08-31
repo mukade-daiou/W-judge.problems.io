@@ -1,1 +1,5 @@
-{"submission_id": "1584", "source": "#include<iostream>\r\n#include<cmath>\r\n#include<algorithm>\r\n#include <cassert>\r\n#include <stdio.h>\r\n#include<string>\r\nusing namespace std;\r\nint main() {\r\n\r\n\tint a = 0, b = 0;\r\n\tcin >> a >> b;\r\n\tif (a >=b) {\r\n\t\tcout << a + b + a - b + (a*b) + (a / b) + (a%b) << endl;\r\n\t}\r\n\telse {\r\n\t\tcout << a + b + a - b + (a*b) + (b / a) + (b%a) << endl;\r\n\t}\r\n\r\n\treturn 0;\r\n}", "problem_id": "50", "problem_title": "FOO\u541b\u3068HOGE\u3061\u3083\u3093\u306e\u5165\u5b66\u9593\u8fd1\u7de8", "datetime": "2018-08-08 09:55:50", "lang": "C++", "user": "forest", "sample_io": ["Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["Accepted", "WrongAnswer", "Accepted", "Accepted", "Accepted"]}], "result": "WrongAnswer", "score": "0", "max_score": "100"}
+{
+    "user": "forest",
+    "problem_id": 50,
+    "result": "WrongAnswer"
+}

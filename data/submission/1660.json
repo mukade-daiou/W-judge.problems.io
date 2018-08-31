@@ -1,1 +1,5 @@
-{"submission_id": "1660", "source": "#include \"iostream\"\r\n#include \"string\"\r\n#include \"algorithm\"\r\n#include \"vector\"\r\n\r\nusing namespace std;\r\n\r\nint main() {\r\n\tstring k, s, tmp[1000];\r\n\tbool flag[1000];\r\n\tfor (int i = 0; i < 1000; i++) flag[i] = false;\r\n\tgetline(cin, k);\r\n\tgetline(cin, s);\r\n\tint count = 0;\r\n\tfor (int i = 0; i < k.size(); i++) {\r\n\t\tif (k[i] != ' ') tmp[count].push_back(k[i]);\r\n\t\telse count++;\r\n\t}\r\n\r\n\tfor (int i = 0; i < count + 1; i++) {\r\n\t\tint a = s.find(tmp[i]);\r\n\t\tif (a != std::string::npos) cout << tmp[i] << endl;\r\n\t}\r\n\r\n\treturn 0;\r\n}", "problem_id": "51", "problem_title": "HOGE\u3061\u3083\u3093\u306e\u4fee\u5b66\u65c5\u884c\u7de8", "datetime": "2018-08-08 10:21:51", "lang": "C++", "user": "Kame", "sample_io": ["WrongAnswer", "WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "Accepted", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "Kame",
+    "problem_id": 51,
+    "result": "WrongAnswer"
+}

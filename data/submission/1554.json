@@ -1,1 +1,5 @@
-{"submission_id": "1554", "source": "#include<iostream>\r\nint main() {\r\n\tint n,m,z;\r\n\tstd::cin >> n >> m;\r\n\tif (n > m) {\r\n\t\tz = n-m;\r\n\t}\r\n\tif (n < m) {\r\n\t\tz = m - n;\r\n\t}\r\n\telse {\r\n\t\tz = 0;\r\n\t}\r\n\tstd::cout << n + m + z + n / m + n * m + n % m << std::endl;\r\n}", "problem_id": "50", "problem_title": "FOO\u541b\u3068HOGE\u3061\u3083\u3093\u306e\u5165\u5b66\u9593\u8fd1\u7de8", "datetime": "2018-08-08 09:46:43", "lang": "C++", "user": "UMT", "sample_io": ["WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "Accepted", "Accepted", "WrongAnswer", "Accepted"]}], "score": "0", "max_score": "100"}
+{
+    "user": "UMT",
+    "problem_id": 50,
+    "result": "WrongAnswer"
+}

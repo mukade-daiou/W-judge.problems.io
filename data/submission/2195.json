@@ -1,1 +1,5 @@
-{"submission_id": "2195", "source": "#include <iostream>\r\nint main()\r\n{int l=0,k=0,n=0,b=0,o=0,p=0;\r\nstd::cin>>n>>l>>k;\r\nfor(int i=0;i<n;i++){\r\nstd::cin>>b;\r\nif(b<l){\r\np++;\r\n}else{o=o+k;}\r\n}\r\nstd::cout<<o<<std::endl;\r\nstd::cout<<p<<std::endl;\r\n}\r\n", "problem_id": "108", "problem_title": "(200)\u76ee\u6e2c\u306e\u795e\u3001akusyounin!", "datetime": "2018-08-25 13:26:11", "lang": "C++", "user": "yokawa", "sample_io": ["Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "200", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "WrongAnswer"]}], "result": "WrongAnswer", "score": "0", "max_score": "200"}
+{
+    "user": "yokawa",
+    "problem_id": 108,
+    "result": "WrongAnswer"
+}

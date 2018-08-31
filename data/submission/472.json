@@ -1,1 +1,5 @@
-{"submission_id": "472", "source": "#include<iostream>\r\nint main() {\r\n\tint N;\r\n\tstd::cin >> N;\r\n\tstd::cout << N / 3 << std::endl;\r\n}", "problem_id": "21", "problem_title": "\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc\u754c\u306e\u30ca\u30d9\u30a2\u30c4", "datetime": "2018-07-31 16:10:57", "lang": "C++", "user": "papipupepo", "sample_io": ["Accepted", "WrongAnswer", "WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "papipupepo",
+    "problem_id": 21,
+    "result": "WrongAnswer"
+}

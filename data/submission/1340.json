@@ -1,1 +1,5 @@
-{"submission_id": "1340", "source": "#include<iostream>\r\n#include<vector>\r\nint main() {\r\n\tint n; \r\n\tstd::cin >> n;\r\n\tstd::vector<int> x;\r\n\tfor (int i = 0; i < n; i++){\r\n\t\tint d;\r\n\tstd::cin >> d;\r\n\tx.push_back(d);\r\n}\r\n\tfor (int i = 0; i < n ; i++) {\r\n\t\tfor (int s = i+1; s < n; s++) {\r\n\t\t\tif (x[s] < x[i]) {\r\n\t\t\t\tint a = x[s];\r\n\t\t\t\tx[s] = x[i];\r\n\t\t\t\tx[i] = a;\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n\tfor (int f = 0; f < n ; f++) {\r\n\t\tfor (int t =f+ 1; t < n; t++) {\r\n\t\t\tif (x[f] % 2 == 0 && x[t] % 2 == 1) {\r\n\t\t\t\tint b = x[t];\r\n\t\t\t\tx[t] = x[f];\r\n\t\t\t\tx[f] = b;\r\n\t\t\t}\r\n\t\t}\r\n\t\tstd::cout << x[f];\r\n\t}\r\n\t", "problem_id": "38", "problem_title": "\u5947\u6570\u30d5\u30a1\u30fc\u30b9\u30c8", "datetime": "2018-08-07 10:49:27", "lang": "C++", "user": "UMT", "result": "CompileError", "score": "0", "max_score": "0"}
+{
+    "user": "UMT",
+    "problem_id": 38,
+    "result": "CompileError"
+}

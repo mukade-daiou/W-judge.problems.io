@@ -1,1 +1,5 @@
-{"submission_id": "1527", "source": "#include <iostream>\r\n#include <algorithm>\r\n#include <string>\r\n#include <vector>\r\n#include <cmath>\r\n#define rep(i,rept) for(long long i = 0; i<rept;i++)\r\nusing namespace std;\r\nint main() {\r\n\tint a;\r\n\tstring x;\r\n\tcin >> x;\r\n\ta = x.size();\r\n\tcout << x[0] << a - 2 << x[a-1] << endl;\r\n}\r\n\r\n", "problem_id": "69", "problem_title": "i18n", "datetime": "2018-08-08 09:41:47", "lang": "C++", "user": "Terashima", "sample_io": ["WrongAnswer", "Accepted"], "result": "Accepted", "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "score": "100", "max_score": "100"}
+{
+    "user": "Terashima",
+    "problem_id": 69,
+    "result": "Accepted"
+}

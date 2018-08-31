@@ -1,1 +1,5 @@
-{"submission_id": "863", "source": "#include <utility>\r\n#include <iostream>\r\n#include <vector>\r\n#include <algorithm>\r\n#include <string>\r\n#include <map>\r\n#include <cmath>\r\n#include <numeric>\r\n#include <limits>\r\n#define ll long long\r\n#define rep(i,rept) for (ll i = 0; i < rept; i++)\r\n#define Yes(b) std::cout<< (b ? \"Yes\" : \"No\")<<std::endl\r\n#define YES(b) std::cout<< (b ? \"YES\" : \"NO\")<<std::endl\r\n#define fr first\r\n#define se second\r\nusing namespace std;\r\n\r\nint main() {\r\n\tint n, m, k, l;\r\n\tvector<int> v;\r\n\tcin >> n >> m;\r\n\tl = m;\r\n\trep(i, n) {\r\n\t\tcin >> k;\r\n\t\tv.emplace_back(k); \r\n\t\tm -= k;\r\n\t\t\r\n\t}\r\n\tsort(v.begin(), v.end());\r\n\tm /= v[0];\r\n\tcout << m + n;\r\n}", "problem_id": "73", "problem_title": "\u682a\u53d6\u5f15", "datetime": "2018-08-06 15:03:59", "lang": "C++", "user": "leaf2326", "sample_io": ["WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "leaf2326",
+    "problem_id": 73,
+    "result": "WrongAnswer"
+}

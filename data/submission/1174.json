@@ -1,1 +1,5 @@
-{"submission_id": "1174", "source": "#include <iostream>\r\n#include <algorithm>\r\n#include <string>\r\n#include <vector>\r\n#include <cmath>\r\nusing namespace std;\r\nint main() {\r\n\tstring s;\r\n\tcin >> s;\r\n\tint y = s.size();\r\n\tfor (int i = 0;i < y;i++) {\r\n\t\tif (tolower(s[i]) != s[i]) {\r\n\t\t\ts[i] = s[i] + 32;\r\n\t\t}\r\n\t\telse {\r\n\t\t\ts[i] = s[i] - 32;\r\n\t\t}\r\n\t}\r\n\r\n\tcout << s << endl;\r\n}", "problem_id": "63", "problem_title": "Switch", "datetime": "2018-08-07 09:48:23", "lang": "C++", "user": "Terashima", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "Terashima",
+    "problem_id": 63,
+    "result": "Accepted"
+}

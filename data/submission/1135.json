@@ -1,1 +1,5 @@
-{"submission_id": "1135", "source": "#include<iostream>\r\n#include<vector>\r\n#include<algorithm>S\r\n#include<functional>\r\n#include<map>\r\n#include<string.h>\r\n#include<string>\r\n#include<cmath>\r\n#include<utility>\r\n#define rep(i,rept) for (ll i = 0; i < rept; i++)\r\ntypedef long long ll;\r\n\r\nint main() {\r\n\tint n = 0, a[100] = {};\r\n\tstd::cin >> n;\r\n\trep(i, n) {\r\n\t\tstd::cin >> a[i];\r\n\t}\r\n\tstd::sort(a, a + n);\r\n\tfor (int i = 1; i < n; i++) {\r\n\t\tif (a[i - 1] % 2 == 0 && a[i] % 2 != 0) {\r\n\t\t\tstd::swap(a[i], a[i - 1]);\r\n\t\t}\r\n\t}\r\n\trep(i, n) {\r\n\t\tstd::cout << a[i];\r\n\t}\r\n\tstd::cout << std::endl;\r\n\treturn 0;\r\n\r\n\r\n}", "problem_id": "38", "problem_title": "\u5947\u6570\u30d5\u30a1\u30fc\u30b9\u30c8", "datetime": "2018-08-07 09:36:14", "lang": "C++", "user": "Hinamel", "result": "CompileError", "score": "0", "max_score": "0"}
+{
+    "user": "Hinamel",
+    "problem_id": 38,
+    "result": "CompileError"
+}

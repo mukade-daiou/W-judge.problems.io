@@ -1,1 +1,5 @@
-{"submission_id": "55", "problem_id": "4", "problem_title": "JOI\u4e88\u9078 2017/2018 Q1", "datetime": "2018-07-14 13:48:05", "result": "WaitingJudge", "source": "#include<iostream>\r\nint main()\r\n{\r\n    int N, A, B, C, D;\r\n    std::cin >> N >> A >> B >> C >> D;\r\n    int E = 0;\r\n    int F = 0;\r\n    if (N%A == 0) {\r\n        E = N / A * B;\r\n    }\r\n    else {\r\n        E= (N / A + 1)*B;\r\n    }\r\n    if (N%C == 0) {\r\n        F = N / C * D;\r\n    }\r\n    else {\r\n        F = (N / C + 1)*D;\r\n    }\r\n    if (F>E) {\r\n        std::cout << E << std::endl;\r\n    }\r\n    else {\r\n        std::cout << F << std::endl;\r\n    }\r\n    \r\n}\r\n\r\n\r\n\r\n\r\n", "user": "papipupepo", "lang": "C++"}
+{
+    "user": "papipupepo",
+    "problem_id": 4,
+    "result": "WaitingJudge"
+}

@@ -1,1 +1,5 @@
-{"submission_id": "2282", "source": "#include <iostream>\r\n#include <algorithm>\r\n\r\nint main () {\r\n\r\nlong long n,l,k;\r\nint f[100001];\r\nint cantcount = 0;\r\nint temp = 0;\r\n\r\nstd::cin >> n >> l >> k;\r\n\r\nfor (int i = 0; i < n; ++i){\r\nstd::cin >> f[i];\r\n}\r\n\r\nfor (int i = 0; i < n; ++i){\r\nif (f[i] < l){\r\ncantcount += 1;\r\n}\r\nelse {\r\ntemp += k;\r\n}\r\n}\r\n\r\nstd::cout << temp << std::endl;\r\nstd::cout << cantcount << std::endl;\r\n\r\nreturn 0;\r\n\r\n\r\n}", "problem_id": "108", "problem_title": "(200)\u76ee\u6e2c\u306e\u795e\u3001akusyounin!", "datetime": "2018-08-25 14:39:54", "lang": "C++", "user": "rockman", "sample_io": ["Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "200", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "WrongAnswer"]}], "result": "WrongAnswer", "score": "0", "max_score": "200"}
+{
+    "user": "rockman",
+    "problem_id": 108,
+    "result": "WrongAnswer"
+}

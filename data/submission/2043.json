@@ -1,1 +1,5 @@
-{"submission_id": "2043", "source": "#include \"bits/stdc++.h\"\r\n\r\nusing namespace std;\r\nusing ll = long long;\r\nusing ull = unsigned long long;\r\n\r\ntypedef pair<ll, ll> P;\r\ntypedef pair<ll, P> PP;\r\ntypedef pair<P, P> PPP;\r\n\r\nconst ll MOD = 1e9 + 7;\r\nconst ll INF = 9e18;\r\nconst double DINF = 5e14;\r\nconst double eps = 1e-10;\r\nconst int di[4] = { 1,0,-1,0 }, dj[4] = { 0,1,0,-1 };\r\n\r\n#define ALL(x) (x).begin(),(x).end()\r\n#define ALLR(x) (x).rbegin(),(x).rend()\r\n#define pb push_back\r\n#define eb emplace_back\r\n#define fr first\r\n#define sc second\r\n\r\nint N, L, K, l;\r\nll ans, cnt;\r\n\r\nint main() {\r\n\tcin >> N >> L >> K;\r\n\tcnt = N;\r\n\tfor (int i = 0;i < N;i++) {\r\n\t\tcin >> l;\r\n\t\tif (l >= L)ans += K, cnt--;\r\n\t}\r\n\tcout << ans << endl;\r\n\tcout << cnt << endl;\r\n\treturn 0;\r\n}", "problem_id": "103", "problem_title": "\u76ee\u6e2c\u306e\u795e\u3001akusyounin", "datetime": "2018-08-21 23:02:24", "lang": "C++", "user": "kaneshun", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "kaneshun",
+    "problem_id": 103,
+    "result": "Accepted"
+}

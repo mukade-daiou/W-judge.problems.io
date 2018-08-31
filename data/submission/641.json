@@ -1,1 +1,5 @@
-{"submission_id": "641", "source": "#include<iostream>\r\n#include<cmath>\r\n#include<algorithm>\r\n#include <cassert>\r\n#include <stdio.h>\r\nusing namespace std;\r\nint main() {\r\n\tcout << \"Hello, PCP\" << endl;\r\n\treturn 0;\r\n}", "problem_id": "79", "problem_title": "Hello, PCP", "datetime": "2018-08-06 13:37:11", "lang": "C++", "user": "forest", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "forest",
+    "problem_id": 79,
+    "result": "Accepted"
+}

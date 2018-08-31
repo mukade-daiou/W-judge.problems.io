@@ -1,1 +1,5 @@
-{"submission_id": "572", "source": "#include <iostream>\r\n#include <algorithm>\r\n#include <functional>\r\n\r\nconstexpr int MAX_N = 1000000;\r\n\r\nint N;\r\nlong long A[MAX_N], B[MAX_N];\r\n\r\nint main(){\r\n\r\n\tstd::cin >> N;\r\n\r\n\tfor(int i = 0; i < N; ++i){\r\n\t\tstd::cin >> A[i] >> B[i];\r\n\t}\r\n\r\n\tstd::sort(A, A + N);\r\n\tstd::sort(B, B + N, std::greater<int>());\r\n\r\n\tlong long sum = 0;\r\n\tfor(int i = 0; i < N; ++i){\r\n\t\tsum += A[i] * B[i];\r\n\t}\r\n\r\n\tstd::cout << sum << std::endl;\r\n\r\n\treturn 0;\r\n}\r\n", "problem_id": "72", "problem_title": "\u5316\u5b66\u306e\u5b9f\u9a13", "datetime": "2018-08-05 21:50:35", "lang": "C++", "user": "taiki_okano", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "40", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}, {"result": "Accepted", "max_score": "60", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "taiki_okano",
+    "problem_id": 72,
+    "result": "Accepted"
+}

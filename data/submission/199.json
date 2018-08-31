@@ -1,1 +1,5 @@
-{"submission_id": "199", "source": "# include <iostream>\r\n# include <algorithm>\r\n# include <vector>\r\n# include <string>\r\n#define ll long long\r\n#define rep(i,rept) for (ll i = 0; i < rept; i++)\r\n#define Yes(b) std::cout<< (b ? \"Yes\" : \"No\")\r\nusing namespace std;\r\nint main(void) {\r\n\tint n;\r\n\tstring str;\r\n\tvector<char> firstChars = {}, lastChars = {};\r\n\tcin >> n;\r\n\trep(i, n) {\r\n\t\tcin >> str;\r\n\t\tfirstChars.push_back(str[0]);\r\n\t\tlastChars.push_back(str[str.size() - 1]);\r\n\t}\r\n\tsort(firstChars.begin(), firstChars.end());\r\n\tsort(lastChars.begin(), lastChars.end());\r\n\r\n\tYes(firstChars == lastChars);\r\n\treturn 0;\r\n}", "problem_id": "22", "problem_title": "\u5faa\u74b0\u3057\u308a\u3068\u308a", "datetime": "2018-07-20 23:33:19", "lang": "C++", "user": "leaf2326", "sample_io": ["WrongAnswer", "WrongAnswer", "WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "leaf2326",
+    "problem_id": 22,
+    "result": "WrongAnswer"
+}

@@ -1,1 +1,5 @@
-{"submission_id": "586", "source": "#include <iostream>\r\n#include <algorithm>\r\n\r\nconstexpr int MAX_N = 1000;\r\nconstexpr int MAX_M = 1000000;\r\n\r\nint N, M;\r\nlong long v[MAX_N], c[MAX_N];\r\nlong long dp[MAX_M + 1];\r\n\r\nint main(){\r\n\r\n\tstd::cin >> N >> M;\r\n\r\n\tfor(int i = 0; i < N; ++i){\r\n\t\tstd::cin >> v[i] >> c[i];\r\n\t}\r\n\r\n\tfor(int i = 0; i < M; ++i){\r\n\t\tdp[i] = -1;\r\n\t}\r\n\tdp[0] = 0;\r\n\r\n\tfor(int i = 0; i < N; ++i){\r\n\t\tfor(int j = M; j >= 0; --j){\r\n\t\t\tif(j - c[i] >= 0 && dp[j - c[i]] != -1){\r\n\t\t\t\tdp[j] = std::max(dp[j], dp[j - c[i]] + v[i]);\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n\r\n\tlong long ans = 0;\r\n\tfor(int i = 0; i <= M; ++i){\r\n\t\tans = std::max(ans, dp[i]);\r\n\t}\r\n\r\n\tstd::cout << ans << std::endl;\r\n\r\n\treturn 0;\r\n}\r\n", "problem_id": "62", "problem_title": "Never Ending Homework", "datetime": "2018-08-06 02:47:05", "lang": "C++", "user": "taiki_okano", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "30", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}, {"result": "Accepted", "max_score": "70", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "taiki_okano",
+    "problem_id": 62,
+    "result": "Accepted"
+}

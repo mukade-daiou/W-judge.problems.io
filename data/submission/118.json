@@ -1,1 +1,5 @@
-{"submission_id": "118", "source": "\r\n                                                                 \r\n#include<iostream>\r\n\r\nint main()\r\n{\r\n\tint n;\r\n\r\n\tstd::cin >> n;\r\n\r\n\tfor (int i = 1; i <= n; i++) {\r\n\t\tstd::cout << i << \"\u306f\";\r\n\t\tif (i % 15 == 0)std::cout << \"FizzBuzz\";\r\n\t\telse if (i % 5 == 0)\r\n\t\t\tstd::cout << \"Fizz\";\r\n\r\n\t\telse if (i % 3 == 0)\r\n\t\t\tstd::cout << \"Buzz\" << std::endl;\r\n\t}\r\n\r\n\r\n\r\n\r\n\tstd::cout << \"\u3067\u3059\\n\";\r\n}\r\n\r\nreturn 0;\r\n\r\n}\r\n", "problem_id": "15", "problem_title": "\u54c1\u6027\u306e\u3042\u308bFizzBuzz", "datetime": "2018-07-17 12:20:44", "lang": "C++", "user": "yoshiyasu", "result": "CompileError", "score": "0", "max_score": "0"}
+{
+    "user": "yoshiyasu",
+    "problem_id": 15,
+    "result": "CompileError"
+}

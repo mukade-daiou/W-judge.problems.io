@@ -1,1 +1,5 @@
-{"submission_id": "1954", "source": "#include <iostream>\r\nusing namespace std;\r\n\r\nint main()\r\n{\r\n\tcout << 0 << endl;\r\n}", "problem_id": "46", "problem_title": "a ^ a mod m + b ^ b mod m problem (easy)", "datetime": "2018-08-12 08:49:23", "lang": "C++", "user": "kenken", "sample_io": [], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "kenken",
+    "problem_id": 46,
+    "result": "Accepted"
+}

@@ -1,1 +1,5 @@
-{"submission_id": "660", "source": "#include \"iostream\"\r\n#include \"string\"\r\n\r\nusing namespace std;\r\n\r\nint main() {\r\n\tint n, m;\r\n\tcin >> n >> m;\r\n\tint a[10000], b[10000];\r\n\tfor (int i = 0; i < m; i++) {\r\n\t\tcin >> a[i];\r\n\t\tcin >> b[i];\r\n\t}\r\n\tint tmp[10000];\r\n\tfor (int i = 0; i < 10000; i++) {\r\n\t\ttmp[i] = 0;\r\n\t}\r\n\tfor (int i = 0; i < m; i++) {\r\n\t\tif (n % a[i] == 0) tmp[i] = n / a[i] * b[i];\r\n\t\telse tmp[i] = (n / a[i] + 1) * b[i];\r\n\t}\r\n\tint ans = tmp[0];\r\n\tfor (int i = 0; i < m; i++) {\r\n\t\tif (ans > tmp[i]) ans = tmp[i];\r\n\t}\r\n\tcout << ans << endl;\r\n}", "problem_id": "35", "problem_title": "\u725b\u4e3c\u306e\u6ce8\u6587", "datetime": "2018-08-06 13:45:57", "lang": "C++", "user": "Kame", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "Kame",
+    "problem_id": 35,
+    "result": "Accepted"
+}

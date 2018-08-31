@@ -1,1 +1,5 @@
-{"submission_id": "1261", "source": "#include <iostream>\r\n#include <string>\r\n#include <fstream>\r\n\r\nconst std::string s = \"AMAGAERU\";\r\nconst std::string m = \"AIUEO\";\r\n\r\nint main() {\r\n    std::string str;\r\n    \r\n    std::cin >> str;\r\n    \r\n    int a = 0;\r\n    for(int i = 0; i < s.size(); ++i) {\r\n        if(str[a] == s[i]) {\r\n            ++a;\r\n        }else if (m.find(s[i]) == std::string::npos) {\r\n            std::cout << \"NO\" << std::endl;\r\n            \r\n            return 0;\r\n        }\r\n    }\r\n    \r\n    std::cout << \"YES\" << std::endl;\r\n}", "problem_id": "36", "problem_title": "AMAGAERU", "datetime": "2018-08-07 10:19:49", "lang": "C++", "user": "Teacher", "sample_io": ["WrongAnswer"], "result": "Accepted", "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted"]}], "score": "100", "max_score": "100"}
+{
+    "user": "Teacher",
+    "problem_id": 36,
+    "result": "Accepted"
+}

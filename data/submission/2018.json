@@ -1,1 +1,5 @@
-{"submission_id": "2018", "source": "#include<iostream>\r\nusing namespace std;\r\nint main()\r\n{\r\n\tint N, M;\r\n\tcin >> N >> M;\r\n\tint a[60000];\r\n\tint ans = 0;\r\n\tint  s = 0;\r\n\tfor (int i = 0; i < N; i++) {\r\n\t\tcin >> a[i];\r\n\t}\r\n\tfor (int i = 0; i < N; i++) {\r\n\t\tif (i == 0) {\r\n\t\t\tif (M > a[i]) {\r\n\t\t\t\tans++;\r\n\t\t\t\tM = M - a[i];\r\n\t\t\t}\r\n\t\t\telse {\r\n\t\t\t\tbreak;\r\n\t\t\t}\r\n\t\t}\r\n\t\telse {\r\n\t\t\tif (M > a[i] * (i + 1)) {\r\n\t\t\t\tans += (i + 1);\r\n\t\t\t\tM -= a[i] * i;\r\n\t\t\t}\r\n\t\t\telse {\r\n\t\t\t\tdo {\r\n\t\t\t\t\tif (M > a[i]) {\r\n\t\t\t\t\t\tans++;\r\n\t\t\t\t\t\tM -= a[i];\r\n\t\t\t\t\t}\r\n\t\t\t\t\telse {\r\n\t\t\t\t\t\tbreak;\r\n\t\t\t\t\t}\r\n\t\t\t\t\ts++;\r\n\t\t\t\t} while (s == i - 1);\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n\tcout << ans << endl;\r\n}", "problem_id": "73", "problem_title": "\u682a\u53d6\u5f15", "datetime": "2018-08-14 18:28:17", "lang": "C++", "user": "yuuto", "sample_io": ["Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["Accepted", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "result": "WrongAnswer", "score": "0", "max_score": "100"}
+{
+    "user": "yuuto",
+    "problem_id": 73,
+    "result": "WrongAnswer"
+}

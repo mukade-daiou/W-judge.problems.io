@@ -1,1 +1,5 @@
-{"submission_id": "1833", "source": "#include<iostream>\r\n#include<cmath>\r\nint main() {\r\n\tint n = 0, c = 0, d = 0;\r\n\tstd::cin >> n;\r\n\tfor (int m = 1; m <= n; m++) {\r\n\t\tc = pow(2, m - 1);\r\n\t\tif (c%m == 1) {\r\n\t\t\td++;\r\n\t\t}\r\n\t}\r\n\tstd::cout << d+1 << std::endl;\r\n\t}\r\n", "problem_id": "65", "problem_title": "FOO\u541b\u306e\u6559\u79d1\u66f8\u306b\u8f09\u3063\u3066\u308b\u30b3\u30e9\u30e0\u7de8", "datetime": "2018-08-08 11:21:08", "lang": "C++", "user": "yokawa", "sample_io": ["Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["Accepted", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "result": "WrongAnswer", "score": "0", "max_score": "100"}
+{
+    "user": "yokawa",
+    "problem_id": 65,
+    "result": "WrongAnswer"
+}

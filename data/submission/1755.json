@@ -1,1 +1,5 @@
-{"submission_id": "1755", "source": "#include <iostream>\r\n#include <algorithm>\r\n#include <string>\r\n#include <vector>\r\n#include <map>\r\n#include <iomanip>\r\n#include <cmath>\r\n#include <cstdlib>\r\n#include <math.h>\r\n#include <stdlib.h>\r\n\r\nint main()\r\n{\r\n\tint n, total=0;\r\n\tbool notprime[1000000]={};\r\n\tstd::cin >> n;\r\n\tfor(int i = 2; i * i <= n; i++){\r\n\t\tif(notprime[i]) continue;\r\n\t\tfor(int j = 2; j <= n / i; j++){\r\n\t\t\tnotprime[j * i] = true;\r\n\t\t}\r\n\t}\r\n\tfor(int i = 2; i <= n; i++){\r\n\t\tif(!notprime[i]) total++;\r\n\t}\r\n\tstd::cout << total << std::endl;\r\n\treturn 0;\r\n}\r\n\r\n", "problem_id": "65", "problem_title": "FOO\u541b\u306e\u6559\u79d1\u66f8\u306b\u8f09\u3063\u3066\u308b\u30b3\u30e9\u30e0\u7de8", "datetime": "2018-08-08 10:58:18", "lang": "C++", "user": "Torumu106", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "Torumu106",
+    "problem_id": 65,
+    "result": "Accepted"
+}

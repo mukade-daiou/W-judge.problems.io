@@ -1,1 +1,5 @@
-{"submission_id": "873", "source": "#include <iostream>\r\n#include <algorithm>\r\n#include <string>\r\n#include <vector>\r\n#include <map>\r\n#include <iomanip>\r\n#include <cmath>\r\n#include <cstdlib>\r\n#include <math.h>\r\n\r\nint main(int argc, char **argv)\r\n{\r\n\tunsigned long long x, ans=1;\r\n\tstd::vector<int> vec{1};\r\n\tstd::cin >> x;\r\n\tfor(int i = 0; i < x; i++){\r\n\t\tans *= 2;\r\n\t\tans %= 1000000007;\r\n\t\tif(ans==vec[0]){\r\n\t\t\tans = vec[x % vec.size()];\r\n\t\t\tbreak;\r\n\t\t}\r\n\t\tvec.push_back(ans);\r\n\t}\r\n\tstd::cout << ans - 1 << std::endl;\r\n\treturn 0;\r\n}\r\n", "problem_id": "44", "problem_title": "Go big", "datetime": "2018-08-06 15:08:28", "lang": "C++", "user": "Torumu106", "sample_io": ["Accepted", "Accepted"], "testcase": [{"result": "Accepted", "max_score": "30", "io_result": ["Accepted", "Accepted"]}, {"result": "Accepted", "max_score": "30", "io_result": ["Accepted"]}, {"result": "TimeLimitExceeded", "max_score": "40", "io_result": ["TimeLimitExceeded", "TimeLimitExceeded", "TimeLimitExceeded", "TimeLimitExceeded", "TimeLimitExceeded"]}], "result": "TimeLimitExceeded", "score": "60", "max_score": "100"}
+{
+    "user": "Torumu106",
+    "problem_id": 44,
+    "result": "TimeLimitExceeded"
+}

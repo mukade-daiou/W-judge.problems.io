@@ -1,1 +1,5 @@
-{"submission_id": "2225", "source": "#include <iostream>\r\n#include <string>\r\n\r\nconstexpr int MAX_M = 1000000000;\r\n\r\nint main(){\r\n\r\n\tstd::string N;\r\n\tint M;\r\n\r\n\tstd::cin >> N >> M;\r\n\r\n\tint ans = 0;\r\n\r\n\tif(N.length() > 10){\r\n\t\tans += MAX_M % M;\r\n\t\tans += std::atoi(N.substr(N.length() - 11, 10).c_str());\r\n\t}\r\n\telse{\r\n\t\tans += std::atoi(N.c_str());\r\n\t}\r\n\r\n\tans %= M;\r\n\r\n\tstd::cout << ans << std::endl;\r\n\r\n\treturn 0;\r\n}\r\n", "problem_id": "112", "problem_title": "(300)mod!mod!akusyounin!", "datetime": "2018-08-25 13:38:00", "lang": "C++", "user": "taiki_okano", "sample_io": ["Accepted", "Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "300", "io_result": ["Accepted", "WrongAnswer", "WrongAnswer"]}], "result": "WrongAnswer", "score": "0", "max_score": "300"}
+{
+    "user": "taiki_okano",
+    "problem_id": 112,
+    "result": "WrongAnswer"
+}

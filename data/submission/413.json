@@ -1,1 +1,5 @@
-{"submission_id": "413", "source": "#include<iostream>\r\nint main()\r\n{\r\n\tint r[3], j[2];\r\n\tfor (int i = 0; i <= 2; i++) {\r\n\t\tstd::cin >> r[i];\r\n\t}\r\n\tfor (int i = 0; i <= 1; i++) {\r\n\t\tstd::cin >> j[i];\r\n\t}\r\n\tint r2 = r[0];\r\n\tfor (int i = 0; i <= 1; i++) {\r\n\t\tif (r[i] > r[i + 1]) {\r\n\t\t\tr2 = r[i + 1];\r\n\t\t}\r\n\t}\r\n\tint j2;\r\n\tif (j[0] < j[1]) {\r\n\t\tj2 = j[0];\r\n\t}\r\n\tif (j[0] > j[1]) {\r\n\t\tj2 = j[1];\r\n\t}\r\n\tstd::cout << r2 + j2 - 50 << std::endl;\r\n}", "problem_id": "39", "problem_title": "\u30e9\u30f3\u30c1(Lunch)", "datetime": "2018-07-31 13:41:51", "lang": "C++", "user": "yuuto", "sample_io": ["Accepted", "Accepted"], "testcase": [{"result": "Accepted", "max_score": "20", "io_result": ["Accepted"]}, {"result": "Accepted", "max_score": "20", "io_result": ["Accepted"]}, {"result": "Accepted", "max_score": "20", "io_result": ["Accepted"]}, {"result": "Accepted", "max_score": "20", "io_result": ["Accepted"]}, {"result": "Accepted", "max_score": "20", "io_result": ["Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "yuuto",
+    "problem_id": 39,
+    "result": "Accepted"
+}

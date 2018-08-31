@@ -1,1 +1,5 @@
-{"submission_id": "2054", "source": "#include<iostream>\r\n#include<vector>\r\nlong long a=1<<50;\r\nstd::vector<int>v;\r\nint main(){\r\nv.resize(a);\r\nstd::cout<<\"Hello, World\"<<std::endl;\r\nreturn 0;\r\n}", "problem_id": "1", "problem_title": "Hello, World", "datetime": "2018-08-22 10:58:23", "lang": "C++", "user": "akusyounin", "sample_io": [], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "akusyounin",
+    "problem_id": 1,
+    "result": "Accepted"
+}

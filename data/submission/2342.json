@@ -1,1 +1,5 @@
-{"submission_id": "2342", "source": "#include<iostream>\r\nint main() {\r\n\tint N, M;\r\n\tstd::cin >> N >> M;\r\n\tstd::cout << N - N % M << std::endl;\r\n\treturn 0;\r\n}", "problem_id": "117", "problem_title": "(250)mother child stand up", "datetime": "2018-08-28 14:46:07", "lang": "C++", "user": "papipupepo", "sample_io": ["Accepted", "WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "250", "io_result": ["Accepted", "Accepted", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "250"}
+{
+    "user": "papipupepo",
+    "problem_id": 117,
+    "result": "WrongAnswer"
+}

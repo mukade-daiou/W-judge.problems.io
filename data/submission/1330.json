@@ -1,1 +1,5 @@
-{"submission_id": "1330", "source": "#include<iostream>\r\n\r\nunsigned long long a,b;\r\n\r\nint main(){\r\n    \r\n    std::cin>>a>>b;\r\n\r\n    std::cout<<a+b;\r\n    \r\n    return 0;\r\n\r\n}", "problem_id": "37", "problem_title": "\u305f\u3057\u3056\u3093", "datetime": "2018-08-07 10:44:12", "lang": "C++", "user": "shugo15", "sample_io": ["WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "40", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}, {"result": "WrongAnswer", "max_score": "60", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "shugo15",
+    "problem_id": 37,
+    "result": "WrongAnswer"
+}

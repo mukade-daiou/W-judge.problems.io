@@ -1,1 +1,5 @@
-{"submission_id": "2243", "source": "#include<iostream>\r\n\r\nint main() {\r\n\tint N,K,L;\r\n\tstd::cin >> N >> L >> K;\r\n\tint X,Y;\r\n\tfor (int i = 0; i < N;++i) {\r\n\t\tint l;\r\n\t\tstd::cin >> l;\r\n\t\tX = 0;\r\n\t\tY = 0;\r\n\t\tif (l < L) {\r\n\t\t\tY += 1;\r\n\t\t}\r\n\t\telse {\r\n\t\t\tX += K;\r\n\t\t}\r\n\t}\r\n\tstd::cout << X << std::endl;\r\n\tstd::cout << Y << std::endl;\r\n\treturn 0;\r\n}", "problem_id": "108", "problem_title": "(200)\u76ee\u6e2c\u306e\u795e\u3001akusyounin!", "datetime": "2018-08-25 13:54:29", "lang": "C++", "user": "kosuke0919", "sample_io": ["WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "200", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "200"}
+{
+    "user": "kosuke0919",
+    "problem_id": 108,
+    "result": "WrongAnswer"
+}

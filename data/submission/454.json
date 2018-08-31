@@ -1,1 +1,5 @@
-{"submission_id": "454", "source": "#include <iostream>\r\n#include <algorithm>\r\n\r\nint main(){\r\n  int a,b,c,d,e;\r\n  std::cin>>a>>b>>c>>d>>e;\r\n  int p=std::min(a,std::min(b,c));\r\n  int j=std::min(d,e);\r\n  std::cout<<p+j-50<<std::endl;\r\n  return 0;\r\n}\r\n", "problem_id": "39", "problem_title": "\u30e9\u30f3\u30c1(Lunch)", "datetime": "2018-07-31 15:00:01", "lang": "C++", "user": "vel", "sample_io": ["Accepted", "Accepted"], "testcase": [{"result": "Accepted", "max_score": "20", "io_result": ["Accepted"]}, {"result": "Accepted", "max_score": "20", "io_result": ["Accepted"]}, {"result": "Accepted", "max_score": "20", "io_result": ["Accepted"]}, {"result": "Accepted", "max_score": "20", "io_result": ["Accepted"]}, {"result": "Accepted", "max_score": "20", "io_result": ["Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "vel",
+    "problem_id": 39,
+    "result": "Accepted"
+}

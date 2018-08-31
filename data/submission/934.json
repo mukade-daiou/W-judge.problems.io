@@ -1,1 +1,5 @@
-{"submission_id": "934", "source": "#include<iostream>\r\n#include<string>\r\n#include<vector>\r\n#include <stdio.h>\r\n#include <stdlib.h>\r\n#include <time.h>\r\n\r\nint main() {\r\n\tunsigned long long int x;\r\n\tstd::cin >> x;\r\n\tint a = 2;\r\n\tfor (int i = 0; i < x - 1; i++)a *= a;\r\n\tstd::cout << a % 1000000007 << std::endl;\r\n\treturn 0;\r\n}", "problem_id": "44", "problem_title": "Go big", "datetime": "2018-08-06 15:33:22", "lang": "C++", "user": "oraoradori", "sample_io": ["WrongAnswer", "WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "30", "io_result": ["WrongAnswer", "WrongAnswer"]}, {"result": "WrongAnswer", "max_score": "30", "io_result": ["WrongAnswer"]}, {"result": "WrongAnswer", "max_score": "40", "io_result": ["WrongAnswer", "TimeLimitExceeded", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "oraoradori",
+    "problem_id": 44,
+    "result": "WrongAnswer"
+}

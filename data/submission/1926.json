@@ -1,1 +1,5 @@
-{"submission_id": "1926", "source": "#include <iostream>\r\n#include <string>\r\n#include <algorithm>\r\nusing namespace std;\r\nint main(){\r\n    int n,ans=0;\r\n    cin>>n;\r\n    bool a[100000];\r\n    for(int i=2;i<n;++i){\r\n        a[i]=1;\r\n    }\r\n    for(int i=2;i<n;++i){\r\n        if(a[i]){\r\n            for(int j=0;i*(j+2)<n;++j){\r\n                a[i*(j+2)]=0;\r\n            }\r\n        }\r\n    }\r\n    for(int i=0;i<n;++i){\r\n        if(a[i]==1){\r\n            ++ans;\r\n        }\r\n    }\r\n    cout<<ans<<endl;\r\n}\r\n", "problem_id": "65", "problem_title": "FOO\u541b\u306e\u6559\u79d1\u66f8\u306b\u8f09\u3063\u3066\u308b\u30b3\u30e9\u30e0\u7de8", "datetime": "2018-08-08 11:58:27", "lang": "C++", "user": "yuden", "sample_io": ["Accepted"], "testcase": [{"result": "RuntimeError", "max_score": "100", "io_result": ["WrongAnswer", "Accepted", "Accepted", "Accepted", "RuntimeError", "Accepted", "Accepted", "Accepted", "RuntimeError", "Accepted"]}], "result": "RuntimeError", "score": "0", "max_score": "100"}
+{
+    "user": "yuden",
+    "problem_id": 65,
+    "result": "RuntimeError"
+}

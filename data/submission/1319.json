@@ -1,1 +1,5 @@
-{"submission_id": "1319", "source": "#include<iostream>\r\n#include<cstring>\r\nusing namespace std;\r\nint main(){\r\n    string a;\r\n    cin>> a;\r\n    for(int i=0;i<a.length();i++){\r\n        if(a[i]<97){\r\n            a[i]=a[i]+32;\r\n        }else if(a[i]>=65){\r\n            a[i]=a[i]-32;\r\n        }\r\n    }\r\n    for(int i=0;i<a.length();i++){\r\n        cout<<a[i];\r\n    }\r\n    cout<<endl;\r\n    return 0;\r\n}\r\n", "problem_id": "63", "problem_title": "Switch", "datetime": "2018-08-07 10:39:54", "lang": "C++", "user": "lassi", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "lassi",
+    "problem_id": 63,
+    "result": "Accepted"
+}

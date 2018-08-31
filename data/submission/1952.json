@@ -1,1 +1,5 @@
-{"submission_id": "1952", "source": "#include <iostream>\r\n#include <algorithm>\r\nusing namespace std;\r\n\r\nint main()\r\n{\r\n\tint a, b, c, p, q, r, H, h, g;\r\n\tcin >> a >> b >> c >> p >> q >> r >> H >> h >> g;\r\n\tcout << ((H - 1) / q * p >= h ? 0 : min(0, g - a - (H - 1) / r * b)) << endl;\r\n}", "problem_id": "64", "problem_title": "\u793a\u8ac7\u91d1", "datetime": "2018-08-12 08:40:14", "lang": "C++", "user": "kenken", "sample_io": ["Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "result": "WrongAnswer", "score": "0", "max_score": "100"}
+{
+    "user": "kenken",
+    "problem_id": 64,
+    "result": "WrongAnswer"
+}

@@ -1,1 +1,5 @@
-{"submission_id": "2192", "source": "#include <iostream>\r\nint main(){\r\n\tint n,l,k;\r\n\tstd::cin>>n>>l>>k;\r\n\tint N=0,L,K=0;\r\n\tfor(int i=0;i<n;i++){\r\n\t\tstd::cin>>L;\r\n\t\tif(L>=l){\r\n\t\t\tK+=k;\r\n\t\t}else{\r\n\t\t\tN+=1;\r\n\t\t}\r\n\t}\r\n\tstd::cout<<K<<std::endl;\r\n\tstd::cout<<N<<std::endl;\r\n\treturn 0;\r\n}", "problem_id": "108", "problem_title": "(200)\u76ee\u6e2c\u306e\u795e\u3001akusyounin!", "datetime": "2018-08-25 13:25:19", "lang": "C++", "user": "246", "sample_io": ["Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "200", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "WrongAnswer"]}], "result": "WrongAnswer", "score": "0", "max_score": "200"}
+{
+    "user": "246",
+    "problem_id": 108,
+    "result": "WrongAnswer"
+}

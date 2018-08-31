@@ -1,1 +1,5 @@
-{"submission_id": "1981", "source": "#include<iostream>\r\nint main()\r\n{\r\n\tint N, M;\r\n\tstd::cin >> N >> M;\r\n\tint A[10000], B[10000];\r\n\tlong double C[10000];\r\n\tfor (int i = 0; i <= M - 1; i++) {\r\n\t\tstd::cin >> A[i] >> B[i];\r\n\t\tC[i] = 0;\r\n\t\tC[i] = A[i] / B[i];\r\n\t}\r\n\tint D = 0;\r\n\tfor (int i = 1; i <= M - 1; i++) {\r\n\t\tif (C[i] < C[i - 1]) {\r\n\t\t\tD = i;\r\n\t\t}\r\n\t}\r\n\tint ans = 0;\r\n\tint ANS;\r\n\tif (N%A[D] != 0) {\r\n\t\tANS = N / A[D] + 1;\r\n\t}\r\n\telse {\r\n\t\tANS = N / A[D];\r\n\t}\r\n\tstd::cout << ANS * B[D] << std::endl;\r\n\treturn 0;\r\n}", "problem_id": "35", "problem_title": "\u725b\u4e3c\u306e\u6ce8\u6587", "datetime": "2018-08-14 12:38:22", "lang": "C++", "user": "yuuto", "sample_io": ["Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "Accepted"]}], "result": "WrongAnswer", "score": "0", "max_score": "100"}
+{
+    "user": "yuuto",
+    "problem_id": 35,
+    "result": "WrongAnswer"
+}

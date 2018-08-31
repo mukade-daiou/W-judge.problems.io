@@ -1,1 +1,5 @@
-{"submission_id": "1757", "source": "#include <iostream>\r\n\r\nint main() {\r\n\tint n, count = 0;\r\n\tbool _while = false;\r\n\tstd::cin >> n;\r\n\twhile (_while == false) {\r\n\r\n\t\tif (n % 2 == 0)\r\n\t\t\tn /= 2;\r\n\t\telse\r\n\t\t\tn = n * 3 + 1;\r\n\r\n\t\tcount += 1;\r\n\r\n\t\tif (n == 1)\r\n\t\t\t_while = true;\r\n\r\n\t}\r\n\tstd::cout << count << std::endl;\r\n\tsystem(\"pause\");\r\n\treturn 0;\r\n}", "problem_id": "42", "problem_title": "3n+1", "datetime": "2018-08-08 10:59:34", "lang": "C++", "user": "takenoko", "sample_io": ["Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "WrongAnswer"]}], "result": "WrongAnswer", "score": "0", "max_score": "100"}
+{
+    "user": "takenoko",
+    "problem_id": 42,
+    "result": "WrongAnswer"
+}

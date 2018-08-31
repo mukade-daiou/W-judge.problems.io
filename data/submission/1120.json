@@ -1,1 +1,5 @@
-{"submission_id": "1120", "source": "#include<iostream>\r\n#include<string>\r\nint main() {\r\n\tchar s;\r\n\tfor (int i = 0; i < 100; i++) {\r\n\t\tstd::cin >> s;\r\n\t\tif (s >= 97) {\r\n\t\t\ts = s - 32;\r\n\t\t\tstd::cout << s << std::endl;\r\n\t\t}else if (s <= 90) {\r\n\t\t\ts = s + 32;\r\n\t\t\tstd::cout << s << std::endl;\r\n\t\t}\r\n\t}\r\n}", "problem_id": "63", "problem_title": "Switch", "datetime": "2018-08-07 09:31:17", "lang": "C++", "user": "yokawa", "sample_io": ["WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "yokawa",
+    "problem_id": 63,
+    "result": "WrongAnswer"
+}

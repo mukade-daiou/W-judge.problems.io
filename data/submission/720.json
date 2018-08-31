@@ -1,1 +1,5 @@
-{"submission_id": "720", "source": "#include<iostream>\r\n#include<vector>\r\n#include<algorithm>\r\n#include<functional>\r\n#include<map>\r\n#include<string>\r\n#include<cmath>\r\n#include<utility>\r\n#define rep(i,rept) for (ll i = 0; i < rept; i++)\r\ntypedef long long ll;\r\n\r\nint main() {\r\n\tint n = 0, m = 0;\r\n\tint count = 0,money = 0;\r\n\tstd::map<int, int> map;\r\n\tint tanka[10000] = {};\r\n\tint a[10000] = {}, b[10000] = {};\r\n\tstd::cin >> n >> m;\r\n\r\n\trep(i, m) {\r\n\t\tstd::cin >> a[i] >> b[i];\r\n\t}\r\n\trep(i, m) {\r\n\t\ttanka[i] = b[i] / a[i];\r\n\t}\r\n\tstd::sort(tanka, tanka + m, std::greater<int>());\r\n\tstd::cout << tanka[m-1] << std::endl;\r\n\twhile (count < n) {\r\n\t\tcount++;\r\n\t\tmoney += tanka[m-1];\r\n\t}\r\n\tstd::cout << money << std::endl;\r\n\treturn 0;\r\n}", "problem_id": "35", "problem_title": "\u725b\u4e3c\u306e\u6ce8\u6587", "datetime": "2018-08-06 14:07:11", "lang": "C++", "user": "Hinamel", "sample_io": ["WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "Hinamel",
+    "problem_id": 35,
+    "result": "WrongAnswer"
+}

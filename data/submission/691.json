@@ -1,1 +1,5 @@
-{"submission_id": "691", "source": "#include <iostream>\r\nusing namespace std;\r\n\r\nint main()\r\n{\r\ncout << \"Hello, PCP\";\r\n\r\n\r\nreturn 0;\r\n}", "problem_id": "79", "problem_title": "Hello, PCP", "datetime": "2018-08-06 13:59:36", "lang": "C++", "user": "reyesefren", "sample_io": ["WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "reyesefren",
+    "problem_id": 79,
+    "result": "WrongAnswer"
+}

@@ -1,1 +1,5 @@
-{"submission_id": "277", "source": "#include<iostream>\r\nint main()\r\n{\r\nint m;\r\nstd::cin >> m;\r\nif(m>=5.5){\r\nstd::cout << \"; ;\" << std::endl;\r\n}\r\nelse if(5.5>=m>=2.5){\r\nstd::cout << \"knife\" << std::endl;\r\n}\r\nelse if(m<=2.5){\r\nstd::cout << \"nail\" << std::endl;\r\n}\r\n}", "problem_id": "33", "problem_title": "\u30e2\u30fc\u30b9\u786c\u5ea6 / Mohs hardness", "datetime": "2018-07-29 14:24:50", "lang": "C++", "user": "yuuto", "sample_io": ["WrongAnswer", "Accepted"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["Accepted", "WrongAnswer", "Accepted"]}], "score": "0", "max_score": "100"}
+{
+    "user": "yuuto",
+    "problem_id": 33,
+    "result": "WrongAnswer"
+}

@@ -1,1 +1,5 @@
-{"submission_id": "1608", "source": "#include<iostream>\r\n#include<algorithm>\r\n#define rep(i,rept) for (ll i = 0; i < rept; i++)\r\n\ttypedef long long ll;\r\n\r\n\tint main() {\r\n\t\tll n = 0;\r\n\t\tll count = 0;\r\n\t\tstd::cin >> n;\r\n\t\twhile (n != 1) {\r\n\t\t\tif (n % 2 == 0) {\r\n\t\t\t\tn = n / 2;\r\n\t\t\t}\r\n\t\t\telse {\r\n\t\t\t\tn = n * 3 + 1;\r\n\t\t\t}\r\n\t\t\tcount++;\r\n\t\t}\r\n\t\tstd::cout << count << std::endl;\r\n\t}", "problem_id": "42", "problem_title": "3n+1", "datetime": "2018-08-08 10:01:09", "lang": "C++", "user": "Hinamel", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "Hinamel",
+    "problem_id": 42,
+    "result": "Accepted"
+}

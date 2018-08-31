@@ -1,1 +1,5 @@
-{"submission_id": "1245", "source": "#include \"iostream\"\r\n#include \"string\"\r\n#include \"algorithm\"\r\n#include \"vector\"\r\n\r\nusing namespace std;\r\n\r\nint main() {\r\n\tstring s, amagaeru = \"AMAGAERU\";\r\n\tcin >> s;\r\n\tbool flag = true;\r\n\tint to = -1, tt = -1, th = -1;\r\n\r\n\tfor (int i = 0; i <= 1; i++) {\r\n\t\tif (i > s.size()) break;\r\n\t\tif (s[i] == 'M') to = i;\r\n\t}\r\n\tif (to == -1) {\r\n\t\tflag = false;\r\n\t}\r\n\r\n\tfor (int i = to + 1; i <= to + 2; i++) {\r\n\t\tif (i > s.size()) break;\r\n\t\tif (s[i] == 'G') tt = i;\r\n\t}\r\n\tif (to == tt) {\r\n\t\tflag = false;\r\n\t}\r\n\r\n\tfor (int i = tt + 1; i <= tt + 3; i++) {\r\n\t\tif (i > s.size()) break;\r\n\t\tif (s[i] == 'R') th = i;\r\n\t}\r\n\tif (th == tt) {\r\n\t\tflag = false;;\r\n\t}\r\n\r\n\tif (flag) cout << \"YES\" << endl;\r\n\telse cout << \"NO\" << endl;\r\n\r\n\treturn 0;\r\n}", "problem_id": "82", "problem_title": "AMAGAERU", "datetime": "2018-08-07 10:14:09", "lang": "C++", "user": "Kame", "sample_io": ["Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["Accepted", "Accepted", "WrongAnswer", "Accepted"]}], "result": "WrongAnswer", "score": "0", "max_score": "100"}
+{
+    "user": "Kame",
+    "problem_id": 82,
+    "result": "WrongAnswer"
+}

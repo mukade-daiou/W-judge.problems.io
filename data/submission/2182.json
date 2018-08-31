@@ -1,1 +1,5 @@
-{"submission_id": "2182", "source": "#include <iostream>\r\n\r\nint main(){\r\n\r\n\tint N, L, K;\r\n\r\n\tstd::cin >> N >> L >> K;\r\n\r\n\tint ans = 0;\r\n\tint unknown = 0;\r\n\r\n\tfor(int i = 0; i < N; ++i){\r\n\r\n\t\tint l;\r\n\r\n\t\tstd::cin >> l;\r\n\r\n\t\tif(l >= L){\r\n\t\t\tans += K;\r\n\t\t}\r\n\t\telse{\r\n\t\t\t++unknown;\r\n\t\t}\r\n\t}\r\n\r\n\tstd::cout << ans << std::endl;\r\n\tstd::cout << unknown << std::endl;\r\n\r\n\treturn 0;\r\n}\r\n", "problem_id": "108", "problem_title": "(200)\u76ee\u6e2c\u306e\u795e\u3001akusyounin!", "datetime": "2018-08-25 13:21:04", "lang": "C++", "user": "taiki_okano", "sample_io": ["Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "200", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "WrongAnswer"]}], "result": "WrongAnswer", "score": "0", "max_score": "200"}
+{
+    "user": "taiki_okano",
+    "problem_id": 108,
+    "result": "WrongAnswer"
+}

@@ -1,1 +1,5 @@
-{"submission_id": "81", "source": "#include <iostream>\r\n\r\nint main(){\r\nwhile(true){\r\nstd::cout << \"Hello, World\" << std::endl;\r\n}\r\nreturn 0;\r\n}\r\n", "problem_id": "1", "problem_title": "Hello, World", "datetime": "2018-07-15 08:51:45", "lang": "C++", "user": "Teacher", "sample_io": [], "testcase": [{"result": "TimeLimitExceeded", "max_score": "100", "io_result": ["TimeLimitExceeded"]}], "result": "TimeLimitExceeded", "score": "0", "max_score": "100"}
+{
+    "user": "Teacher",
+    "problem_id": 1,
+    "result": "TimeLimitExceeded"
+}

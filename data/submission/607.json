@@ -1,1 +1,5 @@
-{"submission_id": "607", "source": "#include <iostream>\r\n#include <algorithm>\r\n#include <string>\r\n#include <vector>\r\n#include <map>\r\n#include <iomanip>\r\n#include <cmath>\r\n#include <cstdlib>\r\n\r\nint main(int argc, char **argv)\r\n{\r\n\tstd::cout << \"Hello, PCP\" << std::endl;\r\n\treturn 0;\r\n}\r\n", "problem_id": "79", "problem_title": "Hello, PCP", "datetime": "2018-08-06 13:31:12", "lang": "C++", "user": "Torumu106", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "Torumu106",
+    "problem_id": 79,
+    "result": "Accepted"
+}

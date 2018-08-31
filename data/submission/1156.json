@@ -1,1 +1,5 @@
-{"submission_id": "1156", "source": "#include<iostream>\r\n#include<vector>\r\n#include<algorithm>\r\n#include<functional>\r\n#include<map>\r\n#include<string.h>\r\n#include<string>\r\n#include<cmath>\r\n#include<utility>\r\n#define rep(i,rept) for (ll i = 0; i < rept; i++)\r\ntypedef long long ll;\r\n\r\nint main() {\r\n\tstd::string str;\r\n\tstd::cin >> str;\r\n\trep(i, str.length()) {\r\n\t\tif (str[i] >= 65 && str[i] <= 90) {\r\n\t\t\tstr[i] = str[i] + 32;\r\n\t\t}else{\r\n\t\t\tstr[i] = str[i] - 32;\r\n\t\t}\r\n\t}\r\n\tstd::cout << str << std::endl;\r\n}\r\n", "problem_id": "63", "problem_title": "Switch", "datetime": "2018-08-07 09:44:27", "lang": "C++", "user": "Hinamel", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "100", "max_score": "100"}
+{
+    "user": "Hinamel",
+    "problem_id": 63,
+    "result": "Accepted"
+}

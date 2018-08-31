@@ -1,1 +1,5 @@
-{"submission_id": "1133", "source": "#include \"iostream\"\r\n#include \"string\"\r\n#include \"vector\"\r\n#include \"map\"\r\n#include \"queue\"\r\n#include \"stack\"\r\n#include \"algorithm\"\r\n\r\nusing namespace std;\r\n\r\nint main() {\r\n\tstring s;\r\n\tcin >> s;\r\n\tint h = 0, m = 0;\r\n\tbool hf = true;\r\n\tfor (int i = 0; i < s.size(); i++) {\r\n\t\tswitch (s[i]) {\r\n\t\tcase 'u':\r\n\t\t\tif (hf) {\r\n\t\t\t\th++;\r\n\t\t\t}\r\n\t\t\telse {\r\n\t\t\t\tm++;\r\n\t\t\t}\r\n\t\t\tbreak;\r\n\t\t\r\n\t\tcase 'd':\r\n\t\t\tif (hf) {\r\n\t\t\t\th--;\r\n\t\t\t}\r\n\t\t\telse {\r\n\t\t\t\tm--;\r\n\t\t\t}\r\n\t\t\tbreak;\r\n\t\t\r\n\t\tcase 'r':\r\n\t\t\thf = false;\r\n\t\t\tbreak;\r\n\r\n\t\tcase 'l':\r\n\t\t\thf = true;\r\n\t\t\tbreak;\r\n\t\t}\r\n\t\tif (h < 0) h += 12;\r\n\t\tif (m < 0) m += 60;\r\n\t}\r\n\r\n\th %= 12;\r\n\tm %= 60;\r\n\r\n\tcout << h << ' ' << m << endl;\r\n\r\n\treturn 0;\r\n}", "problem_id": "71", "problem_title": "\u30c7\u30b8\u30bf\u30eb\u6642\u8a08", "datetime": "2018-08-07 09:35:44", "lang": "C++", "user": "Kame", "sample_io": ["Accepted", "Accepted"], "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["Accepted", "Accepted", "WrongAnswer", "WrongAnswer", "Accepted"]}], "result": "WrongAnswer", "score": "0", "max_score": "100"}
+{
+    "user": "Kame",
+    "problem_id": 71,
+    "result": "WrongAnswer"
+}

@@ -1,1 +1,5 @@
-{"submission_id": "155", "source": "#include<iostream>\r\n#include<algorithm>\r\nusing namespace std;\r\n\r\nint main()\r\n{\r\n\tint n, ans = 0, pans = 0;\r\n\tcin >> n;\r\n\tfor (size_t i = 0; i < n; i++)\r\n\t{\r\n\t\tint input;\r\n\t\tcin >> input;\r\n\t\tif (input) pans++;\r\n\t\telse\r\n\t\t{\r\n\t\t\tans = max(ans, pans);\r\n\t\t\tpans = 0;\r\n\t\t}\r\n\t}\r\n\tcout << max(ans, pans) + 1 << endl;\r\n}", "problem_id": "6", "problem_title": "JOI\u4e88\u9078 2017/2018 Q2", "datetime": "2018-07-18 15:43:17", "lang": "C++", "user": "kenken", "sample_io": ["WrongAnswer", "WrongAnswer", "WrongAnswer"], "result": "Accepted", "testcase": [{"result": "Accepted", "max_score": "100", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "score": "100", "max_score": "100"}
+{
+    "user": "kenken",
+    "problem_id": 6,
+    "result": "Accepted"
+}

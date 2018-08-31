@@ -1,1 +1,5 @@
-{"submission_id": "2272", "source": "#include<iostream>\r\nint main() {\r\n\tlong long N, M;\r\n\tstd::cin >> N >> M;\r\n\tif (N <= 100000) {\r\n\t\tif (M <= 1000000000) {\r\n\t\t\tstd::cout << N % M << std::endl;\r\n\t\t}\r\n\t}\r\n}", "problem_id": "112", "problem_title": "(300)mod!mod!akusyounin!", "datetime": "2018-08-25 14:15:45", "lang": "C++", "user": "papipupepo", "sample_io": ["Accepted", "WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "300", "io_result": ["Accepted", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "300"}
+{
+    "user": "papipupepo",
+    "problem_id": 112,
+    "result": "WrongAnswer"
+}

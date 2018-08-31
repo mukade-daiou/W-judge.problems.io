@@ -1,1 +1,5 @@
-{"submission_id": "1182", "source": "#include<iostream>\r\n#include<string>\r\n#include<vector>\r\n#include <stdio.h>\r\n#include <stdlib.h>\r\n#include <time.h>\r\n#include <algorithm>\r\n\r\n\r\nint main() {\r\n\tint N;\r\n\tstd::vector<int>k, g;\r\n\tstd::cin >> N;\r\n\tfor (int i = 0; i < N; i++) {\r\n\t\tint a;\r\n\t\tstd::cin >> a;\r\n\t\tif (a % 2 == 1) {\r\n\t\t\tk.push_back(a);\r\n\t\t}\r\n\t\telse {\r\n\t\t\tg.push_back(a);\r\n\t\t};\r\n\t}\r\n\tstd::sort(k.begin(), k.end());\r\n\tstd::sort(g.begin(), g.end());\r\n\tfor (int i = 0; i < k.size(); i++) {\r\n\t\tstd::cout << k[i] << \" \";\r\n\t}\r\n\tfor (int i = 0; i < g.size(); i++) {\r\n\t\tstd::cout << g[i] << \" \";\r\n\t}\r\n\tstd::cout << std::endl;\r\n\treturn 0;\r\n}", "problem_id": "38", "problem_title": "\u5947\u6570\u30d5\u30a1\u30fc\u30b9\u30c8", "datetime": "2018-08-07 09:52:48", "lang": "C++", "user": "oraoradori", "sample_io": ["WrongAnswer"], "result": "WrongAnswer", "testcase": [{"result": "WrongAnswer", "max_score": "100", "io_result": ["WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer", "WrongAnswer"]}], "score": "0", "max_score": "100"}
+{
+    "user": "oraoradori",
+    "problem_id": 38,
+    "result": "WrongAnswer"
+}

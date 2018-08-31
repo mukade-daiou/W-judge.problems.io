@@ -1,1 +1,5 @@
-{"submission_id": "2253", "source": "#include <iostream>\r\n#include <string>\r\n#include <algorithm>\r\n#include <vector>\r\n#include <set>\r\n#include <map>\r\n#include <cmath>\r\n#include <iomanip>\r\n#include <queue>\r\n#include <stack>\r\n#include <deque>\r\n#include <bitset>\r\n#include <utility>\r\n#include <functional>\r\n#define rep(i,n) for(int i=0;i<n;++i)\r\n\r\nusing namespace std;\r\nlong long n, l, k, A[1010101], ans = 0, add = 0;\r\nint main() {\r\n\tcin >> n >> l >> k;\r\n\trep(i, n) {\r\n\t\tcin >> A[i];\r\n\t\tif (A[i] >= l) ans += k;\r\n\t\telse add++;\r\n\t}\r\n\tcout << ans << endl << add << endl;\r\n\treturn 0;\r\n}", "problem_id": "108", "problem_title": "(200)\u76ee\u6e2c\u306e\u795e\u3001akusyounin!", "datetime": "2018-08-25 14:02:02", "lang": "C++", "user": "Under_bar", "sample_io": ["Accepted"], "testcase": [{"result": "Accepted", "max_score": "200", "io_result": ["Accepted", "Accepted", "Accepted", "Accepted", "Accepted"]}], "result": "Accepted", "score": "200", "max_score": "200"}
+{
+    "user": "Under_bar",
+    "problem_id": 108,
+    "result": "Accepted"
+}
