@@ -21,13 +21,13 @@
     height:40px;
     font-size: 40px;
     position: relative;
-    left:550px;
+    left:20%;
 }  
 .enter{
     display: inline-block;
     height: 40px;
     position: relative;
-    left:550px;
+    left:20%;
     top:-10px;
 }
 .enter:hover{
