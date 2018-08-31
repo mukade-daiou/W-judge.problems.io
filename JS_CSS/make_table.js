@@ -4,34 +4,42 @@ function user_data(){
     this.author_problems=[];
     this.other_problems=[]
 };
-function problem_data(number,name,author,status,point){
-    this.number=number;
+function problem_data(name,status,point){
     this.name=name;
-    this.author=auhor;
     this.status=status;
     this.pont=point;
 }
 var problems=[];
-function make_table(name,json_link,tags){
+var user=user_data();
+function make_table(json_link,num){
     $.getJSON(json_link,function(data){
-        var head="<tr "+"id="+"head"+">";
-        for(var i in tags){
-            head+="<th>"+tags[i]+"</th>";
-        }
-        head+="</tr>"
-        $("#"+name).append(head);
-        for(var i in data){
-            var str="";
-            str+="<tr "+"id=table_"+i+">";
-            for(var tag in tags){
-                str+="<td>"+data[i][tags[tag]]+"</td>";
-            }
-            str+="</tr>";
-            $("#"+name).append(str);
-        }
+        var p=new Object();
+        p.title=data["title"];
+        p.score=data["score"];
+        p.status="None";
+        problems[num]=p;
     })
 }
-
-$(document).ready(function(){
-    make_table("table","data/test.json",["name","solved"]);
+function draw_table(id,tags){
+    $.each(problems,function(i,obj){
+        if(obj["score"]===0)return;
+        var str="<tr id=p_"+i+">";
+        str+="<td class="+"num"+">"+String(i+1)+"</td>";        
+        $.each(tags,function(j,tag){
+            str+="<td class="+tag+">"+String(obj[tag])+"</td>";
+        }); 
+        str+="</tr>";
+        $("#"+id).append(str);
+    });
+}
+var flag=false;
+$(function(){
+    for(var i=0;i<120;++i){
+        make_table("data/problems/"+String(i+1)+".json",i)
+    }
+    $(".textbox").click(function(){
+        if(!flag)draw_table("table",["title","score"]);
+        flag=true;
+        
+    })
 })

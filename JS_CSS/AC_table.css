@@ -4,7 +4,24 @@
     border: solid 2px;
     text-align: center;
 }
-#table th,#table td{
-    width: 200px;
+.title{
+    max-width: 200px;
+    border:solid 1px gray;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.num{
+    width: 50px;
     border:solid 1px gray;
 }
+#p_1{
+    background-color: aqua;
+}
+.textbox{
+    width: 400px;
+    height:40px;
+    font-size: 40px;
+    position: relative;
+    left:600px;
+}   
