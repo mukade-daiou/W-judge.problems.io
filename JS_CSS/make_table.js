@@ -14,6 +14,15 @@ function make_table(){
         var p=new Object();
         p.title=obj["title"];
         p.score=obj["score"];
+        var str="https://wjudge.wasedah-pcp.net/";
+        if(obj["contest_id"]=="none"){
+            str+="problem/description?problem_id="+String(i+1);
+        }
+        else{
+            str+="contest/contest/problem_description?contest_id="
+            +obj["contest_id"]+"&problem_id="+String(i+1);
+        } 
+        p.link=str;
         problems[i]=p;
         });
     })
@@ -24,7 +33,9 @@ function draw_table(id,tags){
         var str="<tr id=p_"+String(i)+">";
         str+="<td class="+"num"+">"+String(i+1)+"</td>";        
         $.each(tags,function(j,tag){
-            str+="<td class="+tag+">"+String(obj[tag])+"</td>";
+            if(tag=="title"){
+                str+="<td class="+tag+"><a href="+obj["link"]+" target="+"_blank"+">"+String(obj[tag])+"</a></td>";}
+            else str+="<td class="+tag+">"+String(obj[tag])+"</td>";
         }); 
         str+="</tr>";
         $("#"+id).append(str);
