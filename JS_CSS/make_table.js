@@ -8,13 +8,14 @@ var P=120;//problemsの数
 var S=2357;//submissionの数
 var problems=[];
 var user=user_data();
-function make_table(json_link,num){
-    $.getJSON(json_link,function(data){
+function make_table(){
+    $.getJSON("data/problems.json",function(data){
+        $.each(data,function(i,obj){
         var p=new Object();
-        p.title=data["title"];
-        p.score=data["score"];
-        p.status="None";
-        problems[num]=p;
+        p.title=obj["title"];
+        p.score=obj["score"];
+        problems[i]=p;
+        });
     })
 }
 function draw_table(id,tags){
@@ -30,21 +31,19 @@ function draw_table(id,tags){
     });
 }
 function ac_check(username){
-    for(var i=1;i<=S;++i){
-        $.getJSON("data/submission/"+String(i)+".json",
-        function(data){
-            //alert()
-            if(data["user"]==username&&data["result"]=="Accepted"){
-                $("#p_"+String(data["problem_id"]-1)).css("background","skyblue");
-            }
-        })
-    }
+    $.getJSON("data/submits.json",
+    function(data){
+        $.each(data,function(i,obj){
+        if(obj["user"]==username&&obj["result"]=="Accepted"){
+            $("#p_"+String(obj["problem_id"]-1)).css("background","skyblue");
+        }
+    })
+    })
+    
 }
 var flag=false;
 $(function(){
-    for(var i=0;i<P;++i){
-        make_table("data/problems/"+String(i+1)+".json",i)
-    }
+    make_table();
     $(".textbox").click(function(){
         if(!flag)draw_table("table",["title","score"]);
         flag=true;
