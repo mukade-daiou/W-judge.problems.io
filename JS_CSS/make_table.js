@@ -88,7 +88,7 @@ function ac_check(username){
             status[obj["problem_id"]]="ac";
         }
         else{
-            if(status[obj["problem_id"]]!="ac"&&status[obj["problem_id"]]!="wr"){
+            if(status[obj["problem_id"]]!="ac"){
                 $("#p_"+String(obj["problem_id"])).css("background","white");
             }
         }
