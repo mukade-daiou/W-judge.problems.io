@@ -78,6 +78,7 @@ $(function(){
     })
     $(".enter").click(function(){
         var num=$(".textbox").val();
+        if(num=="mm")num="mukadenodaiou";
         ac_check(num);
     })
 })
