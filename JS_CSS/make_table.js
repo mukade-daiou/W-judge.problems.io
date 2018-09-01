@@ -77,14 +77,20 @@ function draw_table(id,tags){
 function ac_check(username){
     $.getJSON("data/submits.json",
     function(data){
-        var aced=[]
+        var status=[]
         $.each(data,function(i,obj){
-        if(obj["user"]==username&&obj["result"]=="Accepted"){
+        if(problems[obj["problem_id"]]["author"]==username){
+            $("#p_"+String(obj["problem_id"]+1)).css("background","#CCFF99");
+            status[obj["problem_id"]]="wr";
+        }
+        else if(obj["user"]==username&&obj["result"]=="Accepted"){
             $("#p_"+String(obj["problem_id"])).css("background","skyblue");
-            aced[obj["problem_id"]]=true;
+            status[obj["problem_id"]]="ac";
         }
         else{
-            if(!aced[obj["problem_id"]])$("#p_"+String(obj["problem_id"])).css("background","white");
+            if(status[obj["problem_id"]]!="ac"&&status[obj["problem_id"]]!="wr"){
+                $("#p_"+String(obj["problem_id"])).css("background","white");
+            }
         }
     })
     })
