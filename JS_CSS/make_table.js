@@ -92,7 +92,7 @@ function ac_check(username){
             }
         })
         for(var i=1;i<=problems.length;++i){
-            if(status[i-1]=="author")$("#p_"+i).css("background","skyblue");
+            if(problems[i-1]["author"]==username)$("#p_"+i).css("background","skyblue");
             else if(status[i-1]=="ac")$("#p_"+i).css("background","#66FF33");
             else if(status[i-1]=="wa")$("#p_"+i).css("background","#FFFF33");
             else $("#p_"+i).css("background","white");
