@@ -79,6 +79,9 @@ $(function(){
     $(".enter").click(function(){
         var num=$(".textbox").val();
         if(num=="mm")num="mukadenodaiou";
+        if(num=="abesyougo"||num=="あべしょうご"||num=="阿部匠吾"){
+            if (confirm('ページ遷移しますか？')) window.location.href = 'https://twitter.com/akusyounin2412?lang=ja';}
+        }
         ac_check(num);
     })
 })
