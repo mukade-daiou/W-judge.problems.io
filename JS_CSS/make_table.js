@@ -8,14 +8,28 @@ var P=120;//problemsの数
 var S=2357;//submissionの数
 var problems=[];
 var user=user_data();
+function compare(a, b) {
+    // Use toUpperCase() to ignore character casing
+    const keyA = a.title.toUpperCase();
+    const keyB = b.title.toUpperCase();
+  
+    let comparison = 0;
+    if (keyA > keyB) {
+      comparison = 1;
+    } else if (keyA < keyB) {
+      comparison = -1;
+    }
+    return comparison;
+  }
 function make_table(){
     $.getJSON("data/problems.json",function(data){
         $.each(data,function(i,obj){
         var p=new Object();
         p.title=obj["title"];
         p.score=obj["score"];
+        p.author=obj["author"];
         var str="https://wjudge.wasedah-pcp.net/";
-        if(obj["contest_id"]=="none"){
+        if(obj["contest_id"]=="0"){
             str+="problem/description?problem_id="+String(i+1);
         }
         else{
@@ -23,9 +37,11 @@ function make_table(){
             +obj["contest_id"]+"&problem_id="+String(i+1);
         }
         p.link=str;
+        p.contest_id=obj["contest_id"]//ソート用
+        p.num=i+1;//ソート用
         $.getJSON("data/contests.json",function(c_data){
             //alert(obj["contest_id"])
-            if(obj["contest_id"]==="none"){p.contest="-";p.contest_link=""}
+            if(obj["contest_id"]==="0"){p.contest="-";p.contest_link=""}
             else {
                 p.contest=c_data[obj["contest_id"]-1]["name"];
                 p.contest_link="https://wjudge.wasedah-pcp.net/contest/contest/problem_view?contest_id="
@@ -37,10 +53,15 @@ function make_table(){
     })
 }
 function draw_table(id,tags){
+    var head="<th id=h_# class=head>#</th>";
+    $.each(tags,function(i,tag){
+        head+="<th id=h_"+tag+" class=head>"+tag+"</th>"
+    })
+    $("#"+id).append(head);
     $.each(problems,function(i,obj){
         if(obj["score"]===0)return;
-        var str="<tr id=p_"+String(i)+">";
-        str+="<td class="+"num"+">"+String(i+1)+"</td>";        
+        var str="<tr id=p_"+obj["num"]+">";
+        str+="<td class="+"num"+">"+obj["num"]+"</td>";        
         $.each(tags,function(j,tag){
             if(tag=="title"){
                 str+="<td class="+tag+"><a href="+obj["link"]+" target="+"_blank"+">"+String(obj[tag])+"</a></td>";}
@@ -59,11 +80,11 @@ function ac_check(username){
         var aced=[]
         $.each(data,function(i,obj){
         if(obj["user"]==username&&obj["result"]=="Accepted"){
-            $("#p_"+String(obj["problem_id"]-1)).css("background","skyblue");
-            aced[obj["problem_id"]-1]=true;
+            $("#p_"+String(obj["problem_id"])).css("background","skyblue");
+            aced[obj["problem_id"]]=true;
         }
         else{
-            if(!aced[obj["problem_id"]-1])$("#p_"+String(obj["problem_id"]-1)).css("background","white");
+            if(!aced[obj["problem_id"]])$("#p_"+String(obj["problem_id"])).css("background","white");
         }
     })
     })
@@ -73,7 +94,7 @@ var flag=false;
 $(function(){
     make_table();
     $(".textbox").click(function(){
-        if(!flag)draw_table("table",["title","score","contest"]);
+        if(!flag)draw_table("table",["title","score","contest","author"]);
         flag=true;
     })
     $(".enter").click(function(){
@@ -83,5 +104,15 @@ $(function(){
             if (confirm('ページ遷移しますか？')) window.location.href = 'https://twitter.com/akusyounin2412?lang=ja';
         }
         ac_check(num);
+    })
+    $("#table").click(function(){
+        /*$.when(
+        $("#table").empty(),
+        //problems.sort(compare())
+        console.log(problems)
+        )
+        .done(function(){
+            draw_table("table",["title","score","contest"]);
+        });*/
     })
 })
