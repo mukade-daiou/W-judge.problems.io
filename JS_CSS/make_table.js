@@ -79,20 +79,24 @@ function ac_check(username){
     function(data){
         var status=[]
         $.each(data,function(i,obj){
-        if(problems[obj["problem_id"]]["author"]==username){
-            $("#p_"+String(obj["problem_id"]+1)).css("background","#CCFF99");
-            status[obj["problem_id"]]="wr";
-        }
-        else if(obj["user"]==username&&obj["result"]=="Accepted"){
-            $("#p_"+String(obj["problem_id"])).css("background","skyblue");
-            status[obj["problem_id"]]="ac";
-        }
-        else{
-            if(status[obj["problem_id"]]!="ac"){
-                $("#p_"+String(obj["problem_id"])).css("background","white");
+            if(problems[obj["problem_id"]-1]["author"]==username){
+                status[obj["problem_id"]-1]="author";
             }
+            else if(obj["user"]==username){
+                if(obj["result"]=="Accepted"){
+                    status[obj["problem_id"]-1]="ac";
+                }
+                else if(status[obj["problem_id"]-1]!="ac"){
+                    status[obj["problem_id"]-1]="wa";
+                }
+            }
+        })
+        for(var i=1;i<=problems.length;++i){
+            if(status[i-1]=="author")$("#p_"+i).css("background","#66FF33");
+            else if(status[i-1]=="ac")$("#p_"+i).css("background","skyblue");
+            else if(status[i-1]=="wa")$("#p_"+i).css("background","#FFFF33");
+            else $("#p_"+i).css("background","white");
         }
-    })
     })
     
 }
