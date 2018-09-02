@@ -1,20 +1,34 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>W-judge Problems</title>
-    <link rel="stylesheet" href="JS_CSS/AC_table.css">
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-  </head>
-  <body>
-    <h1>W-judge Problems</h1>
-    <h3>W-judgeで自分がACした問題を確認できます(8/27までのsubmissionのみ)</h3>
-    <br>
-      <p><input type="text" class="textbox"/>
-      <button  class="enter">Enter</button></p>
-    <table id="table">
-        
-    </table>
-    <script src="JS_CSS/make_table.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <title>W-judge Problems</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--CSS -->
+  <link rel="stylesheet" href="JS_CSS/AC_table.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <!--JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <h1>W-judge Problems</h1>
+  <h3>W-judgeで自分がACした問題を確認できます(8/27までのsubmissionのみ)</h3>
+  <br>
+  <form class="form-inline">
+    <div class="col-sm-1"></div>
+    <div class="form-group">
+      <label for="InputUserid">User ID: </label>
+      <input type="text" id="InputUserid" class="form-control textbox" placeholder="User ID" size="40">
+    </div>
+    <button type="button" class="btn btn-default enter">Enter</button>
+  </form>
+  <br>
+  <table id="table" class="table table-bordered table-hover" style="width:80%">
+  </table>
+  <script src="JS_CSS/make_table.js"></script>
+</body>
+
 </html>

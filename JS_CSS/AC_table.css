@@ -1,23 +1,53 @@
-#table{
-    border-collapse: collapse;
-    /*margin-right: auto;margin-left: auto;*/
-    border: solid 2px;
-    text-align: center;
-    position: relative;
-    left:20%;
+body{
+    width: 80%;
 }
 h1{
     position: relative;
-    left:20%;
+    left:10%;
 }
 h3{
     position: relative;
-    left:22%;
+    left:12%;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline blue;
+}
+#table{
+    position: relative;
+    font-size: 20px;
+    left:10%;
+}
+/*
+#table{
+    border-collapse: collapse;
+    border: solid 2px;
+    text-align: center;
+    position: relative;
+    left:10%;
+}
+.head{
+    height: 1.5em;
+    background: silver;
+    font-size: 1.5em;
+    text-align: center;
+    border: solid 1px gray;
+    border-bottom: solid 2px black;
 }
 .title{
     max-width: 400px;
     font-size: 1.5em;
-    border:solid 1px gray;
+    border:solid 1px silver;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.contest{
+    max-width: 300px;
+    font-size: 1.5em;
+    border:solid 1px silver;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -26,26 +56,18 @@ h3{
     width: 100px;
     height: 40px;
     font-size: 1.5em;
-    border:solid 1px gray;
+    border:solid 1px silver;
 }
+.author{
+    max-width: 150px;
+    height: 40px;
+    font-size: 1.5em;
+    border:solid 1px silver;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+*/
 .textbox{
-    display: inline-block;
-    width: 300px;
-    height:30px;
     font-size: 40px;
-    position: relative;
-    left:20%;
-}
-.textbox:focus{
-    box-shadow: 0 0 7px skyblue;
-}
-.enter{
-    display: inline-block;
-    height: 30px;
-    position: relative;
-    left:20%;
-    top:-10px;
-}
-.enter:hover{
-    box-shadow: 0 0 7px blue;
 }
