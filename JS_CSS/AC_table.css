@@ -16,8 +16,13 @@ a:hover{
     text-decoration:underline blue;
 }
 #table{
+    position: relative;
+    font-size: 20px;
+    left:10%;
+}
+/*
+#table{
     border-collapse: collapse;
-    /*margin-right: auto;margin-left: auto;*/
     border: solid 2px;
     text-align: center;
     position: relative;
@@ -62,24 +67,7 @@ a:hover{
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+*/
 .textbox{
-    display: inline-block;
-    width: 300px;
-    height:30px;
-    font-size: 30px;
-    position: relative;
-    left:10%;
-}
-.textbox:focus{
-    box-shadow: 0 0 7px skyblue;
-}
-.enter{
-    display: inline-block;
-    height: 30px;
-    position: relative;
-    left:10%;
-    top:-10px;
-}
-.enter:hover{
-    box-shadow: 0 0 7px blue;
+    font-size: 40px;
 }

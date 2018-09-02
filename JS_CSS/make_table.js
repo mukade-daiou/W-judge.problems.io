@@ -73,10 +73,12 @@ function make_table() {
     })
 }
 function draw_table(id, tags) {
-    var head = "<th id=h_# class=head>#</th>";
+    var head = "<thead><tr><th id=h_# style=width:50px>#</th>";
+    var array = ["300px", "50px", "200px", "150px"];
     $.each(tags, function (i, tag) {
-        head += "<th id=h_" + tag + " class=head>" + tag + "</th>"
+        head += "<th style=" + "width:" + array[i] + "; id=h_" + tag + ">" + tag + "</th>"
     })
+    head += "</tr></thead>"
     $("#" + id).append(head);
     $.each(problems, function (i, obj) {
         if (obj["score"] === 0) return;
